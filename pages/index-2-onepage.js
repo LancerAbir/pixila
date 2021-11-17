@@ -1,4 +1,7 @@
 import React from "react";
+import Home2brandSectionTwo from "../src/components/common/Home2brandSectionTwo";
+import Home2ctaSectionTwo from "../src/components/common/Home2ctaSectionTwo";
+import Home2skillSection from "../src/components/common/Home2skillSection";
 import Footer3 from "../src/layout/Footer/Footer3";
 import Header2 from "../src/layout/Header/Header2";
 
@@ -221,167 +224,13 @@ const index2OnePage = () => {
             </section>
             {/*====== Service Area End ======*/}
             {/*====== CTA Start ======*/}
-            <section className="cta-section-two">
-                <div className="container-fluid fluid-container-left pe-0">
-                    <div className="cta-text">
-                        <h4 className="cta-title">
-                            Do you need similar project? Call Us
-                            <a href="#">+ 422 081 748 212</a>
-                        </h4>
-                        <ul className="cta-social-icon">
-                            <li>
-                                <a href="#">
-                                    <i className="fab fa-facebook-f" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i className="fab fa-twitter" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i className="fab fa-behance" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i className="fab fa-youtube" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i className="fab fa-linkedin" />
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+            <Home2ctaSectionTwo />
             {/*====== CTA End ======*/}
             {/*====== Skill area Start ======*/}
-            <section className="skill-section with-absolute-image">
-                <div className="container">
-                    <div className="row justify-content-lg-end justify-content-center">
-                        <div className="col-lg-6 col-md-10">
-                            <div className="skill-text">
-                                <div className="section-title title-style-two mb-30">
-                                    <span className="title-tag">
-                                        Our Skillset
-                                    </span>
-                                    <h2 className="title">
-                                        Emerging technologies converge with
-                                        urban
-                                    </h2>
-                                </div>
-                                <p>
-                                    Their creativity, innovation, technological
-                                    expertise, and project completion steps were
-                                    impressive. Project management was
-                                    professional. We’re a full-service creative
-                                    digital marketing agency, collaborating with
-                                    brands
-                                </p>
-                                <div className="pie-charts two-box mt-40">
-                                    <div className="single-pie-chart">
-                                        <div
-                                            className="chart"
-                                            data-percent={61}
-                                            data-bar-color="#4c32fb"
-                                        >
-                                            <span>61</span>
-                                        </div>
-                                        <h4 className="title">Work Progress</h4>
-                                        <p>
-                                            As emerging technologies converge
-                                            with urban planning, a revolution of
-                                            automated, on-demand
-                                        </p>
-                                    </div>
-                                    <div className="single-pie-chart">
-                                        <div
-                                            className="chart"
-                                            data-percent={85}
-                                            data-bar-color="#4c32fb"
-                                        >
-                                            <span>85</span>
-                                        </div>
-                                        <h4 className="title">Projects Done</h4>
-                                        <p>
-                                            As emerging technologies converge
-                                            with urban planning, a revolution of
-                                            automated, on-demand
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Home2skillSection />
             {/*====== Skill area End ======*/}
             {/*====== Brand section Start ======*/}
-            <section
-                className="brand-section-two bgc"
-                style={{
-                    backgroundImage: "url(img/brand/brand-bg.jpg)",
-                }}
-            >
-                <div className="container-fluid">
-                    <div className="brand-logos row justify-content-between align-items-center">
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/6.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/7.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/8.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/9.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/10.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/6.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/7.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/8.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/9.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/10.png" alt="Image" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Home2brandSectionTwo />
             {/*====== Brand section End ======*/}
             {/*====== Portfolio Arae Start ======*/}
             <section className="portfolio-section section-gap" id="portfolio">

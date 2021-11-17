@@ -1,4 +1,9 @@
 import React from "react";
+import Home4brandSection from "../src/components/common/Home4brandSection";
+import Home4ctaSectionThree from "../src/components/common/Home4ctaSectionThree";
+import Home4DownloadSectionTwo from "../src/components/common/Home4DownloadSectionTwo";
+import Home4featureTextBlockTwo from "../src/components/common/Home4featureTextBlockTwo";
+import Home4processTabSection from "../src/components/common/Home4processTabSection";
 import Footer5 from "../src/layout/Footer/Footer5";
 import Header1 from "../src/layout/Header/Header1";
 
@@ -203,180 +208,10 @@ const index4 = () => {
             </section>
             {/*====== Features Text block End ======*/}
             {/*====== Brand Section Start ======*/}
-            <section className="brand-section section-gap">
-                <div className="container">
-                    <div className="brand-logos row">
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/11.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/12.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/13.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/14.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/15.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/11.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/12.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/13.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/14.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/15.png" alt="Image" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Home4brandSection />
             {/*====== Brand Section End ======*/}
             {/*====== Process Tab Area Start ======*/}
-            <section className="process-tab-section section-gap-bottom">
-                <div className="container">
-                    <div className="process-tab tab-version-two">
-                        <ul
-                            className="nav nav-tabs"
-                            id="processTab"
-                            role="tablist"
-                        >
-                            <li className="nav-item" role="presentation">
-                                <button
-                                    className="nav-link"
-                                    data-bs-toggle="tab"
-                                    data-bs-target="#collaborate-options"
-                                    type="button"
-                                    role="tab"
-                                >
-                                    <i className="fal fa-monitor-heart-rate" />
-                                    <span>
-                                        Collaborate Options
-                                        <span className="small-text">
-                                            Easy to use &amp; 24/7 online
-                                            support
-                                        </span>
-                                    </span>
-                                </button>
-                            </li>
-                            <li className="nav-item" role="presentation">
-                                <button
-                                    className="nav-link active"
-                                    data-bs-toggle="tab"
-                                    data-bs-target="#messaging-options"
-                                    type="button"
-                                    role="tab"
-                                >
-                                    <i className="fal fa-link" />
-                                    <span>
-                                        Messaging Options
-                                        <span className="small-text">
-                                            Easy to use &amp; 24/7 online
-                                            support
-                                        </span>
-                                    </span>
-                                </button>
-                            </li>
-                            <li className="nav-item" role="presentation">
-                                <button
-                                    className="nav-link"
-                                    data-bs-toggle="tab"
-                                    data-bs-target="#chatbot-options"
-                                    type="button"
-                                    role="tab"
-                                >
-                                    <i className="fal fa-users" />
-                                    <span>
-                                        Chatbot Options
-                                        <span className="small-text">
-                                            Easy to use &amp; 24/7 online
-                                            support
-                                        </span>
-                                    </span>
-                                </button>
-                            </li>
-                        </ul>
-                        <div className="tab-content" id="processTabContent">
-                            <div
-                                className="tab-pane fade"
-                                id="collaborate-options"
-                                role="tabpanel"
-                            >
-                                <div className="row justify-content-center">
-                                    <div className="col-lg-10">
-                                        <div className="tab-img text-center">
-                                            <img
-                                                src="img/process-tab-2.jpg"
-                                                alt="Image"
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div
-                                className="tab-pane fade show active"
-                                id="messaging-options"
-                                role="tabpanel"
-                            >
-                                <div className="row justify-content-center">
-                                    <div className="col-lg-10">
-                                        <div className="tab-img text-center">
-                                            <img
-                                                src="img/process-tab-2.jpg"
-                                                alt="Image"
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div
-                                className="tab-pane fade"
-                                id="chatbot-options"
-                                role="tabpanel"
-                            >
-                                <div className="row justify-content-center">
-                                    <div className="col-lg-10">
-                                        <div className="tab-img text-center">
-                                            <img
-                                                src="img/process-tab-2.jpg"
-                                                alt="Image"
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Home4processTabSection />
             <section className="process-section section-gap with-primary-bg">
                 <div className="container">
                     <div className="section-title title-style-four circle-shape-top text-center">
@@ -449,143 +284,13 @@ const index4 = () => {
             </section>
             {/*====== Process Area End ======*/}
             {/*====== Features Text block Start =====*/}
-            <section className="feature-text-block-two section-gap">
-                <div className="container-fluid fluid-container-right">
-                    <div className="row align-items-center justify-content-center">
-                        <div className="col-xxl-7 col-lg-6 col-md-10 wow fadeInLeft">
-                            <div className="block-img text-center mb-md-gap-50">
-                                <img
-                                    src="img/feature-text-block-2.jpg"
-                                    alt="Features"
-                                />
-                            </div>
-                        </div>
-                        <div className="col-xxl-5 col-lg-6 col-md-10 wow fadeInRight">
-                            <div className="block-text">
-                                <div className="section-title title-style-four mb-20">
-                                    <span className="title-tag">
-                                        Intregrations
-                                    </span>
-                                    <h2 className="title">
-                                        Chapter 1. The begin start from here.
-                                    </h2>
-                                </div>
-                                <p className="big-text mb-10">
-                                    This is due to their excellent service,
-                                    competitive pricing and customer support.
-                                    It’s throughly refresing to get such a
-                                    personal touch.
-                                </p>
-                            </div>
-                            <div className="row">
-                                <div className="col-sm-6">
-                                    <div className="feature-box-three mt-30">
-                                        <div className="feature-heading">
-                                            <i className="fab fa-wordpress" />
-                                            <h4>Wordpress Intregrations</h4>
-                                        </div>
-                                        <div className="feature-content">
-                                            <p>
-                                                This is due to their excellent
-                                                service, competitive pricing and
-                                                customer is an support. It’s
-                                                throughly refresing
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-sm-6">
-                                    <div className="feature-box-three active mt-30">
-                                        <div className="feature-heading">
-                                            <i className="fab fa-java" />
-                                            <h4>Javascript Intregrations</h4>
-                                        </div>
-                                        <div className="feature-content">
-                                            <p>
-                                                This is due to their excellent
-                                                service, competitive pricing and
-                                                customer is an support. It’s
-                                                throughly refresing
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Home4featureTextBlockTwo />
             {/*====== Features Text block End ======*/}
             {/*====== CTA Start ======*/}
-            <section className="cta-section-three section-gap">
-                <div className="container">
-                    <div className="cta-text">
-                        <div className="section-title title-style-four">
-                            <span className="title-tag">Lets get a quote</span>
-                            <h2 className="title">
-                                Let’s explore a lot with us.
-                            </h2>
-                        </div>
-                        <ul className="cta-links">
-                            <li>
-                                <a href="#" className="main-btn main-btn-4">
-                                    Get Started
-                                    <i className="fal fa-long-arrow-right" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="main-btn main-btn-5">
-                                    Learn More
-                                    <i className="fal fa-long-arrow-right" />
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+            <Home4ctaSectionThree />
             {/*====== CTA End ======*/}
             {/*====== Download section Start ======*/}
-            <section className="download-section-two">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="download-text text-center">
-                                <div className="section-title title-style-four text-center">
-                                    <span className="title-tag">
-                                        Get Our Mobile App
-                                    </span>
-                                    <h2 className="title">
-                                        High quality software services
-                                        <br />
-                                        at your fingertips!
-                                    </h2>
-                                </div>
-                                <ul className="download-btns">
-                                    <li>
-                                        <a href="#">
-                                            <img
-                                                src="img/app-store.png"
-                                                alt="AppStore"
-                                            />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img
-                                                src="img/play-store.png"
-                                                alt="PlayStore"
-                                            />
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="download-img">
-                    <img src="img/download-img.png" alt="Image" />
-                </div>
-            </section>
+            <Home4DownloadSectionTwo />
             {/*====== Download section End ======*/}
             {/*====== News Section start ======*/}
             <section className="news-section section-gap">

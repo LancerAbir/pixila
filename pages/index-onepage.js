@@ -1,4 +1,7 @@
 import React from "react";
+import HomeCounterSection from "../src/components/common/HomeCounterSection";
+import HomeCTASection from "../src/components/common/HomeCTASection";
+import HomeSkillSection from "../src/components/common/HomeSkillSection";
 import Footer1 from "../src/layout/Footer/Footer1";
 import Header6 from "../src/layout/Header/Header6";
 
@@ -268,133 +271,10 @@ const indexOnePage = () => {
             </div>
             {/*====== About section End ======*/}
             {/*====== Counter area Start ======*/}
-            <section className="counter-section">
-                <div className="container">
-                    <div className="counter-inner">
-                        <div className="row">
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="counter-box">
-                                    <div className="counter-wrap">
-                                        <i className="fal fa-user" />
-                                        <span className="counter">1165</span>
-                                    </div>
-                                    <h3 className="title">Projects Executed</h3>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="counter-box">
-                                    <div className="counter-wrap">
-                                        <i className="fal fa-globe" />
-                                        <span className="counter">219</span>
-                                    </div>
-                                    <h3 className="title">Global Presence</h3>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="counter-box">
-                                    <div className="counter-wrap">
-                                        <i className="fal fa-users" />
-                                        <span className="counter">5</span>k+
-                                    </div>
-                                    <h3 className="title">Active Clients</h3>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="counter-box">
-                                    <div className="counter-wrap">
-                                        <i className="fal fa-book" />
-                                        <span className="counter">500</span>+
-                                    </div>
-                                    <h3 className="title">Recognition</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <HomeCounterSection />
             {/*====== Counter area End ======*/}
             {/*====== Skill area Start ======*/}
-            <section className="skill-section section-gap-top">
-                <div className="container">
-                    <div className="row align-items-center justify-content-center justify-content-lg-between">
-                        <div className="col-lg-6 col-md-10">
-                            <div className="skill-text mb-50">
-                                <div className="section-title mb-30">
-                                    <span className="title-tag">
-                                        Our Skillset
-                                    </span>
-                                    <h2 className="title">
-                                        Effective business delivery solutions at
-                                        all <span>glance</span>
-                                    </h2>
-                                </div>
-                                <p>
-                                    Productservices are professional services
-                                    that help market or advertise your business
-                                    <br /> online. Best Way to Manage and Share
-                                    Work Resources.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-5 col-md-10">
-                            <div className="progress-bars mb-md-gap-60">
-                                <div
-                                    className="single-progress"
-                                    data-count={72}
-                                >
-                                    <div className="title">
-                                        <span>Work Progress</span>
-                                        <span className="progress-counter">
-                                            <span className="count">72</span>%
-                                        </span>
-                                    </div>
-                                    <div className="progressbar-wrap">
-                                        <div className="progressbar" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="skillset-videos fluid-container-left overflow-hidden">
-                    <div className="row">
-                        <div className="col-sm-7">
-                            <div className="skillset-video active mb-xs-gap-30">
-                                <a
-                                    href="https://www.youtube.com/watch?v=pVE92TNDwUk"
-                                    className="popup-btn popup-video"
-                                >
-                                    <i className="fas fa-play" />
-                                </a>
-                                <div
-                                    className="video-bg"
-                                    style={{
-                                        backgroundImage:
-                                            "url(img/skillset/01.jpg)",
-                                    }}
-                                />
-                            </div>
-                        </div>
-                        <div className="col-sm-5">
-                            <div className="skillset-video">
-                                <a
-                                    href="https://www.youtube.com/watch?v=pVE92TNDwUk"
-                                    className="popup-btn popup-video"
-                                >
-                                    <i className="fas fa-play" />
-                                </a>
-                                <div
-                                    className="video-bg"
-                                    style={{
-                                        backgroundImage:
-                                            "url(img/skillset/02.jpg)",
-                                    }}
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <HomeSkillSection />
             {/*====== Skill area End ======*/}
             {/*====== Team section Start ======*/}
             <section className="team-section section-gap" id="team">
@@ -680,57 +560,7 @@ const indexOnePage = () => {
             </section>
             {/*====== Team section End ======*/}
             {/*====== CTA section Start ======*/}
-            <section className="cta-section">
-                <div className="container">
-                    <div className="cta-inner">
-                        <div className="row align-items-center">
-                            <div className="col-xl-5">
-                                <div className="cta-text mb-lg-gap-30">
-                                    <div className="section-title">
-                                        <span className="title-tag">
-                                            Make Request
-                                        </span>
-                                        <h2 className="title">
-                                            Make custom order
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-7">
-                                <div className="cta-form">
-                                    <form action="#">
-                                        <div className="field-groups">
-                                            <div className="input-field">
-                                                <input
-                                                    type="email"
-                                                    placeholder="Enter email address"
-                                                />
-                                                <span className="icon">
-                                                    <i className="fal fa-envelope" />
-                                                </span>
-                                            </div>
-                                            <div className="input-field">
-                                                <input
-                                                    type="text"
-                                                    placeholder="Your Estimate"
-                                                />
-                                                <span className="icon">
-                                                    <i className="fal fa-pencil" />
-                                                </span>
-                                            </div>
-                                            <div className="input-field">
-                                                <button type="submit">
-                                                    <i className="fal fa-long-arrow-right" />
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <HomeCTASection />
             {/*====== CTA section End ======*/}
             {/*====== Testimonials area start ======*/}
             <section

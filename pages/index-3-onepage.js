@@ -1,4 +1,7 @@
 import React from "react";
+import Home3downloadSection from "../src/components/common/Home3downloadSection";
+import Home3featureTextBlocks from "../src/components/common/Home3featureTextBlocks";
+import Home3sectionGap from "../src/components/common/Home3sectionGap";
 import Footer4 from "../src/layout/Footer/Footer4";
 import Header3 from "../src/layout/Header/Header3";
 
@@ -278,198 +281,10 @@ const index3OnePage = () => {
             </section>
             {/*====== Process Area End ======*/}
             {/*====== Brand Section Start ======*/}
-            <section className="section-gap">
-                <div className="container">
-                    <div className="brand-logos row">
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/11.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/12.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/13.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/14.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/15.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/11.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/12.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/13.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/14.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/15.png" alt="Image" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Home3sectionGap />
             {/*====== Brand Section End ======*/}
             {/*====== Features Text block Start =====*/}
-            <section className="feature-text-blocks">
-                <div className="feature-text-block section-gap section-border-top">
-                    <div className="container">
-                        <div className="row align-items-center justify-content-center">
-                            <div className="col-lg-6 col-md-10 wow fadeInLeft">
-                                <div className="block-img">
-                                    <img
-                                        src="img/feature-text-block.jpg"
-                                        alt="Features"
-                                    />
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-10 wow fadeInRight">
-                                <div className="block-text">
-                                    <div className="section-title title-style-three">
-                                        <span className="title-tag">
-                                            Software Intregrations
-                                        </span>
-                                        <h2 className="title">
-                                            Set it as the font in your
-                                            application in iOs.
-                                        </h2>
-                                    </div>
-                                    <p>
-                                        Have stronger bones, muscles and joints
-                                        and lower risk of developing for with
-                                        osteoporosis capitalize on custom.
-                                    </p>
-                                    <p>
-                                        Fitness is the condition of being
-                                        physically fit and healthy and involves
-                                        attributes that include, but are not
-                                        limited to mental acuity,
-                                        cardiorespiratory endurance, muscular
-                                        strength, muscular endurance, body
-                                        composition, and flexibility.
-                                    </p>
-                                    <a href className="block-btn">
-                                        Learn More
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="feature-text-block section-gap section-border-top">
-                    <div className="container">
-                        <div className="row align-items-center justify-content-center">
-                            <div className="col-lg-6 col-md-10 order-lg-2 wow fadeInLeft">
-                                <div className="block-img">
-                                    <img
-                                        src="img/feature-text-block.jpg"
-                                        alt="Features"
-                                    />
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-10 order-lg-1 wow fadeInRight">
-                                <div className="block-text color-2">
-                                    <div className="section-title title-style-three">
-                                        <span className="title-tag">
-                                            Team Intregrations
-                                        </span>
-                                        <h2 className="title">
-                                            Set it as the font in your
-                                            application in iOs.
-                                        </h2>
-                                    </div>
-                                    <p>
-                                        Have stronger bones, muscles and joints
-                                        and lower risk of developing for with
-                                        osteoporosis capitalize on custom.
-                                    </p>
-                                    <p>
-                                        Fitness is the condition of being
-                                        physically fit and healthy and involves
-                                        attributes that include, but are not
-                                        limited to mental acuity,
-                                        cardiorespiratory endurance, muscular
-                                        strength, muscular endurance, body
-                                        composition, and flexibility.
-                                    </p>
-                                    <a href className="block-btn">
-                                        Learn More
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="feature-text-block section-gap section-border-top">
-                    <div className="container">
-                        <div className="row align-items-center justify-content-center">
-                            <div className="col-lg-6 col-md-10 wow fadeInLeft">
-                                <div className="block-img">
-                                    <img
-                                        src="img/feature-text-block.jpg"
-                                        alt="Features"
-                                    />
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-10 wow fadeInRight">
-                                <div className="block-text color-3">
-                                    <div className="section-title title-style-three">
-                                        <span className="title-tag">
-                                            Conversations
-                                        </span>
-                                        <h2 className="title">
-                                            Set it as the font in your
-                                            application in iOs.
-                                        </h2>
-                                    </div>
-                                    <p>
-                                        Have stronger bones, muscles and joints
-                                        and lower risk of developing for with
-                                        osteoporosis capitalize on custom.
-                                    </p>
-                                    <p>
-                                        Fitness is the condition of being
-                                        physically fit and healthy and involves
-                                        attributes that include, but are not
-                                        limited to mental acuity,
-                                        cardiorespiratory endurance, muscular
-                                        strength, muscular endurance, body
-                                        composition, and flexibility.
-                                    </p>
-                                    <a href className="block-btn">
-                                        Learn More
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Home3featureTextBlocks />
             {/*====== Features Text block End ======*/}
             {/*====== Testimonials area start ======*/}
             <section
@@ -769,40 +584,7 @@ const index3OnePage = () => {
             </section>
             {/*====== News Section End ======*/}
             {/*====== Download section Start ======*/}
-            <section className="download-section">
-                <div className="container">
-                    <div className="download-text">
-                        <div className="section-title title-style-three">
-                            <span className="title-tag">Get A Trail</span>
-                            <h2 className="title">
-                                Explore &amp; find your right <br /> destination
-                                with app.
-                            </h2>
-                            <ul className="download-btns">
-                                <li>
-                                    <a href="#">
-                                        <img
-                                            src="img/app-store.png"
-                                            alt="AppStore"
-                                        />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img
-                                            src="img/play-store.png"
-                                            alt="PlayStore"
-                                        />
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="download-img">
-                            <img src="img/cta-img.png" alt="Image" />
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Home3downloadSection />
             {/*====== Download section End ======*/}
             {/*====== Footer Start ======*/}
             <Footer4 />

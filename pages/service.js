@@ -1,4 +1,5 @@
 import React from "react";
+import ServiceBGC from "../src/components/common/ServiceBGC";
 import Footer2 from "../src/layout/Footer/Footer2";
 import Header1 from "../src/layout/Header/Header1";
 
@@ -9,34 +10,7 @@ const service = () => {
             <Header1 />
             {/*====== Header End ======*/}
             {/*====== Breadcrumb section Start ======*/}
-            <section
-                className="breadcrumb-section bgc"
-                style={{ backgroundImage: "url(img/breadcrumb-bg.jpg)" }}
-            >
-                <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-5 col-md-6">
-                            <div className="breadcrumb-text">
-                                <span className="title-tag">
-                                    Welcome to our company
-                                </span>
-                                <h2 className="page-title">What We Do.</h2>
-                            </div>
-                        </div>
-                        <div className="col-lg-7 col-md-6">
-                            <div className="breadcrumb-nav">
-                                <ul>
-                                    <li>
-                                        <a href="index.html">Home</a>
-                                    </li>
-                                    <li className="separator">|</li>
-                                    <li>Service</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <ServiceBGC />
             {/*====== Breadcrumb section End ======*/}
             {/*====== Service Area Start ======*/}
             <section className="service-area section-gap-bottom section-gap-top-90">
