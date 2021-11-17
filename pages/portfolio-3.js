@@ -593,8 +593,7 @@ const portfolio3 = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -614,8 +613,7 @@ const portfolio3 = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -635,8 +633,7 @@ const portfolio3 = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -663,7 +660,7 @@ const portfolio3 = () => {
                                         </li>
                                         <li>
                                             <i className="fal fa-phone" />
-                                            <span>Phone:</span> +0 123-456-7890{" "}
+                                            <span>Phone:</span> +0 123-456-7890
                                             <br />
                                             +0 123-456-7890
                                         </li>

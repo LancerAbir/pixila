@@ -306,7 +306,6 @@ const shopDetails = () => {
                                             <i className="fas fa-star" />
                                         </li>
                                         <li className="rating-text">
-                                            {" "}
                                             (25 Customer review)
                                         </li>
                                     </ul>
@@ -334,9 +333,9 @@ const shopDetails = () => {
                                             <span>Product Code:</span> #4657
                                         </li>
                                         <li>
-                                            <span>Tags:</span>{" "}
+                                            <span>Tags:</span>
                                             <a href="#"> Fashion,</a>
-                                            <a href="#"> Hood,</a>{" "}
+                                            <a href="#"> Hood,</a>
                                             <a href="#">Classic</a>
                                         </li>
                                     </ul>
@@ -353,20 +352,16 @@ const shopDetails = () => {
                                                         id="color"
                                                     >
                                                         <option value={1}>
-                                                            {" "}
                                                             Select Color
                                                         </option>
                                                         <option value={2}>
-                                                            {" "}
-                                                            Red{" "}
+                                                            Red
                                                         </option>
                                                         <option value={3}>
-                                                            {" "}
-                                                            Blue{" "}
+                                                            Blue
                                                         </option>
                                                         <option value={4}>
-                                                            {" "}
-                                                            Green{" "}
+                                                            Green
                                                         </option>
                                                     </select>
                                                 </div>
@@ -379,20 +374,16 @@ const shopDetails = () => {
                                                         id="size"
                                                     >
                                                         <option value={1}>
-                                                            {" "}
-                                                            Select size{" "}
+                                                            Select size
                                                         </option>
                                                         <option value={2}>
-                                                            {" "}
-                                                            Samll{" "}
+                                                            Samll
                                                         </option>
                                                         <option value={3}>
-                                                            {" "}
-                                                            Large{" "}
+                                                            Large
                                                         </option>
                                                         <option value={4}>
-                                                            {" "}
-                                                            Extra Large{" "}
+                                                            Extra Large
                                                         </option>
                                                     </select>
                                                 </div>
@@ -724,14 +715,14 @@ const shopDetails = () => {
                                                     <td>
                                                         Intel® UHD Graphics 620
                                                         (i5) <br /> Intel® UHD
-                                                        Graphics 620 (i7){" "}
+                                                        Graphics 620 (i7)
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <th>Warranty</th>
                                                     <td>
                                                         1-year limited hardware
-                                                        warranty{" "}
+                                                        warranty
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -1010,8 +1001,7 @@ const shopDetails = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -1031,8 +1021,7 @@ const shopDetails = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -1052,8 +1041,7 @@ const shopDetails = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -1080,7 +1068,7 @@ const shopDetails = () => {
                                         </li>
                                         <li>
                                             <i className="fal fa-phone" />
-                                            <span>Phone:</span> +0 123-456-7890{" "}
+                                            <span>Phone:</span> +0 123-456-7890
                                             <br />
                                             +0 123-456-7890
                                         </li>

@@ -293,7 +293,7 @@ const portfolioDetails = () => {
                                     <h6>Projects Info</h6>
                                     <ul>
                                         <li>
-                                            <span>Category:</span>{" "}
+                                            <span>Category:</span>
                                             <a href="#">Branding,</a>
                                             <a href="#">Design</a>
                                         </li>
@@ -301,7 +301,7 @@ const portfolioDetails = () => {
                                             <span>Date:</span> June 21, 2021
                                         </li>
                                         <li>
-                                            <span>Tags:</span>{" "}
+                                            <span>Tags:</span>
                                             <a href="#">color,</a>
                                             <a href="#">design,</a>
                                             <a href="#">theme,</a>
@@ -310,7 +310,7 @@ const portfolioDetails = () => {
                                         </li>
                                     </ul>
                                     <a href="#" className="main-btn mt-30">
-                                        Live Preview{" "}
+                                        Live Preview
                                         <i className="fal fa-long-arrow-right" />
                                     </a>
                                     <span className="icon">
@@ -335,8 +335,7 @@ const portfolioDetails = () => {
                         </div>
                         <div className="next-post">
                             <a href="#">
-                                {" "}
-                                Next Project{" "}
+                                Next Project
                                 <i className="fal fa-long-arrow-right" />
                             </a>
                         </div>
@@ -543,8 +542,7 @@ const portfolioDetails = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -564,8 +562,7 @@ const portfolioDetails = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -585,8 +582,7 @@ const portfolioDetails = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -613,7 +609,7 @@ const portfolioDetails = () => {
                                         </li>
                                         <li>
                                             <i className="fal fa-phone" />
-                                            <span>Phone:</span> +0 123-456-7890{" "}
+                                            <span>Phone:</span> +0 123-456-7890
                                             <br />
                                             +0 123-456-7890
                                         </li>

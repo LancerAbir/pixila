@@ -216,7 +216,7 @@ export default function Home() {
                                     className="title wow fadeInLeft"
                                     data-wow-delay="0.5s"
                                 >
-                                    Replication is the <br /> presentation of{" "}
+                                    Replication is the <br /> presentation of
                                     <br /> our <span>capabilities</span>
                                 </h2>
                                 <ul className="hero-btns">
@@ -268,7 +268,7 @@ export default function Home() {
                             <div className="section-title text-center mb-30">
                                 <span className="title-tag">Our Services</span>
                                 <h2 className="title">
-                                    We provide wide range of digital{" "}
+                                    We provide wide range of digital
                                     <span>service</span>
                                 </h2>
                             </div>
@@ -469,7 +469,7 @@ export default function Home() {
                             <div className="col-lg-3 col-sm-6">
                                 <div className="counter-box">
                                     <div className="counter-wrap">
-                                        <i className="fal fa-user" />{" "}
+                                        <i className="fal fa-user" />
                                         <span className="counter">1165</span>
                                     </div>
                                     <h3 className="title">Projects Executed</h3>
@@ -478,7 +478,7 @@ export default function Home() {
                             <div className="col-lg-3 col-sm-6">
                                 <div className="counter-box">
                                     <div className="counter-wrap">
-                                        <i className="fal fa-globe" />{" "}
+                                        <i className="fal fa-globe" />
                                         <span className="counter">219</span>
                                     </div>
                                     <h3 className="title">Global Presence</h3>
@@ -487,7 +487,7 @@ export default function Home() {
                             <div className="col-lg-3 col-sm-6">
                                 <div className="counter-box">
                                     <div className="counter-wrap">
-                                        <i className="fal fa-users" />{" "}
+                                        <i className="fal fa-users" />
                                         <span className="counter">5</span>k+
                                     </div>
                                     <h3 className="title">Active Clients</h3>
@@ -496,7 +496,7 @@ export default function Home() {
                             <div className="col-lg-3 col-sm-6">
                                 <div className="counter-box">
                                     <div className="counter-wrap">
-                                        <i className="fal fa-book" />{" "}
+                                        <i className="fal fa-book" />
                                         <span className="counter">500</span>+
                                     </div>
                                     <h3 className="title">Recognition</h3>
@@ -524,7 +524,7 @@ export default function Home() {
                                 </div>
                                 <p>
                                     Productservices are professional services
-                                    that help market or advertise your business{" "}
+                                    that help market or advertise your business
                                     <br /> online. Best Way to Manage and Share
                                     Work Resources.
                                 </p>
@@ -598,7 +598,7 @@ export default function Home() {
                             <div className="section-title text-center mb-50">
                                 <span className="title-tag">Team</span>
                                 <h2 className="title">
-                                    Meet with our awesome and exper{" "}
+                                    Meet with our awesome and exper
                                     <span>team</span>
                                 </h2>
                             </div>
@@ -1192,8 +1192,7 @@ export default function Home() {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -1213,8 +1212,7 @@ export default function Home() {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -1234,8 +1232,7 @@ export default function Home() {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -1262,7 +1259,7 @@ export default function Home() {
                                         </li>
                                         <li>
                                             <i className="fal fa-phone" />
-                                            <span>Phone:</span> +0 123-456-7890{" "}
+                                            <span>Phone:</span> +0 123-456-7890
                                             <br />
                                             +0 123-456-7890
                                         </li>

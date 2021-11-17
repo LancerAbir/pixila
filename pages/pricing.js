@@ -258,24 +258,24 @@ const pricing = () => {
                                         <div className="pricing-content text-center">
                                             <ul className="clearfix text-start">
                                                 <li>
-                                                    23+ Free elements blocks{" "}
+                                                    23+ Free elements blocks
                                                     <i className="fal fa-check" />
                                                 </li>
                                                 <li>
                                                     Free web hosting &amp;
-                                                    domain{" "}
+                                                    domain
                                                     <i className="fal fa-check" />
                                                 </li>
                                                 <li>
-                                                    SSL with big certificates{" "}
+                                                    SSL with big certificates
                                                     <i className="fal fa-check" />
                                                 </li>
                                                 <li>
-                                                    1000+ Free active users{" "}
+                                                    1000+ Free active users
                                                     <i className="fal fa-check" />
                                                 </li>
                                                 <li>
-                                                    500GB Free Bandwidth{" "}
+                                                    500GB Free Bandwidth
                                                     <i className="fal fa-check" />
                                                 </li>
                                             </ul>
@@ -312,20 +312,20 @@ const pricing = () => {
                                         <div className="pricing-content text-center">
                                             <ul className="clearfix text-start">
                                                 <li>
-                                                    23+ Free elements blocks{" "}
+                                                    23+ Free elements blocks
                                                     <i className="fal fa-check" />
                                                 </li>
                                                 <li>
                                                     Free web hosting &amp;
-                                                    domain{" "}
+                                                    domain
                                                     <i className="fal fa-check" />
                                                 </li>
                                                 <li>
-                                                    SSL with big certificates{" "}
+                                                    SSL with big certificates
                                                     <i className="fal fa-check" />
                                                 </li>
                                                 <li>
-                                                    1000+ Free active users{" "}
+                                                    1000+ Free active users
                                                     <i className="fal fa-check" />
                                                 </li>
                                             </ul>
@@ -418,23 +418,23 @@ const pricing = () => {
                                 <div className="pricing-content">
                                     <ul className="clearfix">
                                         <li>
-                                            23+ Free elements blocks{" "}
+                                            23+ Free elements blocks
                                             <i className="fal fa-check" />
                                         </li>
                                         <li>
-                                            Free web hosting &amp; domain{" "}
+                                            Free web hosting &amp; domain
                                             <i className="fal fa-check" />
                                         </li>
                                         <li>
-                                            SSL with big certificates{" "}
+                                            SSL with big certificates
                                             <i className="fal fa-check" />
                                         </li>
                                         <li>
-                                            1000+ Free active users{" "}
+                                            1000+ Free active users
                                             <i className="fal fa-check" />
                                         </li>
                                         <li>
-                                            500GB Free Bandwidth{" "}
+                                            500GB Free Bandwidth
                                             <i className="fal fa-check" />
                                         </li>
                                     </ul>
@@ -469,23 +469,23 @@ const pricing = () => {
                                 <div className="pricing-content">
                                     <ul className="clearfix">
                                         <li>
-                                            23+ Free elements blocks{" "}
+                                            23+ Free elements blocks
                                             <i className="fal fa-check" />
                                         </li>
                                         <li>
-                                            Free web hosting &amp; domain{" "}
+                                            Free web hosting &amp; domain
                                             <i className="fal fa-check" />
                                         </li>
                                         <li>
-                                            SSL with big certificates{" "}
+                                            SSL with big certificates
                                             <i className="fal fa-check" />
                                         </li>
                                         <li>
-                                            1000+ Free active users{" "}
+                                            1000+ Free active users
                                             <i className="fal fa-check" />
                                         </li>
                                         <li>
-                                            500GB Free Bandwidth{" "}
+                                            500GB Free Bandwidth
                                             <i className="fal fa-check" />
                                         </li>
                                     </ul>
@@ -520,23 +520,23 @@ const pricing = () => {
                                 <div className="pricing-content">
                                     <ul className="clearfix">
                                         <li>
-                                            23+ Free elements blocks{" "}
+                                            23+ Free elements blocks
                                             <i className="fal fa-check" />
                                         </li>
                                         <li>
-                                            Free web hosting &amp; domain{" "}
+                                            Free web hosting &amp; domain
                                             <i className="fal fa-check" />
                                         </li>
                                         <li>
-                                            SSL with big certificates{" "}
+                                            SSL with big certificates
                                             <i className="fal fa-check" />
                                         </li>
                                         <li>
-                                            1000+ Free active users{" "}
+                                            1000+ Free active users
                                             <i className="fal fa-check" />
                                         </li>
                                         <li>
-                                            500GB Free Bandwidth{" "}
+                                            500GB Free Bandwidth
                                             <i className="fal fa-check" />
                                         </li>
                                     </ul>
@@ -655,8 +655,7 @@ const pricing = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -676,8 +675,7 @@ const pricing = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -697,8 +695,7 @@ const pricing = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -725,7 +722,7 @@ const pricing = () => {
                                         </li>
                                         <li>
                                             <i className="fal fa-phone" />
-                                            <span>Phone:</span> +0 123-456-7890{" "}
+                                            <span>Phone:</span> +0 123-456-7890
                                             <br />
                                             +0 123-456-7890
                                         </li>

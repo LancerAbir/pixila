@@ -227,7 +227,6 @@ const index3 = () => {
                                             placeholder="Enter email address"
                                         />
                                         <button type="submit">
-                                            {" "}
                                             <i className="fal fa-long-arrow-right" />
                                             Subscribe
                                         </button>
@@ -275,7 +274,7 @@ const index3 = () => {
                                     </p>
                                 </div>
                                 <a href="#" className="feature-link">
-                                    Check Details{" "}
+                                    Check Details
                                     <i className="fal fa-long-arrow-right" />
                                 </a>
                             </div>
@@ -294,7 +293,7 @@ const index3 = () => {
                                     </p>
                                 </div>
                                 <a href="#" className="feature-link">
-                                    Check Details{" "}
+                                    Check Details
                                     <i className="fal fa-long-arrow-right" />
                                 </a>
                             </div>
@@ -313,7 +312,7 @@ const index3 = () => {
                                     </p>
                                 </div>
                                 <a href="#" className="feature-link">
-                                    Check Details{" "}
+                                    Check Details
                                     <i className="fal fa-long-arrow-right" />
                                 </a>
                             </div>
@@ -342,7 +341,7 @@ const index3 = () => {
                                     type="button"
                                     role="tab"
                                 >
-                                    <i className="fal fa-chart-area" />{" "}
+                                    <i className="fal fa-chart-area" />
                                     Predictive Analysis
                                 </button>
                             </li>
@@ -790,7 +789,7 @@ const index3 = () => {
                                             <ul className="post-meta">
                                                 <li>
                                                     <a href="#">
-                                                        <i className="fal fa-calendar-alt" />{" "}
+                                                        <i className="fal fa-calendar-alt" />
                                                         10th May 2020
                                                     </a>
                                                 </li>
@@ -829,7 +828,7 @@ const index3 = () => {
                                             <ul className="post-meta">
                                                 <li>
                                                     <a href="#">
-                                                        <i className="fal fa-calendar-alt" />{" "}
+                                                        <i className="fal fa-calendar-alt" />
                                                         10th May 2020
                                                     </a>
                                                 </li>
@@ -871,7 +870,7 @@ const index3 = () => {
                                         <ul className="post-meta">
                                             <li>
                                                 <a href="#">
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </a>
                                             </li>
@@ -899,7 +898,7 @@ const index3 = () => {
                                         <ul className="post-meta">
                                             <li>
                                                 <a href="#">
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </a>
                                             </li>
@@ -927,7 +926,7 @@ const index3 = () => {
                                         <ul className="post-meta">
                                             <li>
                                                 <a href="#">
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </a>
                                             </li>
@@ -1094,7 +1093,7 @@ const index3 = () => {
                                         </li>
                                     </ul>
                                     <a href="#" className="info-btn">
-                                        Contact Us{" "}
+                                        Contact Us
                                         <i className="fal fa-long-arrow-right" />
                                     </a>
                                 </div>

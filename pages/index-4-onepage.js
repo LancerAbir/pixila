@@ -244,17 +244,17 @@ const index4OnePage = () => {
                                 <ul className="mt-50 chech-list">
                                     <li>
                                         <i className="fal fa-check" /> Refresing
-                                        to get such a personal touch.{" "}
+                                        to get such a personal touch.
                                     </li>
                                     <li>
                                         <i className="fal fa-check" /> Duis aute
                                         irure dolor in reprehenderit in
-                                        voluptate.{" "}
+                                        voluptate.
                                     </li>
                                     <li>
                                         <i className="fal fa-check" /> Velit
                                         esse cillum dolore eu fugiat nulla
-                                        pariatur..{" "}
+                                        pariatur..
                                     </li>
                                 </ul>
                                 <a href="#" className="block-btn">
@@ -343,7 +343,7 @@ const index4OnePage = () => {
                                 >
                                     <i className="fal fa-monitor-heart-rate" />
                                     <span>
-                                        Collaborate Options{" "}
+                                        Collaborate Options
                                         <span className="small-text">
                                             Easy to use &amp; 24/7 online
                                             support
@@ -361,7 +361,7 @@ const index4OnePage = () => {
                                 >
                                     <i className="fal fa-link" />
                                     <span>
-                                        Messaging Options{" "}
+                                        Messaging Options
                                         <span className="small-text">
                                             Easy to use &amp; 24/7 online
                                             support
@@ -379,7 +379,7 @@ const index4OnePage = () => {
                                 >
                                     <i className="fal fa-users" />
                                     <span>
-                                        Chatbot Options{" "}
+                                        Chatbot Options
                                         <span className="small-text">
                                             Easy to use &amp; 24/7 online
                                             support
@@ -596,13 +596,13 @@ const index4OnePage = () => {
                         <ul className="cta-links">
                             <li>
                                 <a href="#" className="main-btn main-btn-4">
-                                    Get Started{" "}
+                                    Get Started
                                     <i className="fal fa-long-arrow-right" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="main-btn main-btn-5">
-                                    Learn More{" "}
+                                    Learn More
                                     <i className="fal fa-long-arrow-right" />
                                 </a>
                             </li>
@@ -675,7 +675,7 @@ const index4OnePage = () => {
                                     <ul className="post-meta">
                                         <li>
                                             <a href="#">
-                                                <i className="fal fa-calendar-alt" />{" "}
+                                                <i className="fal fa-calendar-alt" />
                                                 10th May 2020
                                             </a>
                                         </li>
@@ -715,7 +715,7 @@ const index4OnePage = () => {
                                     <ul className="post-meta">
                                         <li>
                                             <a href="#">
-                                                <i className="fal fa-calendar-alt" />{" "}
+                                                <i className="fal fa-calendar-alt" />
                                                 10th May 2020
                                             </a>
                                         </li>
@@ -755,7 +755,7 @@ const index4OnePage = () => {
                                     <ul className="post-meta">
                                         <li>
                                             <a href="#">
-                                                <i className="fal fa-calendar-alt" />{" "}
+                                                <i className="fal fa-calendar-alt" />
                                                 10th May 2020
                                             </a>
                                         </li>
@@ -902,8 +902,7 @@ const index4OnePage = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -923,8 +922,7 @@ const index4OnePage = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -951,7 +949,7 @@ const index4OnePage = () => {
                                                 </span>
                                                 <h6>Regular Time</h6>
                                                 <p>
-                                                    Mon - Sat 8:00 - 17:30,{" "}
+                                                    Mon - Sat 8:00 - 17:30,
                                                     <br /> Sunday - CLOSED
                                                 </p>
                                             </li>
@@ -961,7 +959,7 @@ const index4OnePage = () => {
                                                 </span>
                                                 <h6>Off Day Shedule</h6>
                                                 <p>
-                                                    Mon - Sat 8:00 - 17:30,{" "}
+                                                    Mon - Sat 8:00 - 17:30,
                                                     <br /> Sunday - CLOSED
                                                 </p>
                                             </li>

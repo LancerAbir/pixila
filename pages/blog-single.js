@@ -587,7 +587,7 @@ const blogSingle = () => {
                                                     />
                                                     <div className="content">
                                                         <span className="date">
-                                                            <i className="fal fa-calendar-alt" />{" "}
+                                                            <i className="fal fa-calendar-alt" />
                                                             24th March 2020
                                                         </span>
                                                         <h4>
@@ -617,7 +617,7 @@ const blogSingle = () => {
                                                     />
                                                     <div className="content">
                                                         <span className="date">
-                                                            <i className="fal fa-calendar-alt" />{" "}
+                                                            <i className="fal fa-calendar-alt" />
                                                             24th March 2020
                                                         </span>
                                                         <h4>
@@ -679,7 +679,7 @@ const blogSingle = () => {
                                             <div className="comment-content">
                                                 <h6>Rosalina Kelian</h6>
                                                 <span className="date">
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     24th March 2020
                                                 </span>
                                                 <p>
@@ -697,7 +697,7 @@ const blogSingle = () => {
                                                     href="#"
                                                     className="reply-link"
                                                 >
-                                                    <i className="fal fa-reply" />{" "}
+                                                    <i className="fal fa-reply" />
                                                     Reply
                                                 </a>
                                             </div>
@@ -712,7 +712,7 @@ const blogSingle = () => {
                                                     <div className="comment-content">
                                                         <h6>Rosalina Kelian</h6>
                                                         <span className="date">
-                                                            <i className="fal fa-calendar-alt" />{" "}
+                                                            <i className="fal fa-calendar-alt" />
                                                             24th March 2020
                                                         </span>
                                                         <p>
@@ -732,7 +732,7 @@ const blogSingle = () => {
                                                             href="#"
                                                             className="reply-link"
                                                         >
-                                                            <i className="fal fa-reply" />{" "}
+                                                            <i className="fal fa-reply" />
                                                             Reply
                                                         </a>
                                                     </div>
@@ -749,7 +749,7 @@ const blogSingle = () => {
                                             <div className="comment-content">
                                                 <h6>Rosalina Kelian</h6>
                                                 <span className="date">
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     24th March 2020
                                                 </span>
                                                 <p>
@@ -767,7 +767,7 @@ const blogSingle = () => {
                                                     href="#"
                                                     className="reply-link"
                                                 >
-                                                    <i className="fal fa-reply" />{" "}
+                                                    <i className="fal fa-reply" />
                                                     Reply
                                                 </a>
                                             </div>
@@ -1291,8 +1291,7 @@ const blogSingle = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -1312,8 +1311,7 @@ const blogSingle = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -1333,8 +1331,7 @@ const blogSingle = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -1361,7 +1358,7 @@ const blogSingle = () => {
                                         </li>
                                         <li>
                                             <i className="fal fa-phone" />
-                                            <span>Phone:</span> +0 123-456-7890{" "}
+                                            <span>Phone:</span> +0 123-456-7890
                                             <br />
                                             +0 123-456-7890
                                         </li>

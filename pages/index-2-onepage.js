@@ -17,7 +17,7 @@ const index2OnePage = () => {
                                 </a>
                                 <ul className="contact-info">
                                     <li>
-                                        <i className="fal fa-phone" />{" "}
+                                        <i className="fal fa-phone" />
                                         <a href="#">987-098-756-09</a>
                                     </li>
                                 </ul>
@@ -206,11 +206,11 @@ const index2OnePage = () => {
                                 <ul className="mt-40">
                                     <li>
                                         <i className="fal fa-check" /> We
-                                        deliver Values for every business{" "}
+                                        deliver Values for every business
                                     </li>
                                     <li>
                                         <i className="fal fa-check" /> We make
-                                        Technology more Human{" "}
+                                        Technology more Human
                                     </li>
                                     <li>
                                         <i className="fal fa-check" /> We make
@@ -319,7 +319,7 @@ const index2OnePage = () => {
                 <div className="container-fluid fluid-container-left pe-0">
                     <div className="cta-text">
                         <h4 className="cta-title">
-                            Do you need similar project? Call Us{" "}
+                            Do you need similar project? Call Us
                             <a href="#">+ 422 081 748 212</a>
                         </h4>
                         <ul className="cta-social-icon">
@@ -728,7 +728,7 @@ const index2OnePage = () => {
                                             <ul className="post-meta">
                                                 <li>
                                                     <a href="#">
-                                                        <i className="fal fa-calendar-alt" />{" "}
+                                                        <i className="fal fa-calendar-alt" />
                                                         10th May 2020
                                                     </a>
                                                 </li>
@@ -767,7 +767,7 @@ const index2OnePage = () => {
                                             <ul className="post-meta">
                                                 <li>
                                                     <a href="#">
-                                                        <i className="fal fa-calendar-alt" />{" "}
+                                                        <i className="fal fa-calendar-alt" />
                                                         10th May 2020
                                                     </a>
                                                 </li>
@@ -809,7 +809,7 @@ const index2OnePage = () => {
                                         <ul className="post-meta">
                                             <li>
                                                 <a href="#">
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </a>
                                             </li>
@@ -837,7 +837,7 @@ const index2OnePage = () => {
                                         <ul className="post-meta">
                                             <li>
                                                 <a href="#">
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </a>
                                             </li>
@@ -865,7 +865,7 @@ const index2OnePage = () => {
                                         <ul className="post-meta">
                                             <li>
                                                 <a href="#">
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </a>
                                             </li>
@@ -995,8 +995,7 @@ const index2OnePage = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -1016,8 +1015,7 @@ const index2OnePage = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -1037,8 +1035,7 @@ const index2OnePage = () => {
                                             </div>
                                             <div className="post-desc">
                                                 <span className="post-date">
-                                                    {" "}
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </span>
                                                 <h6>
@@ -1065,7 +1062,7 @@ const index2OnePage = () => {
                                         </li>
                                         <li>
                                             <i className="fal fa-phone" />
-                                            <span>Phone:</span> +0 123-456-7890{" "}
+                                            <span>Phone:</span> +0 123-456-7890
                                             <br />
                                             +0 123-456-7890
                                         </li>

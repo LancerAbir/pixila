@@ -98,7 +98,6 @@ const index3OnePage = () => {
                                             placeholder="Enter email address"
                                         />
                                         <button type="submit">
-                                            {" "}
                                             <i className="fal fa-long-arrow-right" />
                                             Subscribe
                                         </button>
@@ -149,7 +148,7 @@ const index3OnePage = () => {
                                     </p>
                                 </div>
                                 <a href="#" className="feature-link">
-                                    Check Details{" "}
+                                    Check Details
                                     <i className="fal fa-long-arrow-right" />
                                 </a>
                             </div>
@@ -168,7 +167,7 @@ const index3OnePage = () => {
                                     </p>
                                 </div>
                                 <a href="#" className="feature-link">
-                                    Check Details{" "}
+                                    Check Details
                                     <i className="fal fa-long-arrow-right" />
                                 </a>
                             </div>
@@ -187,7 +186,7 @@ const index3OnePage = () => {
                                     </p>
                                 </div>
                                 <a href="#" className="feature-link">
-                                    Check Details{" "}
+                                    Check Details
                                     <i className="fal fa-long-arrow-right" />
                                 </a>
                             </div>
@@ -219,7 +218,7 @@ const index3OnePage = () => {
                                     type="button"
                                     role="tab"
                                 >
-                                    <i className="fal fa-chart-area" />{" "}
+                                    <i className="fal fa-chart-area" />
                                     Predictive Analysis
                                 </button>
                             </li>
@@ -668,7 +667,7 @@ const index3OnePage = () => {
                                             <ul className="post-meta">
                                                 <li>
                                                     <a href="#">
-                                                        <i className="fal fa-calendar-alt" />{" "}
+                                                        <i className="fal fa-calendar-alt" />
                                                         10th May 2020
                                                     </a>
                                                 </li>
@@ -707,7 +706,7 @@ const index3OnePage = () => {
                                             <ul className="post-meta">
                                                 <li>
                                                     <a href="#">
-                                                        <i className="fal fa-calendar-alt" />{" "}
+                                                        <i className="fal fa-calendar-alt" />
                                                         10th May 2020
                                                     </a>
                                                 </li>
@@ -749,7 +748,7 @@ const index3OnePage = () => {
                                         <ul className="post-meta">
                                             <li>
                                                 <a href="#">
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </a>
                                             </li>
@@ -777,7 +776,7 @@ const index3OnePage = () => {
                                         <ul className="post-meta">
                                             <li>
                                                 <a href="#">
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </a>
                                             </li>
@@ -805,7 +804,7 @@ const index3OnePage = () => {
                                         <ul className="post-meta">
                                             <li>
                                                 <a href="#">
-                                                    <i className="fal fa-calendar-alt" />{" "}
+                                                    <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </a>
                                             </li>
@@ -972,7 +971,7 @@ const index3OnePage = () => {
                                         </li>
                                     </ul>
                                     <a href="#" className="info-btn">
-                                        Contact Us{" "}
+                                        Contact Us
                                         <i className="fal fa-long-arrow-right" />
                                     </a>
                                 </div>
