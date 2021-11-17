@@ -1,175 +1,181 @@
-export default function Home() {
+import React from "react";
+
+const indexOnePage = () => {
     return (
         <>
             {/*====== Header Start ======*/}
-
-            <header className="header-four sticky-header">
+            <header className="header-one sticky-header">
+                <div className="header-topbar with-language-right d-none d-md-block">
+                    <div className="container-fluid">
+                        <div className="d-lg-flex align-items-center justify-content-between">
+                            <div className="topbar-left d-flex align-items-center">
+                                <ul className="social-icon">
+                                    <li>
+                                        <a href="#">
+                                            <i className="fab fa-facebook-f" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i className="fab fa-twitter" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i className="fab fa-behance" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i className="fab fa-youtube" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i className="fab fa-linkedin" />
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul className="contact-info">
+                                    <li>
+                                        <a href="#">
+                                            <span>Phone:</span> 987-098-756-09
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Email:</span> info@webmail.com
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="topbar-right d-flex align-items-center justify-content-lg-end">
+                                <ul className="topbar-menu">
+                                    <li>
+                                        <a href="#">Sign In</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Company</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="language-dropdown">
+                        <span>
+                            English <i className="fal fa-angle-down" />
+                        </span>
+                    </div>
+                </div>
                 <div className="header-navbar">
-                    <div className="container position-relative">
+                    <div className="container-fluid">
                         <div className="d-flex align-items-center justify-content-between">
                             <div className="navbar-left d-flex align-items-center">
                                 <div className="site-logo">
                                     <a href="index.html">
-                                        <img
-                                            src="img/logo-4.png"
-                                            alt="Pixila"
-                                        />
+                                        <img src="img/logo.png" alt="Pixila" />
                                     </a>
                                 </div>
                                 <nav className="site-nav-menu">
-                                    <ul className="primary-menu">
+                                    <ul className="primary-menu onepage-nav">
                                         <li className="current">
-                                            <a href="index.html">Home</a>
-                                            <ul className="submenu">
-                                                <li>
-                                                    <a href="index.html">
-                                                        Agency
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index-2.html">
-                                                        Consulting
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index-3.html">
-                                                        Software
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index-4.html">
-                                                        Sass
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">OnePage</a>
-                                                    <ul className="submenu">
-                                                        <li>
-                                                            <a href="index-onepage.html">
-                                                                Agency
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-2-onepage.html">
-                                                                Consulting
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-3-onepage.html">
-                                                                Software
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-4-onepage.html">
-                                                                Sass
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
+                                            <a href="#home">Home</a>
                                         </li>
                                         <li>
-                                            <a href="about.html">About us</a>
+                                            <a href="#services">Services</a>
                                         </li>
                                         <li>
-                                            <a href="#">Pages</a>
-                                            <ul className="submenu">
-                                                <li>
-                                                    <a href="portfolio.html">
-                                                        Portfolio
-                                                    </a>
-                                                    <ul className="submenu">
-                                                        <li>
-                                                            <a href="portfolio.html">
-                                                                Portfolio One
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="portfolio-2.html">
-                                                                Portfolio Two
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="portfolio-3.html">
-                                                                Portfolio Three
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="portfolio-details.html">
-                                                                Portfolio
-                                                                Details
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="service.html">
-                                                        Service
-                                                    </a>
-                                                    <ul className="submenu">
-                                                        <li>
-                                                            <a href="service.html">
-                                                                Service One
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="service-2.html">
-                                                                Service Two
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="faq.html">FAQ</a>
-                                                </li>
-                                                <li>
-                                                    <a href="pricing.html">
-                                                        Pricing
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="process.html">
-                                                        Process
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="team.html">Team</a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop.html">Shop</a>
-                                                    <ul className="submenu">
-                                                        <li>
-                                                            <a href="shop-details.html">
-                                                                Shop Details
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
+                                            <a href="#about">About us</a>
                                         </li>
                                         <li>
-                                            <a href="blog.html">News</a>
-                                            <ul className="submenu">
-                                                <li>
-                                                    <a href="blog-single.html">
-                                                        News Details
-                                                    </a>
-                                                </li>
-                                            </ul>
+                                            <a href="#team">Team</a>
                                         </li>
                                         <li>
-                                            <a href="contact.html">
-                                                Contact us
-                                            </a>
+                                            <a href="#feedbacks">Feedbacks</a>
                                         </li>
                                     </ul>
                                     <a href="#" className="nav-close">
                                         <i className="fal fa-times" />
                                     </a>
                                 </nav>
+                            </div>
+                            <div className="navbar-right d-flex align-items-center">
+                                <div className="cart-widget">
+                                    <a href="#" className="cart-icon">
+                                        <i className="fal fa-shopping-cart" />
+                                    </a>
+                                </div>
+                                <div className="offcanvas-menu">
+                                    <a href="#" className="panel-icon">
+                                        <i className="fal fa-bars" />
+                                    </a>
+                                    <div className="offcanvas-panel">
+                                        <div className="offcanvas-panel-inner">
+                                            <div className="panel-logo">
+                                                <img
+                                                    src="img/logo.png"
+                                                    alt="Image"
+                                                />
+                                            </div>
+                                            <div className="about-us">
+                                                <h5 className="panel-widget-title">
+                                                    About Us
+                                                </h5>
+                                                <p>
+                                                    Lorem, ipsum dolor sit amet
+                                                    consectetur adipisicing
+                                                    elit. Tempore ipsam alias
+                                                    quae cupiditate quas, neque
+                                                    eum magni impedit asperiores
+                                                    ad id sint repudiandae
+                                                    quaerat, omnis commodi
+                                                    consequatur dolore rerum
+                                                    deleniti!
+                                                </p>
+                                            </div>
+                                            <div className="contact-us">
+                                                <h5 className="panel-widget-title">
+                                                    Contact Us
+                                                </h5>
+                                                <ul>
+                                                    <li>
+                                                        <i className="fal fa-map-marker-alt" />
+                                                        121 King St, Melbourne
+                                                        VIC 3000, Australia.
+                                                    </li>
+                                                    <li>
+                                                        <i className="fal fa-envelope-open" />
+                                                        <a href="mailto:info@example.com">
+                                                            {" "}
+                                                            info@example.com
+                                                        </a>
+                                                        <a href="mailto:info@example.com">
+                                                            info@example.com
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <i className="fal fa-phone" />
+                                                        <a href="tel:(312)-895-9800">
+                                                            +0 123-456-7890
+                                                        </a>
+                                                        <a href="tel:(312)-895-9888">
+                                                            +0 123-456-7890
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a href="#" className="panel-close">
+                                                <i className="fal fa-times" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div className="search-widget">
                                     <a href="#" className="search-icon">
-                                        <i className="far fa-search" />
+                                        <i className="fal fa-search" />
                                     </a>
                                     <div className="search-form">
                                         <form action="#">
@@ -183,24 +189,17 @@ export default function Home() {
                                         </form>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="navbar-right d-flex align-items-center">
-                                <div className="header-contact-btn">
-                                    <a href="#">Get Started Now</a>
-                                </div>
                                 <a href="#" className="nav-toggler">
-                                    <i className="far fa-bars" />
+                                    <i className="fal fa-bars" />
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </header>
-
             {/*====== Header End ======*/}
-
             {/*====== Hero Area Start ======*/}
-            <section className="hero-area">
+            <section className="hero-area" id="home">
                 <div className="container">
                     <div className="row align-items-center justify-content-center">
                         <div className="col-lg-5">
@@ -224,10 +223,7 @@ export default function Home() {
                                         className="wow fadeInUp"
                                         data-wow-delay="0.7s"
                                     >
-                                        <a
-                                            href="service-2.html"
-                                            className="main-btn"
-                                        >
+                                        <a href="#" className="main-btn">
                                             Get Started Now
                                         </a>
                                     </li>
@@ -236,7 +232,7 @@ export default function Home() {
                                         data-wow-delay="0.9s"
                                     >
                                         <a
-                                            href="service-2.html"
+                                            href="#"
                                             className="main-btn main-btn-2"
                                         >
                                             Learn More
@@ -261,7 +257,10 @@ export default function Home() {
             </section>
             {/*====== Hero Area Start ======*/}
             {/*====== Service Area Start ======*/}
-            <section className="service-area section-gap primary-bg">
+            <section
+                className="service-area section-gap primary-bg"
+                id="services"
+            >
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-5">
@@ -295,7 +294,7 @@ export default function Home() {
                                                 advertise your business online.
                                             </p>
                                             <a
-                                                href="service-2.html"
+                                                href="#"
                                                 className="service-link"
                                             >
                                                 Learn More
@@ -325,7 +324,7 @@ export default function Home() {
                                                 advertise your business online.
                                             </p>
                                             <a
-                                                href="service.html"
+                                                href="#"
                                                 className="service-link"
                                             >
                                                 Learn More
@@ -357,7 +356,7 @@ export default function Home() {
                                                 advertise your business online.
                                             </p>
                                             <a
-                                                href="service-2.html"
+                                                href="#"
                                                 className="service-link"
                                             >
                                                 Learn More
@@ -387,7 +386,7 @@ export default function Home() {
                                                 advertise your business online.
                                             </p>
                                             <a
-                                                href="service-2.html"
+                                                href="#"
                                                 className="service-link"
                                             >
                                                 Learn More
@@ -411,7 +410,7 @@ export default function Home() {
             </section>
             {/*====== Service Area End ======*/}
             {/*====== About section Start ======*/}
-            <div className="about-section section-gap">
+            <div className="about-section section-gap" id="about">
                 <div className="container">
                     <div className="row align-items-center justify-content-center">
                         <div className="col-lg-6 col-md-8 wow fadeInLeft">
@@ -434,10 +433,7 @@ export default function Home() {
                                     online. Best Way to Manage and Share Work
                                     Resources.
                                 </p>
-                                <a
-                                    href="contact.html"
-                                    className="main-btn mt-30"
-                                >
+                                <a href="#" className="main-btn mt-30">
                                     Learn More
                                 </a>
                                 <div className="about-author">
@@ -591,7 +587,7 @@ export default function Home() {
             </section>
             {/*====== Skill area End ======*/}
             {/*====== Team section Start ======*/}
-            <section className="team-section section-gap">
+            <section className="team-section section-gap" id="team">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-5 col-lg-6">
@@ -927,7 +923,10 @@ export default function Home() {
             </section>
             {/*====== CTA section End ======*/}
             {/*====== Testimonials area start ======*/}
-            <section className="testimonial-section with-pattern testimonial-brand-section primary-bg">
+            <section
+                className="testimonial-section with-pattern testimonial-brand-section primary-bg"
+                id="feedbacks"
+            >
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-6">
@@ -1300,6 +1299,9 @@ export default function Home() {
                     </div>
                 </div>
             </footer>
+            {/*====== Footer End ======*/}
         </>
     );
-}
+};
+
+export default indexOnePage;

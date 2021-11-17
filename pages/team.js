@@ -1,8 +1,9 @@
-export default function Home() {
+import React from "react";
+
+const team = () => {
     return (
         <>
             {/*====== Header Start ======*/}
-
             <header className="header-four sticky-header">
                 <div className="header-navbar">
                     <div className="container position-relative">
@@ -23,22 +24,22 @@ export default function Home() {
                                             <ul className="submenu">
                                                 <li>
                                                     <a href="index.html">
-                                                        Agency
+                                                        Home One
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="index-2.html">
-                                                        Consulting
+                                                        Home Two
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="index-3.html">
-                                                        Software
+                                                        Home Three
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="index-4.html">
-                                                        Sass
+                                                        Home Four
                                                     </a>
                                                 </li>
                                                 <li>
@@ -46,22 +47,22 @@ export default function Home() {
                                                     <ul className="submenu">
                                                         <li>
                                                             <a href="index-onepage.html">
-                                                                Agency
+                                                                Home One
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="index-2-onepage.html">
-                                                                Consulting
+                                                                Home Two
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="index-3-onepage.html">
-                                                                Software
+                                                                Home Three
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a href="index-4-onepage.html">
-                                                                Sass
+                                                                Home Four
                                                             </a>
                                                         </li>
                                                     </ul>
@@ -196,417 +197,43 @@ export default function Home() {
                     </div>
                 </div>
             </header>
-
             {/*====== Header End ======*/}
-
-            {/*====== Hero Area Start ======*/}
-            <section className="hero-area">
+            {/*====== Breadcrumb section Start ======*/}
+            <section
+                className="breadcrumb-section bgc"
+                style={{ backgroundImage: "url(img/breadcrumb-bg.jpg)" }}
+            >
                 <div className="container">
-                    <div className="row align-items-center justify-content-center">
-                        <div className="col-lg-5">
-                            <div className="hero-text">
-                                <span
-                                    className="title-tag wow fadeInDown"
-                                    data-wow-delay="0.3s"
-                                >
-                                    It's a lot easy to make a difference
-                                    togather.
+                    <div className="row align-items-center">
+                        <div className="col-lg-5 col-md-6">
+                            <div className="breadcrumb-text">
+                                <span className="title-tag">
+                                    Welcome to our company
                                 </span>
-                                <h2
-                                    className="title wow fadeInLeft"
-                                    data-wow-delay="0.5s"
-                                >
-                                    Replication is the <br /> presentation of{" "}
-                                    <br /> our <span>capabilities</span>
-                                </h2>
-                                <ul className="hero-btns">
-                                    <li
-                                        className="wow fadeInUp"
-                                        data-wow-delay="0.7s"
-                                    >
-                                        <a
-                                            href="service-2.html"
-                                            className="main-btn"
-                                        >
-                                            Get Started Now
-                                        </a>
+                                <h2 className="page-title">Our Experts.</h2>
+                            </div>
+                        </div>
+                        <div className="col-lg-7 col-md-6">
+                            <div className="breadcrumb-nav">
+                                <ul>
+                                    <li>
+                                        <a href="index.html">Home</a>
                                     </li>
-                                    <li
-                                        className="wow fadeInUp"
-                                        data-wow-delay="0.9s"
-                                    >
-                                        <a
-                                            href="service-2.html"
-                                            className="main-btn main-btn-2"
-                                        >
-                                            Learn More
-                                        </a>
-                                    </li>
+                                    <li className="separator">|</li>
+                                    <li>Team</li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-7 col-md-10">
-                            <div
-                                className="hero-img text-lg-end text-center wow fadeInRight"
-                                data-wow-delay="0.3s"
-                            >
-                                <img
-                                    src="img/hero-img/hero-01.png"
-                                    alt="HeroImage"
-                                />
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
-            {/*====== Hero Area Start ======*/}
-            {/*====== Service Area Start ======*/}
-            <section className="service-area section-gap primary-bg">
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-5">
-                            <div className="section-title text-center mb-30">
-                                <span className="title-tag">Our Services</span>
-                                <h2 className="title">
-                                    We provide wide range of digital{" "}
-                                    <span>service</span>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row justify-content-center">
-                        <div
-                            className="col-md-6 col-sm-10 wow fadeInLeft"
-                            data-wow-delay="0.3s"
-                        >
-                            <div className="service-box mt-30">
-                                <div className="row align-items-center">
-                                    <div className="col-xl-6">
-                                        <div className="service-img">
-                                            <img src="img/service/01.png" alt />
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-6">
-                                        <div className="service-desc">
-                                            <h4>Digital Product</h4>
-                                            <p>
-                                                Productservices are professional
-                                                services that help market or
-                                                advertise your business online.
-                                            </p>
-                                            <a
-                                                href="service-2.html"
-                                                className="service-link"
-                                            >
-                                                Learn More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            className="col-md-6 col-sm-10 wow fadeInRight"
-                            data-wow-delay="0.4s"
-                        >
-                            <div className="service-box mt-30">
-                                <div className="row align-items-center">
-                                    <div className="col-xl-6">
-                                        <div className="service-img">
-                                            <img src="img/service/02.png" alt />
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-6">
-                                        <div className="service-desc">
-                                            <h4>Game Development</h4>
-                                            <p>
-                                                Productservices are professional
-                                                services that help market or
-                                                advertise your business online.
-                                            </p>
-                                            <a
-                                                href="service.html"
-                                                className="service-link"
-                                            >
-                                                Learn More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            className="col-md-6 col-sm-10 wow fadeInLeft"
-                            data-wow-delay="0.5s"
-                        >
-                            <div className="service-box pro-service mt-30">
-                                <div className="row align-items-center">
-                                    <div className="col-xl-6">
-                                        <div className="service-img">
-                                            <img src="img/service/03.png" alt />
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-6">
-                                        <div className="service-desc">
-                                            <h4>
-                                                <span>Pro</span>Consultancy
-                                            </h4>
-                                            <p>
-                                                Productservices are professional
-                                                services that help market or
-                                                advertise your business online.
-                                            </p>
-                                            <a
-                                                href="service-2.html"
-                                                className="service-link"
-                                            >
-                                                Learn More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            className="col-md-6 col-sm-10 wow fadeInRight"
-                            data-wow-delay="0.6s"
-                        >
-                            <div className="service-box mt-30">
-                                <div className="row align-items-center">
-                                    <div className="col-xl-6">
-                                        <div className="service-img">
-                                            <img src="img/service/04.png" alt />
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-6">
-                                        <div className="service-desc">
-                                            <h4>Digital Marketing</h4>
-                                            <p>
-                                                Productservices are professional
-                                                services that help market or
-                                                advertise your business online.
-                                            </p>
-                                            <a
-                                                href="service-2.html"
-                                                className="service-link"
-                                            >
-                                                Learn More
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="ticket-generate mt-30 wow fadeInUp">
-                        <p>
-                            Need Help With Your IT Endeavors? Contact Us to Get
-                            a Pro Service!
-                        </p>
-                        <a href="#">
-                            <i className="fal fa-ticket" /> Generate A Ticket
-                        </a>
-                    </div>
-                </div>
-            </section>
-            {/*====== Service Area End ======*/}
-            {/*====== About section Start ======*/}
-            <div className="about-section section-gap">
-                <div className="container">
-                    <div className="row align-items-center justify-content-center">
-                        <div className="col-lg-6 col-md-8 wow fadeInLeft">
-                            <div className="about-illustration mb-md-gap-50">
-                                <img src="img/illustration/01.png" alt />
-                            </div>
-                        </div>
-                        <div className="col-lg-6 col-md-10 wow fadeInRight">
-                            <div className="about-text">
-                                <div className="section-title mb-30">
-                                    <span className="title-tag">About Us</span>
-                                    <h2 className="title">
-                                        Get an amazing experience with quality
-                                        level <span>team</span>
-                                    </h2>
-                                </div>
-                                <p>
-                                    Productservices are professional services
-                                    that help market or advertise your business
-                                    online. Best Way to Manage and Share Work
-                                    Resources.
-                                </p>
-                                <a
-                                    href="contact.html"
-                                    className="main-btn mt-30"
-                                >
-                                    Learn More
-                                </a>
-                                <div className="about-author">
-                                    <div className="author-img">
-                                        <img
-                                            src="img/about-author.jpg"
-                                            alt="Image"
-                                        />
-                                    </div>
-                                    <div className="author-desc">
-                                        <h5>Rosalina D. William</h5>
-                                        <span>Founder of Bella</span>
-                                    </div>
-                                    <div className="brand-img">
-                                        <img src="img/brand/2.png" alt />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/*====== About section End ======*/}
-            {/*====== Counter area Start ======*/}
-            <section className="counter-section">
-                <div className="container">
-                    <div className="counter-inner">
-                        <div className="row">
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="counter-box">
-                                    <div className="counter-wrap">
-                                        <i className="fal fa-user" />{" "}
-                                        <span className="counter">1165</span>
-                                    </div>
-                                    <h3 className="title">Projects Executed</h3>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="counter-box">
-                                    <div className="counter-wrap">
-                                        <i className="fal fa-globe" />{" "}
-                                        <span className="counter">219</span>
-                                    </div>
-                                    <h3 className="title">Global Presence</h3>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="counter-box">
-                                    <div className="counter-wrap">
-                                        <i className="fal fa-users" />{" "}
-                                        <span className="counter">5</span>k+
-                                    </div>
-                                    <h3 className="title">Active Clients</h3>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="counter-box">
-                                    <div className="counter-wrap">
-                                        <i className="fal fa-book" />{" "}
-                                        <span className="counter">500</span>+
-                                    </div>
-                                    <h3 className="title">Recognition</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            {/*====== Counter area End ======*/}
-            {/*====== Skill area Start ======*/}
-            <section className="skill-section section-gap-top">
-                <div className="container">
-                    <div className="row align-items-center justify-content-center justify-content-lg-between">
-                        <div className="col-lg-6 col-md-10">
-                            <div className="skill-text mb-50">
-                                <div className="section-title mb-30">
-                                    <span className="title-tag">
-                                        Our Skillset
-                                    </span>
-                                    <h2 className="title">
-                                        Effective business delivery solutions at
-                                        all <span>glance</span>
-                                    </h2>
-                                </div>
-                                <p>
-                                    Productservices are professional services
-                                    that help market or advertise your business{" "}
-                                    <br /> online. Best Way to Manage and Share
-                                    Work Resources.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-5 col-md-10">
-                            <div className="progress-bars mb-md-gap-60">
-                                <div
-                                    className="single-progress"
-                                    data-count={72}
-                                >
-                                    <div className="title">
-                                        <span>Work Progress</span>
-                                        <span className="progress-counter">
-                                            <span className="count">72</span>%
-                                        </span>
-                                    </div>
-                                    <div className="progressbar-wrap">
-                                        <div className="progressbar" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="skillset-videos fluid-container-left overflow-hidden">
-                    <div className="row">
-                        <div className="col-sm-7">
-                            <div className="skillset-video active mb-xs-gap-30">
-                                <a
-                                    href="https://www.youtube.com/watch?v=pVE92TNDwUk"
-                                    className="popup-btn popup-video"
-                                >
-                                    <i className="fas fa-play" />
-                                </a>
-                                <div
-                                    className="video-bg"
-                                    style={{
-                                        backgroundImage:
-                                            "url(img/skillset/01.jpg)",
-                                    }}
-                                />
-                            </div>
-                        </div>
-                        <div className="col-sm-5">
-                            <div className="skillset-video">
-                                <a
-                                    href="https://www.youtube.com/watch?v=pVE92TNDwUk"
-                                    className="popup-btn popup-video"
-                                >
-                                    <i className="fas fa-play" />
-                                </a>
-                                <div
-                                    className="video-bg"
-                                    style={{
-                                        backgroundImage:
-                                            "url(img/skillset/02.jpg)",
-                                    }}
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            {/*====== Skill area End ======*/}
+            {/*====== Breadcrumb section End ======*/}
             {/*====== Team section Start ======*/}
-            <section className="team-section section-gap">
+            <section className="team-section section-gap-bottom section-gap-top-90">
                 <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-xl-5 col-lg-6">
-                            <div className="section-title text-center mb-50">
-                                <span className="title-tag">Team</span>
-                                <h2 className="title">
-                                    Meet with our awesome and exper{" "}
-                                    <span>team</span>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="team-members team-member-slider row">
-                        <div className="col">
-                            <div className="team-member">
+                    <div className="team-members row">
+                        <div className="col-xl-3 col-lg-4 col-sm-6">
+                            <div className="team-member mt-30">
                                 <div className="member-img">
                                     <img
                                         src="img/teams/01.jpg"
@@ -638,8 +265,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
-                            <div className="team-member">
+                        <div className="col-xl-3 col-lg-4 col-sm-6">
+                            <div className="team-member mt-30">
                                 <div className="member-img">
                                     <img
                                         src="img/teams/02.jpg"
@@ -671,8 +298,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
-                            <div className="team-member">
+                        <div className="col-xl-3 col-lg-4 col-sm-6">
+                            <div className="team-member mt-30">
                                 <div className="member-img">
                                     <img
                                         src="img/teams/03.jpg"
@@ -704,8 +331,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
-                            <div className="team-member">
+                        <div className="col-xl-3 col-lg-4 col-sm-6">
+                            <div className="team-member mt-30">
                                 <div className="member-img">
                                     <img
                                         src="img/teams/04.jpg"
@@ -737,8 +364,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
-                            <div className="team-member">
+                        <div className="col-xl-3 col-lg-4 col-sm-6">
+                            <div className="team-member mt-30">
                                 <div className="member-img">
                                     <img
                                         src="img/teams/05.jpg"
@@ -770,8 +397,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
-                            <div className="team-member">
+                        <div className="col-xl-3 col-lg-4 col-sm-6">
+                            <div className="team-member mt-30">
                                 <div className="member-img">
                                     <img
                                         src="img/teams/06.jpg"
@@ -803,8 +430,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
-                            <div className="team-member">
+                        <div className="col-xl-3 col-lg-4 col-sm-6">
+                            <div className="team-member mt-30">
                                 <div className="member-img">
                                     <img
                                         src="img/teams/07.jpg"
@@ -836,8 +463,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
-                            <div className="team-member">
+                        <div className="col-xl-3 col-lg-4 col-sm-6">
+                            <div className="team-member mt-30">
                                 <div className="member-img">
                                     <img
                                         src="img/teams/08.jpg"
@@ -873,220 +500,200 @@ export default function Home() {
                 </div>
             </section>
             {/*====== Team section End ======*/}
-            {/*====== CTA section Start ======*/}
-            <section className="cta-section">
+            {/*====== Skill area Start ======*/}
+            <section className="skill-section with-gallery">
+                <div className="grey-bg skill-section-top">
+                    <div className="container">
+                        <div className="section-title text-center mb-50">
+                            <span className="title-tag">Counter</span>
+                            <h2 className="title">Some Fun Facts</h2>
+                        </div>
+                        <div className="pie-charts">
+                            <div className="single-pie-chart">
+                                <div
+                                    className="chart"
+                                    data-percent={61}
+                                    data-bar-color="#1baaa0"
+                                >
+                                    <span>61</span>
+                                </div>
+                                <h4 className="title">Work Progress</h4>
+                                <p>
+                                    As emerging technologies converge with urban
+                                    planning, a revolution of automated,
+                                    on-demand
+                                </p>
+                            </div>
+                            <div className="single-pie-chart">
+                                <div
+                                    className="chart"
+                                    data-percent={85}
+                                    data-bar-color="#1baaa0"
+                                >
+                                    <span>85</span>
+                                </div>
+                                <h4 className="title">Projects Done</h4>
+                                <p>
+                                    As emerging technologies converge with urban
+                                    planning, a revolution of automated,
+                                    on-demand
+                                </p>
+                            </div>
+                            <div className="single-pie-chart">
+                                <div
+                                    className="chart"
+                                    data-percent={61}
+                                    data-bar-color="#1baaa0"
+                                >
+                                    <span>61</span>
+                                </div>
+                                <h4 className="title">Work Progress</h4>
+                                <p>
+                                    As emerging technologies converge with urban
+                                    planning, a revolution of automated,
+                                    on-demand
+                                </p>
+                            </div>
+                            <div className="single-pie-chart">
+                                <div
+                                    className="chart"
+                                    data-percent={85}
+                                    data-bar-color="#1baaa0"
+                                >
+                                    <span>85</span>
+                                </div>
+                                <h4 className="title">Projects Done</h4>
+                                <p>
+                                    As emerging technologies converge with urban
+                                    planning, a revolution of automated,
+                                    on-demand
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="container">
-                    <div className="cta-inner">
-                        <div className="row align-items-center">
-                            <div className="col-xl-5">
-                                <div className="cta-text mb-lg-gap-30">
-                                    <div className="section-title">
-                                        <span className="title-tag">
-                                            Make Request
-                                        </span>
-                                        <h2 className="title">
-                                            Make custom order
-                                        </h2>
-                                    </div>
+                    <div className="skill-gallery">
+                        <div className="row">
+                            <div className="col-md-8">
+                                <div className="image mb-30">
+                                    <img
+                                        src="img/skillset/06.jpg"
+                                        alt="Image"
+                                    />
                                 </div>
                             </div>
-                            <div className="col-xl-7">
-                                <div className="cta-form">
-                                    <form action="#">
-                                        <div className="field-groups">
-                                            <div className="input-field">
-                                                <input
-                                                    type="email"
-                                                    placeholder="Enter email address"
-                                                />
-                                                <span className="icon">
-                                                    <i className="fal fa-envelope" />
-                                                </span>
-                                            </div>
-                                            <div className="input-field">
-                                                <input
-                                                    type="text"
-                                                    placeholder="Your Estimate"
-                                                />
-                                                <span className="icon">
-                                                    <i className="fal fa-pencil" />
-                                                </span>
-                                            </div>
-                                            <div className="input-field">
-                                                <button type="submit">
-                                                    <i className="fal fa-long-arrow-right" />
-                                                </button>
-                                            </div>
+                            <div className="col-md-4">
+                                <div className="image mb-30">
+                                    <img
+                                        src="img/skillset/07.jpg"
+                                        alt="Image"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/*====== Skill area End ======*/}
+            {/*====== Newsletter Start ======*/}
+            <div className="container">
+                <div className="newsletter-form">
+                    <div className="row align-items-center">
+                        <div className="col-xl-5">
+                            <div className="section-title">
+                                <span className="title-tag">Newsletter</span>
+                                <h2 className="title">Get weekly updates</h2>
+                            </div>
+                        </div>
+                        <div className="col-xl-7">
+                            <div className="newsletter-form-wrap">
+                                <form action="#">
+                                    <div className="input-fields">
+                                        <div className="input-field">
+                                            <input
+                                                type="text"
+                                                placeholder="Full name"
+                                            />
+                                            <span className="icon">
+                                                <i className="fal fa-user" />
+                                            </span>
                                         </div>
-                                    </form>
-                                </div>
+                                        <div className="input-field">
+                                            <input
+                                                type="text"
+                                                placeholder="Enter email address"
+                                            />
+                                            <span className="icon">
+                                                <i className="fal fa-envelope" />
+                                            </span>
+                                        </div>
+                                        <div className="input-field">
+                                            <button type="submit">
+                                                <i className="fal fa-paper-plane" />{" "}
+                                                Subscribe Now
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            {/*====== CTA section End ======*/}
-            {/*====== Testimonials area start ======*/}
-            <section className="testimonial-section with-pattern testimonial-brand-section primary-bg">
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-6">
-                            <div className="section-title text-center mb-50">
-                                <span className="title-tag">Testimonials</span>
-                                <h2 className="title">
-                                    Clients <span>feedbacks</span>
-                                </h2>
-                            </div>
-                            <div className="testimonial-slider-progress mb-40">
-                                <span className="line-one" />
-                                <span className="line-two" />
-                            </div>
-                        </div>
+                <div className="brand-logos section-gap row">
+                    <div className="col">
+                        <a href="#" className="brand-logo">
+                            <img src="img/brand/1.png" alt="Image" />
+                        </a>
                     </div>
-                    <div
-                        className="testimonial-boxes row"
-                        id="testimonialSliderOne"
-                    >
-                        <div className="col">
-                            <div className="testimonial-box">
-                                <div className="author-img">
-                                    <img
-                                        src="img/testimonial/testimonial-author-1.png"
-                                        alt="Testimonial"
-                                    />
-                                </div>
-                                <div className="content">
-                                    <p>
-                                        ”Hundreds Of Successful Organizations
-                                        Companies of every size, and in 62
-                                        different countries, are using Betakit.”
-                                    </p>
-                                    <div className="author-info">
-                                        <h5>Miranda H. Halim</h5>
-                                        <span>Founder</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col">
-                            <div className="testimonial-box">
-                                <div className="author-img">
-                                    <img
-                                        src="img/testimonial/testimonial-author-2.png"
-                                        alt="Testimonial"
-                                    />
-                                </div>
-                                <div className="content">
-                                    <p>
-                                        ”Hundreds Of Successful Organizations
-                                        Companies of every size, and in 62
-                                        different countries, are using Betakit.”
-                                    </p>
-                                    <div className="author-info">
-                                        <h5>Miranda H. Halim</h5>
-                                        <span>Founder</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col">
-                            <div className="testimonial-box">
-                                <div className="author-img">
-                                    <img
-                                        src="img/testimonial/testimonial-author-1.png"
-                                        alt="Testimonial"
-                                    />
-                                </div>
-                                <div className="content">
-                                    <p>
-                                        ”Hundreds Of Successful Organizations
-                                        Companies of every size, and in 62
-                                        different countries, are using Betakit.”
-                                    </p>
-                                    <div className="author-info">
-                                        <h5>Miranda H. Halim</h5>
-                                        <span>Founder</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col">
-                            <div className="testimonial-box">
-                                <div className="author-img">
-                                    <img
-                                        src="img/testimonial/testimonial-author-2.png"
-                                        alt="Testimonial"
-                                    />
-                                </div>
-                                <div className="content">
-                                    <p>
-                                        ”Hundreds Of Successful Organizations
-                                        Companies of every size, and in 62
-                                        different countries, are using Betakit.”
-                                    </p>
-                                    <div className="author-info">
-                                        <h5>Miranda H. Halim</h5>
-                                        <span>Founder</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="col">
+                        <a href="#" className="brand-logo">
+                            <img src="img/brand/2.png" alt="Image" />
+                        </a>
                     </div>
-                    <div className="brand-logos section-gap-top row justify-content-between align-items-center">
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/1.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/2.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/3.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/4.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/5.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/1.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/2.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/3.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/4.png" alt="Image" />
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href="#" className="brand-logo">
-                                <img src="img/brand/5.png" alt="Image" />
-                            </a>
-                        </div>
+                    <div className="col">
+                        <a href="#" className="brand-logo">
+                            <img src="img/brand/3.png" alt="Image" />
+                        </a>
+                    </div>
+                    <div className="col">
+                        <a href="#" className="brand-logo">
+                            <img src="img/brand/4.png" alt="Image" />
+                        </a>
+                    </div>
+                    <div className="col">
+                        <a href="#" className="brand-logo">
+                            <img src="img/brand/5.png" alt="Image" />
+                        </a>
+                    </div>
+                    <div className="col">
+                        <a href="#" className="brand-logo">
+                            <img src="img/brand/1.png" alt="Image" />
+                        </a>
+                    </div>
+                    <div className="col">
+                        <a href="#" className="brand-logo">
+                            <img src="img/brand/2.png" alt="Image" />
+                        </a>
+                    </div>
+                    <div className="col">
+                        <a href="#" className="brand-logo">
+                            <img src="img/brand/3.png" alt="Image" />
+                        </a>
+                    </div>
+                    <div className="col">
+                        <a href="#" className="brand-logo">
+                            <img src="img/brand/4.png" alt="Image" />
+                        </a>
+                    </div>
+                    <div className="col">
+                        <a href="#" className="brand-logo">
+                            <img src="img/brand/5.png" alt="Image" />
+                        </a>
                     </div>
                 </div>
-            </section>
-            {/*====== Testimonials area End ======*/}
+            </div>
+            {/*====== Newsletter End ======*/}
             {/*====== Footer Start ======*/}
             <footer className="footer-one">
                 <div className="footer-top">
@@ -1197,7 +804,7 @@ export default function Home() {
                                                     10th May 2020
                                                 </span>
                                                 <h6>
-                                                    <a href="blog-single.html">
+                                                    <a href="#">
                                                         Chemical Engineering
                                                         Projects For All.
                                                     </a>
@@ -1218,7 +825,7 @@ export default function Home() {
                                                     10th May 2020
                                                 </span>
                                                 <h6>
-                                                    <a href="blog-single.html">
+                                                    <a href="#">
                                                         Chemical Engineering
                                                         Projects For All.
                                                     </a>
@@ -1239,7 +846,7 @@ export default function Home() {
                                                     10th May 2020
                                                 </span>
                                                 <h6>
-                                                    <a href="blog-single.html">
+                                                    <a href="#">
                                                         Chemical Engineering
                                                         Projects For All.
                                                     </a>
@@ -1300,6 +907,9 @@ export default function Home() {
                     </div>
                 </div>
             </footer>
+            {/*====== Footer End ======*/}
         </>
     );
-}
+};
+
+export default team;
