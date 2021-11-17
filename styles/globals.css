@@ -1,0 +1,14 @@
+@import "../public/css/animate.min.css";
+@import "../public/css/bootstrap.min.css";
+@import "../public/css/download.css";
+@import "../public/css/flaticon";
+@import "../public/css/font-awesome.min";
+@import "../public/css/magnific-popup";
+@import "../public/css/nice-select";
+@import "../public/css/slick";
+@import "../public/css/slick.css";
+@import "../public/css/style.css";
+
+.owl-carousel {
+    display: block !important;
+}
