@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Home4ctaSectionThree = () => {
@@ -11,16 +12,20 @@ const Home4ctaSectionThree = () => {
                     </div>
                     <ul className="cta-links">
                         <li>
-                            <a href="#" className="main-btn main-btn-4">
-                                Get Started
-                                <i className="fal fa-long-arrow-right" />
-                            </a>
+                            <Link href="#">
+                                <a className="main-btn main-btn-4">
+                                    Get Started
+                                    <i className="fal fa-long-arrow-right" />
+                                </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#" className="main-btn main-btn-5">
-                                Learn More
-                                <i className="fal fa-long-arrow-right" />
-                            </a>
+                            <Link href="#">
+                                <a className="main-btn main-btn-5">
+                                    Learn More
+                                    <i className="fal fa-long-arrow-right" />
+                                </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Index4FeaturesTextBlockTwo = () => {
@@ -43,9 +44,9 @@ const Index4FeaturesTextBlockTwo = () => {
                                     cillum dolore eu fugiat nulla pariatur..
                                 </li>
                             </ul>
-                            <a href="#" className="block-btn">
-                                Learn More
-                            </a>
+                            <Link href="#">
+                                <a className="block-btn">Learn More</a>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Index2OnePagePortfolioSection = () => {
@@ -20,11 +21,17 @@ const Index2OnePagePortfolioSection = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4>
-                                    <a href="#">Develop solution</a>
+                                    <Link href="#">
+                                        <a>Develop solution</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -36,11 +43,17 @@ const Index2OnePagePortfolioSection = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4>
-                                    <a href="#">Develop solution</a>
+                                    <Link href="#">
+                                        <a>Develop solution</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -52,11 +65,17 @@ const Index2OnePagePortfolioSection = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4>
-                                    <a href="#">Develop solution</a>
+                                    <Link href="#">
+                                        <a>Develop solution</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -68,11 +87,17 @@ const Index2OnePagePortfolioSection = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4>
-                                    <a href="#">Develop solution</a>
+                                    <Link href="#">
+                                        <a>Develop solution</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -84,11 +109,17 @@ const Index2OnePagePortfolioSection = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4>
-                                    <a href="#">Develop solution</a>
+                                    <Link href="#">
+                                        <a>Develop solution</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -100,11 +131,17 @@ const Index2OnePagePortfolioSection = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4>
-                                    <a href="#">Develop solution</a>
+                                    <Link href="#">
+                                        <a>Develop solution</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -116,11 +153,17 @@ const Index2OnePagePortfolioSection = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4>
-                                    <a href="#">Develop solution</a>
+                                    <Link href="#">
+                                        <a>Develop solution</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -132,11 +175,17 @@ const Index2OnePagePortfolioSection = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4>
-                                    <a href="#">Develop solution</a>
+                                    <Link href="#">
+                                        <a>Develop solution</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>

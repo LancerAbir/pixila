@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const IndexHeroArea = () => {
@@ -25,23 +26,21 @@ const IndexHeroArea = () => {
                                     className="wow fadeInUp"
                                     data-wow-delay="0.7s"
                                 >
-                                    <a
-                                        href="service-2.html"
-                                        className="main-btn"
-                                    >
-                                        Get Started Now
-                                    </a>
+                                    <Link href="/service-2">
+                                        <a className="main-btn">
+                                            Get Started Now
+                                        </a>
+                                    </Link>
                                 </li>
                                 <li
                                     className="wow fadeInUp"
                                     data-wow-delay="0.9s"
                                 >
-                                    <a
-                                        href="service-2.html"
-                                        className="main-btn main-btn-2"
-                                    >
-                                        Learn More
-                                    </a>
+                                    <Link href="/service-2">
+                                        <a className="main-btn main-btn-2">
+                                            Learn More
+                                        </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>

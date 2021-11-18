@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ServicePricingSection = () => {
@@ -54,9 +55,11 @@ const ServicePricingSection = () => {
                                         <i className="fal fa-check" />
                                     </li>
                                 </ul>
-                                <a href="#" className="main-btn main-btn-3">
-                                    Purchase Now
-                                </a>
+                                <Link href="#">
+                                    <a className="main-btn main-btn-3">
+                                        Purchase Now
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -105,9 +108,11 @@ const ServicePricingSection = () => {
                                         <i className="fal fa-check" />
                                     </li>
                                 </ul>
-                                <a href="#" className="main-btn main-btn-3">
-                                    Purchase Now
-                                </a>
+                                <Link href="#">
+                                    <a className="main-btn main-btn-3">
+                                        Purchase Now
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -156,9 +161,11 @@ const ServicePricingSection = () => {
                                         <i className="fal fa-check" />
                                     </li>
                                 </ul>
-                                <a href="#" className="main-btn main-btn-3">
-                                    Purchase Now
-                                </a>
+                                <Link href="#">
+                                    <a className="main-btn main-btn-3">
+                                        Purchase Now
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

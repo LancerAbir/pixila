@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const IndexOnePageServiceArea = () => {
@@ -35,9 +36,11 @@ const IndexOnePageServiceArea = () => {
                                             services that help market or
                                             advertise your business online.
                                         </p>
-                                        <a href="#" className="service-link">
-                                            Learn More
-                                        </a>
+                                        <Link href="#">
+                                            <a className="service-link">
+                                                Learn More
+                                            </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -62,9 +65,11 @@ const IndexOnePageServiceArea = () => {
                                             services that help market or
                                             advertise your business online.
                                         </p>
-                                        <a href="#" className="service-link">
-                                            Learn More
-                                        </a>
+                                        <Link href="#">
+                                            <a className="service-link">
+                                                Learn More
+                                            </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -91,9 +96,11 @@ const IndexOnePageServiceArea = () => {
                                             services that help market or
                                             advertise your business online.
                                         </p>
-                                        <a href="#" className="service-link">
-                                            Learn More
-                                        </a>
+                                        <Link href="#">
+                                            <a className="service-link">
+                                                Learn More
+                                            </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -118,9 +125,11 @@ const IndexOnePageServiceArea = () => {
                                             services that help market or
                                             advertise your business online.
                                         </p>
-                                        <a href="#" className="service-link">
-                                            Learn More
-                                        </a>
+                                        <Link href="#">
+                                            <a className="service-link">
+                                                Learn More
+                                            </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

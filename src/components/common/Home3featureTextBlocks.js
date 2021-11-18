@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Home3featureTextBlocks = () => {
@@ -38,9 +39,9 @@ const Home3featureTextBlocks = () => {
                                     muscular strength, muscular endurance, body
                                     composition, and flexibility.
                                 </p>
-                                <a href className="block-btn">
-                                    Learn More
-                                </a>
+                                <Link href="#">
+                                    <a className="block-btn">Learn More</a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -81,9 +82,9 @@ const Home3featureTextBlocks = () => {
                                     muscular strength, muscular endurance, body
                                     composition, and flexibility.
                                 </p>
-                                <a href className="block-btn">
-                                    Learn More
-                                </a>
+                                <Link href="#">
+                                    <a className="block-btn">Learn More</a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -124,9 +125,9 @@ const Home3featureTextBlocks = () => {
                                     muscular strength, muscular endurance, body
                                     composition, and flexibility.
                                 </p>
-                                <a href className="block-btn">
-                                    Learn More
-                                </a>
+                                <Link href="#">
+                                    <a className="block-btn">Learn More</a>
+                                </Link>
                             </div>
                         </div>
                     </div>

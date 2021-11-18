@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Header1 = () => {
@@ -15,7 +16,9 @@ const Header1 = () => {
                             <nav className="site-nav-menu">
                                 <ul className="primary-menu">
                                     <li className="current">
-                                        <a href="index.html">Home</a>
+                                        <Link href="/">
+                                            <a>Home</a>
+                                        </Link>
                                         <ul className="submenu">
                                             <li>
                                                 <a href="index.html">

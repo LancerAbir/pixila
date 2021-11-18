@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Index2OnePageHeroArea = () => {
@@ -22,19 +23,23 @@ const Index2OnePageHeroArea = () => {
                                     className="facebook wow fadeInUp"
                                     data-wow-delay="0.7s"
                                 >
-                                    <a href="#">
-                                        <i className="fab fa-facebook-f" />
-                                        <span>10000 Like</span>
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-facebook-f" />
+                                            <span>10000 Like</span>
+                                        </a>
+                                    </Link>
                                 </li>
                                 <li
                                     className="dribbble wow fadeInUp"
                                     data-wow-delay="0.9s"
                                 >
-                                    <a href="#">
-                                        <i className="fab fa-dribbble" />
-                                        <span>500K Followers</span>
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-dribbble" />
+                                            <span>500K Followers</span>
+                                        </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -45,12 +50,14 @@ const Index2OnePageHeroArea = () => {
                             data-wow-delay="0.3s"
                         >
                             <div className="hero-video-wrap">
-                                <a
-                                    href="https://www.youtube.com/watch?v=pVE92TNDwUk"
-                                    className="video-btn popup-video"
-                                >
-                                    Play
-                                </a>
+                                <Link href="#">
+                                    <a
+                                        href="https://www.youtube.com/watch?v=pVE92TNDwUk"
+                                        className="video-btn popup-video"
+                                    >
+                                        Play
+                                    </a>
+                                </Link>
                                 <img
                                     src="img/hero-img/hero-02.jpg"
                                     alt="HeroImage"

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Index3FeaturesSection = () => {
@@ -18,10 +19,12 @@ const Index3FeaturesSection = () => {
                                     online base work.
                                 </p>
                             </div>
-                            <a href="#" className="feature-link">
-                                Check Details
-                                <i className="fal fa-long-arrow-right" />
-                            </a>
+                            <Link href="#">
+                                <a className="feature-link">
+                                    Check Details
+                                    <i className="fal fa-long-arrow-right" />
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
@@ -37,10 +40,12 @@ const Index3FeaturesSection = () => {
                                     online base work.
                                 </p>
                             </div>
-                            <a href="#" className="feature-link">
-                                Check Details
-                                <i className="fal fa-long-arrow-right" />
-                            </a>
+                            <Link href="#">
+                                <a className="feature-link">
+                                    Check Details
+                                    <i className="fal fa-long-arrow-right" />
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
@@ -56,10 +61,12 @@ const Index3FeaturesSection = () => {
                                     online base work.
                                 </p>
                             </div>
-                            <a href="#" className="feature-link">
-                                Check Details
-                                <i className="fal fa-long-arrow-right" />
-                            </a>
+                            <Link href="#">
+                                <a className="feature-link">
+                                    Check Details
+                                    <i className="fal fa-long-arrow-right" />
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

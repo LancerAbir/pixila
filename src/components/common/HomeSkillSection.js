@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const HomeSkillSection = () => {
@@ -10,7 +11,7 @@ const HomeSkillSection = () => {
                             <div className="section-title mb-30">
                                 <span className="title-tag">Our Skillset</span>
                                 <h2 className="title">
-                                    Effective business delivery solutions at all{" "}
+                                    Effective business delivery solutions at all
                                     <span>glance</span>
                                 </h2>
                             </div>
@@ -43,12 +44,14 @@ const HomeSkillSection = () => {
                 <div className="row">
                     <div className="col-sm-7">
                         <div className="skillset-video active mb-xs-gap-30">
-                            <a
-                                href="https://www.youtube.com/watch?v=pVE92TNDwUk"
-                                className="popup-btn popup-video"
-                            >
-                                <i className="fas fa-play" />
-                            </a>
+                            <Link href="#">
+                                <a
+                                    href="https://www.youtube.com/watch?v=pVE92TNDwUk"
+                                    className="popup-btn popup-video"
+                                >
+                                    <i className="fas fa-play" />
+                                </a>
+                            </Link>
                             <div
                                 className="video-bg"
                                 style={{
@@ -59,12 +62,14 @@ const HomeSkillSection = () => {
                     </div>
                     <div className="col-sm-5">
                         <div className="skillset-video">
-                            <a
-                                href="https://www.youtube.com/watch?v=pVE92TNDwUk"
-                                className="popup-btn popup-video"
-                            >
-                                <i className="fas fa-play" />
-                            </a>
+                            <Link href="#">
+                                <a
+                                    href="https://www.youtube.com/watch?v=pVE92TNDwUk"
+                                    className="popup-btn popup-video"
+                                >
+                                    <i className="fas fa-play" />
+                                </a>
+                            </Link>
                             <div
                                 className="video-bg"
                                 style={{

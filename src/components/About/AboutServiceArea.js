@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const AboutServiceArea = () => {
@@ -13,51 +14,63 @@ const AboutServiceArea = () => {
                         <div className="service-box-two mt-30">
                             <span className="box-count">01</span>
                             <h4 className="title">
-                                <a href="#">Digital Product Developoment</a>
+                                <Link href="#">
+                                    <a>Digital Product Developoment</a>
+                                </Link>
                             </h4>
                             <p>
                                 We enjoy working with discerning clients, people
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <a href="#" className="service-link">
-                                <i className="fal fa-plus" />
-                                <span>Read More</span>
-                            </a>
+                            <Link href="#">
+                                <a className="service-link">
+                                    <i className="fal fa-plus" />
+                                    <span>Read More</span>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-10">
                         <div className="service-box-two mt-30">
                             <span className="box-count">02</span>
                             <h4 className="title">
-                                <a href="#">General Consulting Process</a>
+                                <Link href="#">
+                                    <a>General Consulting Process</a>
+                                </Link>
                             </h4>
                             <p>
                                 We enjoy working with discerning clients, people
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <a href="#" className="service-link">
-                                <i className="fal fa-plus" />
-                                <span>Read More</span>
-                            </a>
+                            <Link href="#">
+                                <a className="service-link">
+                                    <i className="fal fa-plus" />
+                                    <span>Read More</span>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-10">
                         <div className="service-box-two mt-30">
                             <span className="box-count">03</span>
                             <h4 className="title">
-                                <a href="#">Hire in Fixed Contracting</a>
+                                <Link href="#">
+                                    <a>Hire in Fixed Contracting</a>
+                                </Link>
                             </h4>
                             <p>
                                 We enjoy working with discerning clients, people
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <a href="#" className="service-link">
-                                <i className="fal fa-plus" />
-                                <span>Read More</span>
-                            </a>
+                            <Link href="#">
+                                <a className="service-link">
+                                    <i className="fal fa-plus" />
+                                    <span>Read More</span>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

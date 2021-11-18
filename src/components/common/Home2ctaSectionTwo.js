@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Home2ctaSectionTwo = () => {
@@ -7,33 +8,45 @@ const Home2ctaSectionTwo = () => {
                 <div className="cta-text">
                     <h4 className="cta-title">
                         Do you need similar project? Call Us
-                        <a href="#">+ 422 081 748 212</a>
+                        <Link href="#">
+                            <a>+ 422 081 748 212</a>
+                        </Link>
                     </h4>
                     <ul className="cta-social-icon">
                         <li>
-                            <a href="#">
-                                <i className="fab fa-facebook-f" />
-                            </a>
+                            <Link href="#">
+                                <a>
+                                    <i className="fab fa-facebook-f" />
+                                </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#">
-                                <i className="fab fa-twitter" />
-                            </a>
+                            <Link href="#">
+                                <a>
+                                    <i className="fab fa-twitter" />
+                                </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#">
-                                <i className="fab fa-behance" />
-                            </a>
+                            <Link href="#">
+                                <a>
+                                    <i className="fab fa-behance" />
+                                </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#">
-                                <i className="fab fa-youtube" />
-                            </a>
+                            <Link href="#">
+                                <a>
+                                    <i className="fab fa-youtube" />
+                                </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#">
-                                <i className="fab fa-linkedin" />
-                            </a>
+                            <Link href="#">
+                                <a>
+                                    <i className="fab fa-linkedin" />
+                                </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>

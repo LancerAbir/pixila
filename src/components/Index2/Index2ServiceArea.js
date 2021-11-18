@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Index2ServiceArea = () => {
@@ -16,17 +17,21 @@ const Index2ServiceArea = () => {
                         <div className="service-box-two primary-color-2 mt-30">
                             <span className="box-count">01</span>
                             <h4 className="title">
-                                <a href="#">Digital Product Developoment</a>
+                                <Link href="#">
+                                    <a>Digital Product Developoment</a>
+                                </Link>
                             </h4>
                             <p>
                                 We enjoy working with discerning clients, people
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <a href="service-2.html" className="service-link">
-                                <i className="fal fa-plus" />
-                                <span>Read More</span>
-                            </a>
+                            <Link href="/service-2">
+                                <a className="service-link">
+                                    <i className="fal fa-plus" />
+                                    <span>Read More</span>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     <div
@@ -36,19 +41,21 @@ const Index2ServiceArea = () => {
                         <div className="service-box-two primary-color-2 mt-30">
                             <span className="box-count">02</span>
                             <h4 className="title">
-                                <a href="service-2.html">
-                                    General Consulting Process
-                                </a>
+                                <Link href="/service-2">
+                                    <a>General Consulting Process</a>
+                                </Link>
                             </h4>
                             <p>
                                 We enjoy working with discerning clients, people
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <a href="#" className="service-link">
-                                <i className="fal fa-plus" />
-                                <span>Read More</span>
-                            </a>
+                            <Link href="#">
+                                <a className="service-link">
+                                    <i className="fal fa-plus" />
+                                    <span>Read More</span>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     <div
@@ -58,19 +65,21 @@ const Index2ServiceArea = () => {
                         <div className="service-box-two primary-color-2 mt-30">
                             <span className="box-count">03</span>
                             <h4 className="title">
-                                <a href="service-2.html">
-                                    Hire in Fixed Contracting
-                                </a>
+                                <Link href="/service-2">
+                                    <a>Hire in Fixed Contracting</a>
+                                </Link>
                             </h4>
                             <p>
                                 We enjoy working with discerning clients, people
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <a href="#" className="service-link">
-                                <i className="fal fa-plus" />
-                                <span>Read More</span>
-                            </a>
+                            <Link href="#">
+                                <a className="service-link">
+                                    <i className="fal fa-plus" />
+                                    <span>Read More</span>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

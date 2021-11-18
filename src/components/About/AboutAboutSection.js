@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const AboutAboutSection = () => {
@@ -50,9 +51,9 @@ const AboutAboutSection = () => {
                                 help market or advertise your business online.
                                 Best Way to Manage and Share Work Resources.
                             </p>
-                            <a href="#" className="main-btn mt-30">
-                                Learn More
-                            </a>
+                            <Link href="#">
+                                <a className="main-btn mt-30">Learn More</a>
+                            </Link>
                             <div className="about-author">
                                 <div className="author-img">
                                     <img

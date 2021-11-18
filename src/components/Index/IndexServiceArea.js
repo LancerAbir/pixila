@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const IndexServiceArea = () => {
@@ -35,12 +36,11 @@ const IndexServiceArea = () => {
                                             services that help market or
                                             advertise your business online.
                                         </p>
-                                        <a
-                                            href="service-2.html"
-                                            className="service-link"
-                                        >
-                                            Learn More
-                                        </a>
+                                        <Link href="/service-2">
+                                            <a className="service-link">
+                                                Learn More
+                                            </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -97,12 +97,11 @@ const IndexServiceArea = () => {
                                             services that help market or
                                             advertise your business online.
                                         </p>
-                                        <a
-                                            href="service-2.html"
-                                            className="service-link"
-                                        >
-                                            Learn More
-                                        </a>
+                                        <Link href="/service-2">
+                                            <a className="service-link">
+                                                Learn More
+                                            </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -127,12 +126,11 @@ const IndexServiceArea = () => {
                                             services that help market or
                                             advertise your business online.
                                         </p>
-                                        <a
-                                            href="service-2.html"
-                                            className="service-link"
-                                        >
-                                            Learn More
-                                        </a>
+                                        <Link href="/service-2">
+                                            <a className="service-link">
+                                                Learn More
+                                            </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -144,9 +142,11 @@ const IndexServiceArea = () => {
                         Need Help With Your IT Endeavors? Contact Us to Get a
                         Pro Service!
                     </p>
-                    <a href="#">
-                        <i className="fal fa-ticket" /> Generate A Ticket
-                    </a>
+                    <Link href="#">
+                        <a>
+                            <i className="fal fa-ticket" /> Generate A Ticket
+                        </a>
+                    </Link>
                 </div>
             </div>
         </section>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ContactBreadcrumbSection = () => {
@@ -20,7 +21,9 @@ const ContactBreadcrumbSection = () => {
                         <div className="breadcrumb-nav">
                             <ul>
                                 <li>
-                                    <a href="index.html">Home</a>
+                                    <Link href="/">
+                                        <a>Home</a>
+                                    </Link>
                                 </li>
                                 <li className="separator">|</li>
                                 <li>Contact</li>

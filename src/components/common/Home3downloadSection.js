@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Home3downloadSection = () => {
@@ -13,20 +14,24 @@ const Home3downloadSection = () => {
                         </h2>
                         <ul className="download-btns">
                             <li>
-                                <a href="#">
-                                    <img
-                                        src="img/app-store.png"
-                                        alt="AppStore"
-                                    />
-                                </a>
+                                <Link href="#">
+                                    <a>
+                                        <img
+                                            src="img/app-store.png"
+                                            alt="AppStore"
+                                        />
+                                    </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">
-                                    <img
-                                        src="img/play-store.png"
-                                        alt="PlayStore"
-                                    />
-                                </a>
+                                <Link href="#">
+                                    <a>
+                                        <img
+                                            src="img/play-store.png"
+                                            alt="PlayStore"
+                                        />
+                                    </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>

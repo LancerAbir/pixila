@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const IndexOnePageAboutSection = () => {
@@ -15,7 +16,7 @@ const IndexOnePageAboutSection = () => {
                             <div className="section-title mb-30">
                                 <span className="title-tag">About Us</span>
                                 <h2 className="title">
-                                    Get an amazing experience with quality level{" "}
+                                    Get an amazing experience with quality level
                                     <span>team</span>
                                 </h2>
                             </div>
@@ -24,9 +25,9 @@ const IndexOnePageAboutSection = () => {
                                 help market or advertise your business online.
                                 Best Way to Manage and Share Work Resources.
                             </p>
-                            <a href="#" className="main-btn mt-30">
-                                Learn More
-                            </a>
+                            <Link href="#">
+                                <a className="main-btn mt-30">Learn More</a>
+                            </Link>
                             <div className="about-author">
                                 <div className="author-img">
                                     <img

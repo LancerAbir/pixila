@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Index4OnePageNewsSection = () => {
@@ -21,21 +22,29 @@ const Index4OnePageNewsSection = () => {
                             <div className="content">
                                 <ul className="post-meta">
                                     <li>
-                                        <a href="#">
-                                            <i className="fal fa-calendar-alt" />
-                                            10th May 2020
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <i className="fal fa-calendar-alt" />
+                                                10th May 2020
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li className="cates">
-                                        <a href="#">Sass</a>
-                                        <a href="#">Applications</a>
+                                        <Link href="#">
+                                            <a>Sass</a>
+                                        </Link>
+                                        <Link href="#">
+                                            <a>Applications</a>
+                                        </Link>
                                     </li>
                                 </ul>
                                 <h4>
-                                    <a href="blog-single.html">
-                                        Chemical engineering project for all
-                                        technologies
-                                    </a>
+                                    <Link href="/blog-single">
+                                        <a>
+                                            Chemical engineering project for all
+                                            technologies
+                                        </a>
+                                    </Link>
                                 </h4>
                                 <div className="post-author">
                                     <img
@@ -59,21 +68,29 @@ const Index4OnePageNewsSection = () => {
                             <div className="content">
                                 <ul className="post-meta">
                                     <li>
-                                        <a href="#">
-                                            <i className="fal fa-calendar-alt" />
-                                            10th May 2020
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <i className="fal fa-calendar-alt" />
+                                                10th May 2020
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li className="cates">
-                                        <a href="#">Sass</a>
-                                        <a href="#">Applications</a>
+                                        <Link href="#">
+                                            <a>Sass</a>
+                                        </Link>
+                                        <Link href="#">
+                                            <a>Applications</a>
+                                        </Link>
                                     </li>
                                 </ul>
                                 <h4>
-                                    <a href="blog-single.html">
-                                        Chemical engineering project for all
-                                        technologies
-                                    </a>
+                                    <Link href="/blog-single">
+                                        <a>
+                                            Chemical engineering project for all
+                                            technologies
+                                        </a>
+                                    </Link>
                                 </h4>
                                 <div className="post-author">
                                     <img
@@ -97,21 +114,29 @@ const Index4OnePageNewsSection = () => {
                             <div className="content">
                                 <ul className="post-meta">
                                     <li>
-                                        <a href="#">
-                                            <i className="fal fa-calendar-alt" />
-                                            10th May 2020
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <i className="fal fa-calendar-alt" />
+                                                10th May 2020
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li className="cates">
-                                        <a href="#">Sass</a>
-                                        <a href="#">Applications</a>
+                                        <Link href="#">
+                                            <a>Sass</a>
+                                        </Link>
+                                        <Link href="#">
+                                            <a>Applications</a>
+                                        </Link>
                                     </li>
                                 </ul>
                                 <h4>
-                                    <a href="blog-single.html">
-                                        Chemical engineering project for all
-                                        technologies
-                                    </a>
+                                    <Link href="/blog-single">
+                                        <a>
+                                            Chemical engineering project for all
+                                            technologies
+                                        </a>
+                                    </Link>
                                 </h4>
                                 <div className="post-author">
                                     <img

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Index4HeroArea = () => {
@@ -7,13 +8,15 @@ const Index4HeroArea = () => {
                 <div className="row justify-content-center">
                     <div className="col-xl-8 col-lg-10 col-md-11">
                         <div className="hero-text">
-                            <a
-                                className="popup-video wow fadeInDown"
-                                href="https://www.youtube.com/watch?v=ScMzIvxBSi4"
-                                data-wow-delay="0.3s"
-                            >
-                                <i className="fas fa-play" />
-                            </a>
+                            <Link href="#">
+                                <a
+                                    className="popup-video wow fadeInDown"
+                                    href="https://www.youtube.com/watch?v=ScMzIvxBSi4"
+                                    data-wow-delay="0.3s"
+                                >
+                                    <i className="fas fa-play" />
+                                </a>
+                            </Link>
                             <h2
                                 className="title wow fadeInLeft"
                                 data-wow-delay="0.5s"

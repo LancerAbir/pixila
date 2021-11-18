@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Index4OnePageFeaturesSection = () => {
@@ -28,10 +29,12 @@ const Index4OnePageFeaturesSection = () => {
                                     <li>Keyword Building</li>
                                 </ul>
                             </div>
-                            <a href="#" className="feature-link">
-                                Learn More
-                                <i className="fal fa-long-arrow-right" />
-                            </a>
+                            <Link href="#">
+                                <a className="feature-link">
+                                    Learn More
+                                    <i className="fal fa-long-arrow-right" />
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
@@ -53,10 +56,12 @@ const Index4OnePageFeaturesSection = () => {
                                     <li>Keyword Building</li>
                                 </ul>
                             </div>
-                            <a href="#" className="feature-link">
-                                Learn More
-                                <i className="fal fa-long-arrow-right" />
-                            </a>
+                            <Link href="#">
+                                <a className="feature-link">
+                                    Learn More
+                                    <i className="fal fa-long-arrow-right" />
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
@@ -78,10 +83,12 @@ const Index4OnePageFeaturesSection = () => {
                                     <li>Keyword Building</li>
                                 </ul>
                             </div>
-                            <a href="#" className="feature-link">
-                                Learn More
-                                <i className="fal fa-long-arrow-right" />
-                            </a>
+                            <Link href="#">
+                                <a className="feature-link">
+                                    Learn More
+                                    <i className="fal fa-long-arrow-right" />
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const BlogSingleBlogArea = () => {
@@ -8,31 +9,37 @@ const BlogSingleBlogArea = () => {
                     <div className="col-xl-8">
                         <div className="single-post-box post-details">
                             <div className="post-content">
-                                <a href="#" className="post-cat">
-                                    Business
-                                </a>
+                                <Link href="#">
+                                    <a className="post-cat">Business</a>
+                                </Link>
                                 <h3 className="post-title">
                                     Business contents insurance is a type
                                     business insurance that can protect
                                 </h3>
                                 <ul className="post-meta">
                                     <li>
-                                        <a href="#">
-                                            <i className="fal fa-eye" />
-                                            100 Views
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <i className="fal fa-eye" />
+                                                100 Views
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <i className="fal fa-comments" />
-                                            30 Comments
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <i className="fal fa-comments" />
+                                                30 Comments
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <i className="fal fa-calendar-alt" />
-                                            24th March 2020
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <i className="fal fa-calendar-alt" />
+                                                24th March 2020
+                                            </a>
+                                        </Link>
                                     </li>
                                 </ul>
                                 <p className="mb-20">
@@ -266,13 +273,19 @@ const BlogSingleBlogArea = () => {
                                         <h5>Releted Tags</h5>
                                         <ul>
                                             <li>
-                                                <a href="#">Popular</a>
+                                                <Link href="#">
+                                                    <a>Popular</a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">Desgin</a>
+                                                <Link href="#">
+                                                    <a>Desgin</a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">UX</a>
+                                                <Link href="#">
+                                                    <a>UX</a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -280,29 +293,39 @@ const BlogSingleBlogArea = () => {
                                         <h5>Social Share</h5>
                                         <ul>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fab fa-facebook-f" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fab fa-facebook-f" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fab fa-twitter" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fab fa-twitter" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fab fa-vk" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fab fa-vk" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fab fa-whatsapp" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fab fa-whatsapp" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fab fa-blogger-b" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fab fa-blogger-b" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -312,13 +335,17 @@ const BlogSingleBlogArea = () => {
                                     <div className="prev-post">
                                         <span>Prev Post</span>
                                         <h3>
-                                            <a href="#">Tips On Minimalist</a>
+                                            <Link href="#">
+                                                <a>Tips On Minimalist</a>
+                                            </Link>
                                         </h3>
                                     </div>
                                     <div className="next-post">
                                         <span>Next Post</span>
                                         <h3>
-                                            <a href="#">Less Is More</a>
+                                            <Link href="#">
+                                                <a>Less Is More</a>
+                                            </Link>
                                         </h3>
                                     </div>
                                 </div>
@@ -343,11 +370,13 @@ const BlogSingleBlogArea = () => {
                                                         24th March 2020
                                                     </span>
                                                     <h4>
-                                                        <a href="#">
-                                                            A series of iOS 7
-                                                            inspire vector icons
-                                                            sense.
-                                                        </a>
+                                                        <Link href="#">
+                                                            <a>
+                                                                A series of iOS
+                                                                7 inspire vector
+                                                                icons sense.
+                                                            </a>
+                                                        </Link>
                                                     </h4>
                                                     <p>
                                                         Lorem ipsum dolor sit
@@ -373,11 +402,13 @@ const BlogSingleBlogArea = () => {
                                                         24th March 2020
                                                     </span>
                                                     <h4>
-                                                        <a href="#">
-                                                            A series of iOS 7
-                                                            inspire vector icons
-                                                            sense.
-                                                        </a>
+                                                        <Link href="#">
+                                                            <a>
+                                                                A series of iOS
+                                                                7 inspire vector
+                                                                icons sense.
+                                                            </a>
+                                                        </Link>
                                                     </h4>
                                                     <p>
                                                         Lorem ipsum dolor sit
@@ -441,10 +472,12 @@ const BlogSingleBlogArea = () => {
                                                 ullamco laboris nisi ut aliquip
                                                 ex ea commodo consequat.
                                             </p>
-                                            <a href="#" className="reply-link">
-                                                <i className="fal fa-reply" />
-                                                Reply
-                                            </a>
+                                            <Link href="#">
+                                                <a className="reply-link">
+                                                    <i className="fal fa-reply" />
+                                                    Reply
+                                                </a>
+                                            </Link>
                                         </div>
                                         <ul className="children">
                                             <li>
@@ -471,13 +504,12 @@ const BlogSingleBlogArea = () => {
                                                         quis nostrud
                                                         exercitation
                                                     </p>
-                                                    <a
-                                                        href="#"
-                                                        className="reply-link"
-                                                    >
-                                                        <i className="fal fa-reply" />
-                                                        Reply
-                                                    </a>
+                                                    <Link href="#">
+                                                        <a className="reply-link">
+                                                            <i className="fal fa-reply" />
+                                                            Reply
+                                                        </a>
+                                                    </Link>
                                                 </div>
                                             </li>
                                         </ul>
@@ -505,10 +537,12 @@ const BlogSingleBlogArea = () => {
                                                 ullamco laboris nisi ut aliquip
                                                 ex ea commodo consequat.
                                             </p>
-                                            <a href="#" className="reply-link">
-                                                <i className="fal fa-reply" />
-                                                Reply
-                                            </a>
+                                            <Link href="#">
+                                                <a className="reply-link">
+                                                    <i className="fal fa-reply" />
+                                                    Reply
+                                                </a>
+                                            </Link>
                                         </div>
                                     </li>
                                 </ul>
@@ -582,29 +616,39 @@ const BlogSingleBlogArea = () => {
                                     </p>
                                     <ul className="social-icon">
                                         <li>
-                                            <a href="#">
-                                                <i className="fab fa-facebook-f" />
-                                            </a>
+                                            <Link href="#">
+                                                <a>
+                                                    <i className="fab fa-facebook-f" />
+                                                </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="#">
-                                                <i className="fab fa-twitter" />
-                                            </a>
+                                            <Link href="#">
+                                                <a>
+                                                    <i className="fab fa-twitter" />
+                                                </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="#">
-                                                <i className="fab fa-behance" />
-                                            </a>
+                                            <Link href="#">
+                                                <a>
+                                                    <i className="fab fa-behance" />
+                                                </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="#">
-                                                <i className="fab fa-linkedin" />
-                                            </a>
+                                            <Link href="#">
+                                                <a>
+                                                    <i className="fab fa-linkedin" />
+                                                </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="#">
-                                                <i className="fab fa-youtube" />
-                                            </a>
+                                            <Link href="#">
+                                                <a>
+                                                    <i className="fab fa-youtube" />
+                                                </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -634,10 +678,13 @@ const BlogSingleBlogArea = () => {
                                         />
                                         <div className="content">
                                             <h6>
-                                                <a href="#">
-                                                    Lorem ipsum dolor sit cing
-                                                    elit, sed do something.
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        Lorem ipsum dolor sit
+                                                        cing elit, sed do
+                                                        something.
+                                                    </a>
+                                                </Link>
                                             </h6>
                                             <span className="date">
                                                 <i className="fal fa-calendar-alt" />
@@ -655,10 +702,13 @@ const BlogSingleBlogArea = () => {
                                         />
                                         <div className="content">
                                             <h6>
-                                                <a href="#">
-                                                    Lorem ipsum dolor sit cing
-                                                    elit, sed do something.
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        Lorem ipsum dolor sit
+                                                        cing elit, sed do
+                                                        something.
+                                                    </a>
+                                                </Link>
                                             </h6>
                                             <span className="date">
                                                 <i className="fal fa-calendar-alt" />
@@ -676,10 +726,13 @@ const BlogSingleBlogArea = () => {
                                         />
                                         <div className="content">
                                             <h6>
-                                                <a href="#">
-                                                    Lorem ipsum dolor sit cing
-                                                    elit, sed do something.
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        Lorem ipsum dolor sit
+                                                        cing elit, sed do
+                                                        something.
+                                                    </a>
+                                                </Link>
                                             </h6>
                                             <span className="date">
                                                 <i className="fal fa-calendar-alt" />
@@ -697,10 +750,13 @@ const BlogSingleBlogArea = () => {
                                         />
                                         <div className="content">
                                             <h6>
-                                                <a href="#">
-                                                    Lorem ipsum dolor sit cing
-                                                    elit, sed do something.
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        Lorem ipsum dolor sit
+                                                        cing elit, sed do
+                                                        something.
+                                                    </a>
+                                                </Link>
                                             </h6>
                                             <span className="date">
                                                 <i className="fal fa-calendar-alt" />
@@ -714,29 +770,39 @@ const BlogSingleBlogArea = () => {
                                 <h5 className="widget-title">Categories</h5>
                                 <ul>
                                     <li>
-                                        <a href="#">
-                                            Business <span>26</span>
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                Business <span>26</span>
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            Consultant <span>30</span>
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                Consultant <span>30</span>
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            Creative <span>71</span>
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                Creative <span>71</span>
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            UI/UX <span>56</span>
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                UI/UX <span>56</span>
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            Technology <span>60</span>
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                Technology <span>60</span>
+                                            </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -746,100 +812,124 @@ const BlogSingleBlogArea = () => {
                                 </h5>
                                 <ul>
                                     <li>
-                                        <a href="#">
-                                            <img
-                                                src="img/blog/instagram/01.jpg"
-                                                alt="img"
-                                            />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <img
+                                                    src="img/blog/instagram/01.jpg"
+                                                    alt="img"
+                                                />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <img
-                                                src="img/blog/instagram/02.jpg"
-                                                alt="img"
-                                            />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <img
+                                                    src="img/blog/instagram/02.jpg"
+                                                    alt="img"
+                                                />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <img
-                                                src="img/blog/instagram/03.jpg"
-                                                alt="img"
-                                            />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <img
+                                                    src="img/blog/instagram/03.jpg"
+                                                    alt="img"
+                                                />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <img
-                                                src="img/blog/instagram/04.jpg"
-                                                alt="img"
-                                            />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <img
+                                                    src="img/blog/instagram/04.jpg"
+                                                    alt="img"
+                                                />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <img
-                                                src="img/blog/instagram/05.jpg"
-                                                alt="img"
-                                            />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <img
+                                                    src="img/blog/instagram/05.jpg"
+                                                    alt="img"
+                                                />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <img
-                                                src="img/blog/instagram/06.jpg"
-                                                alt="img"
-                                            />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <img
+                                                    src="img/blog/instagram/06.jpg"
+                                                    alt="img"
+                                                />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <img
-                                                src="img/blog/instagram/07.jpg"
-                                                alt="img"
-                                            />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <img
+                                                    src="img/blog/instagram/07.jpg"
+                                                    alt="img"
+                                                />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <img
-                                                src="img/blog/instagram/08.jpg"
-                                                alt="img"
-                                            />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <img
+                                                    src="img/blog/instagram/08.jpg"
+                                                    alt="img"
+                                                />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <img
-                                                src="img/blog/instagram/09.jpg"
-                                                alt="img"
-                                            />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <img
+                                                    src="img/blog/instagram/09.jpg"
+                                                    alt="img"
+                                                />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <img
-                                                src="img/blog/instagram/10.jpg"
-                                                alt="img"
-                                            />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <img
+                                                    src="img/blog/instagram/10.jpg"
+                                                    alt="img"
+                                                />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <img
-                                                src="img/blog/instagram/11.jpg"
-                                                alt="img"
-                                            />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <img
+                                                    src="img/blog/instagram/11.jpg"
+                                                    alt="img"
+                                                />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <img
-                                                src="img/blog/instagram/12.jpg"
-                                                alt="img"
-                                            />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <img
+                                                    src="img/blog/instagram/12.jpg"
+                                                    alt="img"
+                                                />
+                                            </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -847,52 +937,84 @@ const BlogSingleBlogArea = () => {
                                 <h5 className="widget-title">Popular Tags</h5>
                                 <ul>
                                     <li>
-                                        <a href="#">Popular</a>
+                                        <Link href="#">
+                                            <a>Popular</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Design</a>
+                                        <Link href="#">
+                                            <a>Design</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">UI</a>
+                                        <Link href="#">
+                                            <a>UI</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">UX</a>
+                                        <Link href="#">
+                                            <a>UX</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Usability</a>
+                                        <Link href="#">
+                                            <a>Usability</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Develop</a>
+                                        <Link href="#">
+                                            <a>Develop</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Icon</a>
+                                        <Link href="#">
+                                            <a>Icon</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Icon</a>
+                                        <Link href="#">
+                                            <a>Icon</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Business</a>
+                                        <Link href="#">
+                                            <a>Business</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Consult</a>
+                                        <Link href="#">
+                                            <a>Consult</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Kit</a>
+                                        <Link href="#">
+                                            <a>Kit</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Kit</a>
+                                        <Link href="#">
+                                            <a>Kit</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Keyboard</a>
+                                        <Link href="#">
+                                            <a>Keyboard</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Mouse</a>
+                                        <Link href="#">
+                                            <a>Mouse</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Tech</a>
+                                        <Link href="#">
+                                            <a>Tech</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Tech</a>
+                                        <Link href="#">
+                                            <a>Tech</a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
