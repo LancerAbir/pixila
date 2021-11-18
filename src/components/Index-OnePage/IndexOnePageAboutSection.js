@@ -1,0 +1,53 @@
+import React from "react";
+
+const IndexOnePageAboutSection = () => {
+    return (
+        <div className="about-section section-gap" id="about">
+            <div className="container">
+                <div className="row align-items-center justify-content-center">
+                    <div className="col-lg-6 col-md-8 wow fadeInLeft">
+                        <div className="about-illustration mb-md-gap-50">
+                            <img src="img/illustration/01.png" alt />
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-10 wow fadeInRight">
+                        <div className="about-text">
+                            <div className="section-title mb-30">
+                                <span className="title-tag">About Us</span>
+                                <h2 className="title">
+                                    Get an amazing experience with quality level{" "}
+                                    <span>team</span>
+                                </h2>
+                            </div>
+                            <p>
+                                Productservices are professional services that
+                                help market or advertise your business online.
+                                Best Way to Manage and Share Work Resources.
+                            </p>
+                            <a href="#" className="main-btn mt-30">
+                                Learn More
+                            </a>
+                            <div className="about-author">
+                                <div className="author-img">
+                                    <img
+                                        src="img/about-author.jpg"
+                                        alt="Image"
+                                    />
+                                </div>
+                                <div className="author-desc">
+                                    <h5>Rosalina D. William</h5>
+                                    <span>Founder of Bella</span>
+                                </div>
+                                <div className="brand-img">
+                                    <img src="img/brand/2.png" alt />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default IndexOnePageAboutSection;

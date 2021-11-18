@@ -1,0 +1,257 @@
+import React from "react";
+
+const IndexOnePageTeamSection = () => {
+    return (
+        <section className="team-section section-gap" id="team">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-xl-5 col-lg-6">
+                        <div className="section-title text-center mb-50">
+                            <span className="title-tag">Team</span>
+                            <h2 className="title">
+                                Meet with our awesome and exper
+                                <span>team</span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div className="team-members team-member-slider row">
+                    <div className="col">
+                        <div className="team-member">
+                            <div className="member-img">
+                                <img src="img/teams/01.jpg" alt="TeamMember" />
+                                <div className="social-icon">
+                                    <a href="#">
+                                        <i className="fab fa-facebook-f" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-twitter" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-behance" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-youtube" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-linkedin" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="member-desc">
+                                <span className="member-position">Fonder</span>
+                                <h5 className="name">Romada D. Darblin</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="team-member">
+                            <div className="member-img">
+                                <img src="img/teams/02.jpg" alt="TeamMember" />
+                                <div className="social-icon">
+                                    <a href="#">
+                                        <i className="fab fa-facebook-f" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-twitter" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-behance" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-youtube" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-linkedin" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="member-desc">
+                                <span className="member-position">CEO</span>
+                                <h5 className="name">Kilixer B. Brownila</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="team-member">
+                            <div className="member-img">
+                                <img src="img/teams/03.jpg" alt="TeamMember" />
+                                <div className="social-icon">
+                                    <a href="#">
+                                        <i className="fab fa-facebook-f" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-twitter" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-behance" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-youtube" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-linkedin" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="member-desc">
+                                <span className="member-position">
+                                    Designer
+                                </span>
+                                <h5 className="name">Dumble Y. Yankies</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="team-member">
+                            <div className="member-img">
+                                <img src="img/teams/04.jpg" alt="TeamMember" />
+                                <div className="social-icon">
+                                    <a href="#">
+                                        <i className="fab fa-facebook-f" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-twitter" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-behance" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-youtube" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-linkedin" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="member-desc">
+                                <span className="member-position">
+                                    Developer
+                                </span>
+                                <h5 className="name">Miranda H. Halim</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="team-member">
+                            <div className="member-img">
+                                <img src="img/teams/05.jpg" alt="TeamMember" />
+                                <div className="social-icon">
+                                    <a href="#">
+                                        <i className="fab fa-facebook-f" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-twitter" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-behance" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-youtube" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-linkedin" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="member-desc">
+                                <span className="member-position">Fonder</span>
+                                <h5 className="name">Romada D. Darblin</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="team-member">
+                            <div className="member-img">
+                                <img src="img/teams/06.jpg" alt="TeamMember" />
+                                <div className="social-icon">
+                                    <a href="#">
+                                        <i className="fab fa-facebook-f" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-twitter" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-behance" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-youtube" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-linkedin" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="member-desc">
+                                <span className="member-position">CEO</span>
+                                <h5 className="name">Kilixer B. Brownila</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="team-member">
+                            <div className="member-img">
+                                <img src="img/teams/07.jpg" alt="TeamMember" />
+                                <div className="social-icon">
+                                    <a href="#">
+                                        <i className="fab fa-facebook-f" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-twitter" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-behance" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-youtube" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-linkedin" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="member-desc">
+                                <span className="member-position">
+                                    Designer
+                                </span>
+                                <h5 className="name">Dumble Y. Yankies</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="team-member">
+                            <div className="member-img">
+                                <img src="img/teams/08.jpg" alt="TeamMember" />
+                                <div className="social-icon">
+                                    <a href="#">
+                                        <i className="fab fa-facebook-f" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-twitter" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-behance" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-youtube" />
+                                    </a>
+                                    <a href="#">
+                                        <i className="fab fa-linkedin" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="member-desc">
+                                <span className="member-position">
+                                    Developer
+                                </span>
+                                <h5 className="name">Miranda H. Halim</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default IndexOnePageTeamSection;
