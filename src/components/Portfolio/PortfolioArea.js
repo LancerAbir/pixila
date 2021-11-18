@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const PortfolioArea = () => {
@@ -25,22 +26,25 @@ const PortfolioArea = () => {
                                         "url(img/portfolio/05.jpg)",
                                 }}
                             >
-                                <a
-                                    href="portfolio-details.html"
-                                    className="link"
-                                >
-                                    <i className="fal fa-long-arrow-right" />
-                                </a>
+                                <Link href="/portfolio-details">
+                                    <a className="link">
+                                        <i className="fal fa-long-arrow-right" />
+                                    </a>
+                                </Link>
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -63,13 +67,17 @@ const PortfolioArea = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -83,22 +91,25 @@ const PortfolioArea = () => {
                                         "url(img/portfolio/07.jpg)",
                                 }}
                             >
-                                <a
-                                    href="portfolio-details.html"
-                                    className="link"
-                                >
-                                    <i className="fal fa-long-arrow-right" />
-                                </a>
+                                <Link href="/portfolio-details">
+                                    <a className="link">
+                                        <i className="fal fa-long-arrow-right" />
+                                    </a>
+                                </Link>
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -112,17 +123,20 @@ const PortfolioArea = () => {
                                         "url(img/portfolio/07.jpg)",
                                 }}
                             >
-                                <a
-                                    href="portfolio-details.html"
-                                    className="link"
-                                >
-                                    <i className="fal fa-long-arrow-right" />
-                                </a>
+                                <Link href="/portfolio-details">
+                                    <a className="link">
+                                        <i className="fal fa-long-arrow-right" />
+                                    </a>
+                                </Link>
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
                                     <a href="portfolio-details.html">
@@ -141,22 +155,25 @@ const PortfolioArea = () => {
                                         "url(img/portfolio/08.jpg)",
                                 }}
                             >
-                                <a
-                                    href="portfolio-details.html"
-                                    className="link"
-                                >
-                                    <i className="fal fa-long-arrow-right" />
-                                </a>
+                                <Link href="/portfolio-details">
+                                    <a className="link">
+                                        <i className="fal fa-long-arrow-right" />
+                                    </a>
+                                </Link>
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -170,22 +187,25 @@ const PortfolioArea = () => {
                                         "url(img/portfolio/09.jpg)",
                                 }}
                             >
-                                <a
-                                    href="portfolio-details.html"
-                                    className="link"
-                                >
-                                    <i className="fal fa-long-arrow-right" />
-                                </a>
+                                <Link href="/portfolio-details">
+                                    <a className="link">
+                                        <i className="fal fa-long-arrow-right" />
+                                    </a>
+                                </Link>
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -199,22 +219,25 @@ const PortfolioArea = () => {
                                         "url(img/portfolio/10.jpg)",
                                 }}
                             >
-                                <a
-                                    href="portfolio-details.html"
-                                    className="link"
-                                >
-                                    <i className="fal fa-long-arrow-right" />
-                                </a>
+                                <Link href="/portfolio-details">
+                                    <a className="link">
+                                        <i className="fal fa-long-arrow-right" />
+                                    </a>
+                                </Link>
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -228,22 +251,25 @@ const PortfolioArea = () => {
                                         "url(img/portfolio/11.jpg)",
                                 }}
                             >
-                                <a
-                                    href="portfolio-details.html"
-                                    className="link"
-                                >
-                                    <i className="fal fa-long-arrow-right" />
-                                </a>
+                                <Link href="/portfolio-details">
+                                    <a className="link">
+                                        <i className="fal fa-long-arrow-right" />
+                                    </a>
+                                </Link>
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -257,22 +283,25 @@ const PortfolioArea = () => {
                                         "url(img/portfolio/12.jpg)",
                                 }}
                             >
-                                <a
-                                    href="portfolio-details.html"
-                                    className="link"
-                                >
-                                    <i className="fal fa-long-arrow-right" />
-                                </a>
+                                <Link href="/portfolio-details">
+                                    <a className="link">
+                                        <i className="fal fa-long-arrow-right" />
+                                    </a>
+                                </Link>
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -286,22 +315,25 @@ const PortfolioArea = () => {
                                         "url(img/portfolio/13.jpg)",
                                 }}
                             >
-                                <a
-                                    href="portfolio-details.html"
-                                    className="link"
-                                >
-                                    <i className="fal fa-long-arrow-right" />
-                                </a>
+                                <Link href="/portfolio-details">
+                                    <a className="link">
+                                        <i className="fal fa-long-arrow-right" />
+                                    </a>
+                                </Link>
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -315,22 +347,25 @@ const PortfolioArea = () => {
                                         "url(img/portfolio/14.jpg)",
                                 }}
                             >
-                                <a
-                                    href="portfolio-details.html"
-                                    className="link"
-                                >
-                                    <i className="fal fa-long-arrow-right" />
-                                </a>
+                                <Link href="/portfolio-details">
+                                    <a className="link">
+                                        <i className="fal fa-long-arrow-right" />
+                                    </a>
+                                </Link>
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -344,22 +379,25 @@ const PortfolioArea = () => {
                                         "url(img/portfolio/15.jpg)",
                                 }}
                             >
-                                <a
-                                    href="portfolio-details.html"
-                                    className="link"
-                                >
-                                    <i className="fal fa-long-arrow-right" />
-                                </a>
+                                <Link href="/portfolio-details">
+                                    <a className="link">
+                                        <i className="fal fa-long-arrow-right" />
+                                    </a>
+                                </Link>
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
