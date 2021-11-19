@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const TeamTeamSection = () => {
@@ -10,21 +11,31 @@ const TeamTeamSection = () => {
                             <div className="member-img">
                                 <img src="img/teams/01.jpg" alt="TeamMember" />
                                 <div className="social-icon">
-                                    <a href="#">
-                                        <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-twitter" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-behance" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-youtube" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-linkedin" />
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-facebook-f" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-twitter" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-behance" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-youtube" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-linkedin" />
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="member-desc">
@@ -38,21 +49,31 @@ const TeamTeamSection = () => {
                             <div className="member-img">
                                 <img src="img/teams/02.jpg" alt="TeamMember" />
                                 <div className="social-icon">
-                                    <a href="#">
-                                        <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-twitter" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-behance" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-youtube" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-linkedin" />
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-facebook-f" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-twitter" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-behance" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-youtube" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-linkedin" />
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="member-desc">
@@ -66,21 +87,31 @@ const TeamTeamSection = () => {
                             <div className="member-img">
                                 <img src="img/teams/03.jpg" alt="TeamMember" />
                                 <div className="social-icon">
-                                    <a href="#">
-                                        <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-twitter" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-behance" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-youtube" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-linkedin" />
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-facebook-f" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-twitter" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-behance" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-youtube" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-linkedin" />
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="member-desc">
@@ -96,21 +127,31 @@ const TeamTeamSection = () => {
                             <div className="member-img">
                                 <img src="img/teams/04.jpg" alt="TeamMember" />
                                 <div className="social-icon">
-                                    <a href="#">
-                                        <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-twitter" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-behance" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-youtube" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-linkedin" />
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-facebook-f" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-twitter" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-behance" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-youtube" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-linkedin" />
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="member-desc">
@@ -126,21 +167,31 @@ const TeamTeamSection = () => {
                             <div className="member-img">
                                 <img src="img/teams/05.jpg" alt="TeamMember" />
                                 <div className="social-icon">
-                                    <a href="#">
-                                        <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-twitter" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-behance" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-youtube" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-linkedin" />
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-facebook-f" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-twitter" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-behance" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-youtube" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-linkedin" />
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="member-desc">
@@ -154,21 +205,31 @@ const TeamTeamSection = () => {
                             <div className="member-img">
                                 <img src="img/teams/06.jpg" alt="TeamMember" />
                                 <div className="social-icon">
-                                    <a href="#">
-                                        <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-twitter" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-behance" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-youtube" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-linkedin" />
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-facebook-f" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-twitter" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-behance" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-youtube" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-linkedin" />
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="member-desc">
@@ -182,21 +243,31 @@ const TeamTeamSection = () => {
                             <div className="member-img">
                                 <img src="img/teams/07.jpg" alt="TeamMember" />
                                 <div className="social-icon">
-                                    <a href="#">
-                                        <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-twitter" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-behance" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-youtube" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-linkedin" />
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-facebook-f" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-twitter" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-behance" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-youtube" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-linkedin" />
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="member-desc">
@@ -212,21 +283,31 @@ const TeamTeamSection = () => {
                             <div className="member-img">
                                 <img src="img/teams/08.jpg" alt="TeamMember" />
                                 <div className="social-icon">
-                                    <a href="#">
-                                        <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-twitter" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-behance" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-youtube" />
-                                    </a>
-                                    <a href="#">
-                                        <i className="fab fa-linkedin" />
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-facebook-f" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-twitter" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-behance" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-youtube" />
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-linkedin" />
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="member-desc">

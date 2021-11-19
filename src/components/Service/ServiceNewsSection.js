@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ServiceNewsSection = () => {
@@ -23,20 +24,27 @@ const ServiceNewsSection = () => {
                                     <div className="content">
                                         <ul className="post-meta">
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-calendar-alt" />
-                                                    10th May 2020
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-calendar-alt" />
+                                                        10th May 2020
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li className="admin">
-                                                <a href="#">Admin</a>
+                                                <Link href="#">
+                                                    <a>Admin</a>
+                                                </Link>
                                             </li>
                                         </ul>
                                         <h4>
-                                            <a href="#">
-                                                Chemical engineering projects
-                                                for all technologies
-                                            </a>
+                                            <Link href="#">
+                                                <a>
+                                                    Chemical engineering
+                                                    projects for all
+                                                    technologies
+                                                </a>
+                                            </Link>
                                         </h4>
                                         <p>
                                             As emerging technologies converge
@@ -60,20 +68,27 @@ const ServiceNewsSection = () => {
                                     <div className="content">
                                         <ul className="post-meta">
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-calendar-alt" />
-                                                    10th May 2020
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-calendar-alt" />
+                                                        10th May 2020
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li className="admin">
-                                                <a href="#">Admin</a>
+                                                <Link href="#">
+                                                    <a>Admin</a>
+                                                </Link>
                                             </li>
                                         </ul>
                                         <h4>
-                                            <a href="#">
-                                                Chemical engineering projects
-                                                for all technologies
-                                            </a>
+                                            <Link href="#">
+                                                <a>
+                                                    Chemical engineering
+                                                    projects for all
+                                                    technologies
+                                                </a>
+                                            </Link>
                                         </h4>
                                         <p>
                                             As emerging technologies converge
@@ -100,20 +115,26 @@ const ServiceNewsSection = () => {
                                 <div className="content">
                                     <ul className="post-meta">
                                         <li>
-                                            <a href="#">
-                                                <i className="fal fa-calendar-alt" />
-                                                10th May 2020
-                                            </a>
+                                            <Link href="#">
+                                                <a>
+                                                    <i className="fal fa-calendar-alt" />
+                                                    10th May 2020
+                                                </a>
+                                            </Link>
                                         </li>
                                         <li className="admin">
-                                            <a href="#">Admin</a>
+                                            <Link href="#">
+                                                <a>Admin</a>
+                                            </Link>
                                         </li>
                                     </ul>
                                     <h4>
-                                        <a href="#">
-                                            Engineering projects for all
-                                            technologies
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                Engineering projects for all
+                                                technologies
+                                            </a>
+                                        </Link>
                                     </h4>
                                 </div>
                             </div>
@@ -128,20 +149,26 @@ const ServiceNewsSection = () => {
                                 <div className="content">
                                     <ul className="post-meta">
                                         <li>
-                                            <a href="#">
-                                                <i className="fal fa-calendar-alt" />
-                                                10th May 2020
-                                            </a>
+                                            <Link href="#">
+                                                <a>
+                                                    <i className="fal fa-calendar-alt" />
+                                                    10th May 2020
+                                                </a>
+                                            </Link>
                                         </li>
                                         <li className="admin">
-                                            <a href="#">Admin</a>
+                                            <Link href="#">
+                                                <a>Admin</a>
+                                            </Link>
                                         </li>
                                     </ul>
                                     <h4>
-                                        <a href="#">
-                                            Engineering projects for all
-                                            technologies
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                Engineering projects for all
+                                                technologies
+                                            </a>
+                                        </Link>
                                     </h4>
                                 </div>
                             </div>
@@ -156,26 +183,34 @@ const ServiceNewsSection = () => {
                                 <div className="content">
                                     <ul className="post-meta">
                                         <li>
-                                            <a href="#">
-                                                <i className="fal fa-calendar-alt" />
-                                                10th May 2020
-                                            </a>
+                                            <Link href="#">
+                                                <a>
+                                                    <i className="fal fa-calendar-alt" />
+                                                    10th May 2020
+                                                </a>
+                                            </Link>
                                         </li>
                                         <li className="admin">
-                                            <a href="#">Admin</a>
+                                            <Link href="#">
+                                                <a>Admin</a>
+                                            </Link>
                                         </li>
                                     </ul>
                                     <h4>
-                                        <a href="#">
-                                            Engineering projects for all
-                                            technologies
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                Engineering projects for all
+                                                technologies
+                                            </a>
+                                        </Link>
                                     </h4>
                                 </div>
                             </div>
-                            <a href="#" className="load-more-btn">
-                                <i className="fal fa-newspaper" /> More News
-                            </a>
+                            <Link href="#">
+                                <a className="load-more-btn">
+                                    <i className="fal fa-newspaper" /> More News
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

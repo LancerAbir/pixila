@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Service2SkillArea = () => {
@@ -7,12 +8,14 @@ const Service2SkillArea = () => {
                 <div className="row align-items-center justify-content-center">
                     <div className="col-lg-7 col-md-10 order-lg-2">
                         <div className="skillset-video active ms-lg-5">
-                            <a
-                                href="https://www.youtube.com/watch?v=pVE92TNDwUk"
-                                className="popup-btn popup-video"
-                            >
-                                <i className="fas fa-play" />
-                            </a>
+                            <Link href="#">
+                                <a
+                                    href="https://www.youtube.com/watch?v=pVE92TNDwUk"
+                                    className="popup-btn popup-video"
+                                >
+                                    <i className="fas fa-play" />
+                                </a>
+                            </Link>
                             <div
                                 className="video-bg"
                                 style={{

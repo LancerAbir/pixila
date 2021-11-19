@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ServiceSkillArea = () => {
@@ -7,12 +8,14 @@ const ServiceSkillArea = () => {
                 <div className="skillset-videos row skillset-videos-slider">
                     <div className="col">
                         <div className="skillset-video">
-                            <a
-                                href="https://www.youtube.com/watch?v=pVE92TNDwUk"
-                                className="popup-btn popup-video"
-                            >
-                                <i className="fas fa-play" />
-                            </a>
+                            <Link href="#">
+                                <a
+                                    href="https://www.youtube.com/watch?v=pVE92TNDwUk"
+                                    className="popup-btn popup-video"
+                                >
+                                    <i className="fas fa-play" />
+                                </a>
+                            </Link>
                             <div
                                 className="video-bg"
                                 style={{
@@ -24,12 +27,14 @@ const ServiceSkillArea = () => {
                     </div>
                     <div className="col">
                         <div className="skillset-video">
-                            <a
-                                href="https://www.youtube.com/watch?v=pVE92TNDwUk"
-                                className="popup-btn popup-video"
-                            >
-                                <i className="fas fa-play" />
-                            </a>
+                            <Link href="#">
+                                <a
+                                    href="https://www.youtube.com/watch?v=pVE92TNDwUk"
+                                    className="popup-btn popup-video"
+                                >
+                                    <i className="fas fa-play" />
+                                </a>
+                            </Link>
                             <div
                                 className="video-bg"
                                 style={{
@@ -41,12 +46,14 @@ const ServiceSkillArea = () => {
                     </div>
                     <div className="col">
                         <div className="skillset-video">
-                            <a
-                                href="https://www.youtube.com/watch?v=pVE92TNDwUk"
-                                className="popup-btn popup-video"
-                            >
-                                <i className="fas fa-play" />
-                            </a>
+                            <Link href="#">
+                                <a
+                                    href="https://www.youtube.com/watch?v=pVE92TNDwUk"
+                                    className="popup-btn popup-video"
+                                >
+                                    <i className="fas fa-play" />
+                                </a>
+                            </Link>
                             <div
                                 className="video-bg"
                                 style={{

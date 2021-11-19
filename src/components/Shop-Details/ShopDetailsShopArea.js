@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ShopDetailsShopArea = () => {
@@ -106,9 +107,15 @@ const ShopDetailsShopArea = () => {
                                     </li>
                                     <li>
                                         <span>Tags:</span>
-                                        <a href="#"> Fashion,</a>
-                                        <a href="#"> Hood,</a>
-                                        <a href="#">Classic</a>
+                                        <Link href="#">
+                                            <a> Fashion,</a>
+                                        </Link>
+                                        <Link href="#">
+                                            <a> Hood,</a>
+                                        </Link>
+                                        <Link href="#">
+                                            <a>Classic</a>
+                                        </Link>
                                     </li>
                                 </ul>
                                 <div className="summary-divider" />
@@ -171,12 +178,11 @@ const ShopDetailsShopArea = () => {
                                                 </div>
                                             </div>
                                             <div className="input-field">
-                                                <a
-                                                    href="#"
-                                                    className="clear-btn"
-                                                >
-                                                    Clear Selection
-                                                </a>
+                                                <Link href="#">
+                                                    <a className="clear-btn">
+                                                        Clear Selection
+                                                    </a>
+                                                </Link>
                                             </div>
                                         </div>
                                         <div className="input-fields form-btns">
@@ -190,22 +196,30 @@ const ShopDetailsShopArea = () => {
                                                 </button>
                                             </div>
                                             <div className="input-field">
-                                                <a
-                                                    className="wishlist-btn"
-                                                    href="#"
-                                                >
-                                                    <i className="fal fa-heart" />
-                                                    Add To Wishlist
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="wishlist-btn"
+                                                    >
+                                                        <i className="fal fa-heart" />
+                                                        Add To Wishlist
+                                                    </a>
+                                                </Link>
                                             </div>
                                             <div className="input-field">
-                                                <a
-                                                    className="compare-btn"
-                                                    href="#"
-                                                >
-                                                    <i className="fal fa-expand" />
-                                                    Compare
-                                                </a>
+                                                <Link href="#">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="compare-btn"
+                                                    >
+                                                        <i className="fal fa-expand" />
+                                                        Compare
+                                                    </a>
+                                                </Link>
                                             </div>
                                         </div>
                                     </form>
@@ -215,29 +229,39 @@ const ShopDetailsShopArea = () => {
                                         <span>Share This: </span>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <i className="fab fa-facebook-f" />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <i className="fab fa-facebook-f" />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <i className="fab fa-youtube" />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <i className="fab fa-youtube" />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <i className="fab fa-slack" />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <i className="fab fa-slack" />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <i className="fab fa-whatsapp" />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <i className="fab fa-whatsapp" />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <i className="fab fa-twitter" />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <i className="fab fa-twitter" />
+                                            </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -445,7 +469,7 @@ const ShopDetailsShopArea = () => {
                                             <tr>
                                                 <th>Graphics</th>
                                                 <td>
-                                                    Intel® UHD Graphics 620 (i5){" "}
+                                                    Intel® UHD Graphics 620 (i5)
                                                     <br /> Intel® UHD Graphics
                                                     620 (i7)
                                                 </td>
@@ -511,12 +535,11 @@ const ShopDetailsShopArea = () => {
                                                                     <i className="far fa-star" />
                                                                 </li>
                                                             </ul>
-                                                            <a
-                                                                href="#"
-                                                                className="reply-btn"
-                                                            >
-                                                                Reply
-                                                            </a>
+                                                            <Link href="#">
+                                                                <a className="reply-btn">
+                                                                    Reply
+                                                                </a>
+                                                            </Link>
                                                         </div>
                                                     </li>
                                                     <li className="single-review">
@@ -561,12 +584,11 @@ const ShopDetailsShopArea = () => {
                                                                     <i className="far fa-star" />
                                                                 </li>
                                                             </ul>
-                                                            <a
-                                                                href="#"
-                                                                className="reply-btn"
-                                                            >
-                                                                Reply
-                                                            </a>
+                                                            <Link href="#">
+                                                                <a className="reply-btn">
+                                                                    Reply
+                                                                </a>
+                                                            </Link>
                                                         </div>
                                                     </li>
                                                 </ul>

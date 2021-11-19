@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ShopArea = () => {
@@ -12,14 +13,18 @@ const ShopArea = () => {
                             </p>
                             <ul className="product-view-style">
                                 <li>
-                                    <a href="#">
-                                        <i className="fal fa-list" />
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fal fa-list" />
+                                        </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#" className="active-view">
-                                        <i className="fal fa-th" />
-                                    </a>
+                                    <Link href="#">
+                                        <a className="active-view">
+                                            <i className="fal fa-th" />
+                                        </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -33,26 +38,32 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-shopping-cart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-shopping-cart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-heart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-heart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-eye" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-eye" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
                                     <h5 className="product-title">
-                                        <a href="shop-details.html">
-                                            Polo Miranda Tshirt
-                                        </a>
+                                        <Link href="/shop-details">
+                                            <a>Polo Miranda Tshirt</a>
+                                        </Link>
                                     </h5>
                                     <span className="price">$79.00</span>
                                 </div>
@@ -66,26 +77,32 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-shopping-cart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-shopping-cart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-heart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-heart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-eye" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-eye" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
                                     <h5 className="product-title">
-                                        <a href="shop-details.html">
-                                            Polo Miranda Tshirt
-                                        </a>
+                                        <Link href="/shop-details">
+                                            <a>Polo Miranda Tshirt</a>
+                                        </Link>
                                     </h5>
                                     <span className="price">$79.00</span>
                                 </div>
@@ -99,26 +116,32 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-shopping-cart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-shopping-cart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-heart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-heart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-eye" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-eye" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
                                     <h5 className="product-title">
-                                        <a href="shop-details.html">
-                                            Polo Miranda Tshirt
-                                        </a>
+                                        <Link href="/shop-details">
+                                            <a>Polo Miranda Tshirt</a>
+                                        </Link>
                                     </h5>
                                     <span className="price">$79.00</span>
                                 </div>
@@ -132,26 +155,32 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-shopping-cart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-shopping-cart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-heart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-heart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-eye" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-eye" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
                                     <h5 className="product-title">
-                                        <a href="shop-details.html">
-                                            Polo Miranda Tshirt
-                                        </a>
+                                        <Link href="/shop-details">
+                                            <a>Polo Miranda Tshirt</a>
+                                        </Link>
                                     </h5>
                                     <span className="price">$79.00</span>
                                 </div>
@@ -165,26 +194,32 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-shopping-cart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-shopping-cart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-heart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-heart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-eye" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-eye" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
                                     <h5 className="product-title">
-                                        <a href="shop-details.html">
-                                            Polo Miranda Tshirt
-                                        </a>
+                                        <Link href="/shop-details">
+                                            <a>Polo Miranda Tshirt</a>
+                                        </Link>
                                     </h5>
                                     <span className="price">$79.00</span>
                                 </div>
@@ -198,26 +233,32 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-shopping-cart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-shopping-cart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-heart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-heart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-eye" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-eye" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
                                     <h5 className="product-title">
-                                        <a href="shop-details.html">
-                                            Polo Miranda Tshirt
-                                        </a>
+                                        <Link href="/shop-details">
+                                            <a>Polo Miranda Tshirt</a>
+                                        </Link>
                                     </h5>
                                     <span className="price">$79.00</span>
                                 </div>
@@ -231,26 +272,32 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-shopping-cart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-shopping-cart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-heart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-heart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-eye" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-eye" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
                                     <h5 className="product-title">
-                                        <a href="shop-details.html">
-                                            Polo Miranda Tshirt
-                                        </a>
+                                        <Link href="/shop-details">
+                                            <a>Polo Miranda Tshirt</a>
+                                        </Link>
                                     </h5>
                                     <span className="price">$79.00</span>
                                 </div>
@@ -264,26 +311,32 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-shopping-cart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-shopping-cart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-heart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-heart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-eye" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-eye" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
                                     <h5 className="product-title">
-                                        <a href="shop-details.html">
-                                            Polo Miranda Tshirt
-                                        </a>
+                                        <Link href="/shop-details">
+                                            <a>Polo Miranda Tshirt</a>
+                                        </Link>
                                     </h5>
                                     <span className="price">$79.00</span>
                                 </div>
@@ -297,26 +350,32 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-shopping-cart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-shopping-cart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-heart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-heart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-eye" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-eye" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
                                     <h5 className="product-title">
-                                        <a href="shop-details.html">
-                                            Polo Miranda Tshirt
-                                        </a>
+                                        <Link href="/shop-details">
+                                            <a>Polo Miranda Tshirt</a>
+                                        </Link>
                                     </h5>
                                     <span className="price">$79.00</span>
                                 </div>
@@ -330,26 +389,32 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-shopping-cart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-shopping-cart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-heart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-heart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-eye" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-eye" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
                                     <h5 className="product-title">
-                                        <a href="shop-details.html">
-                                            Polo Miranda Tshirt
-                                        </a>
+                                        <Link href="/shop-details">
+                                            <a>Polo Miranda Tshirt</a>
+                                        </Link>
                                     </h5>
                                     <span className="price">$79.00</span>
                                 </div>
@@ -363,26 +428,32 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-shopping-cart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-shopping-cart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-heart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-heart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-eye" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-eye" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
                                     <h5 className="product-title">
-                                        <a href="shop-details.html">
-                                            Polo Miranda Tshirt
-                                        </a>
+                                        <Link href="/shop-details">
+                                            <a>Polo Miranda Tshirt</a>
+                                        </Link>
                                     </h5>
                                     <span className="price">$79.00</span>
                                 </div>
@@ -396,26 +467,32 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-shopping-cart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-shopping-cart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-heart" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-heart" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i className="fal fa-eye" />
-                                                </a>
+                                                <Link href="#">
+                                                    <a>
+                                                        <i className="fal fa-eye" />
+                                                    </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
                                     <h5 className="product-title">
-                                        <a href="shop-details.html">
-                                            Polo Miranda Tshirt
-                                        </a>
+                                        <Link href="/shop-details">
+                                            <a>Polo Miranda Tshirt</a>
+                                        </Link>
                                     </h5>
                                     <span className="price">$79.00</span>
                                 </div>
@@ -424,28 +501,45 @@ const ShopArea = () => {
                         <div className="pagination-wrap">
                             <ul>
                                 <li>
-                                    <a href="#">
-                                        <i className="fal fa-arrow-left" />
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fal fa-arrow-left" />
+                                        </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#" className="current-page">
-                                        01
-                                    </a>
+                                    <Link href="#">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                            className="current-page"
+                                        >
+                                            01
+                                        </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#">02</a>
+                                    <Link href="#">
+                                        <a>02</a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#">----</a>
+                                    <Link href="#">
+                                        <a>----</a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#">08</a>
+                                    <Link href="#">
+                                        <a>08</a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <i className="fal fa-arrow-right" />
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fal fa-arrow-right" />
+                                        </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -469,29 +563,39 @@ const ShopArea = () => {
                                 <h5 className="widget-title">Categories</h5>
                                 <ul>
                                     <li>
-                                        <a href="#">
-                                            Tshirt <span>08</span>
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                Tshirt <span>08</span>
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            Accessories <span>12</span>
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                Accessories <span>12</span>
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            Books <span>12</span>
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                Books <span>12</span>
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            Laptop &amp; PC <span>15</span>
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                Laptop &amp; PC <span>15</span>
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            Polo <span>09</span>
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                Polo <span>09</span>
+                                            </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -513,28 +617,44 @@ const ShopArea = () => {
                                 <h5 className="widget-title">Tags</h5>
                                 <ul>
                                     <li>
-                                        <a href="#">Tshirt</a>
+                                        <Link href="#">
+                                            <a>Tshirt</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Sunglass</a>
+                                        <Link href="#">
+                                            <a>Sunglass</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Kits</a>
+                                        <Link href="#">
+                                            <a>Kits</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Tshirt</a>
+                                        <Link href="#">
+                                            <a>Tshirt</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Sunglass</a>
+                                        <Link href="#">
+                                            <a>Sunglass</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Kits</a>
+                                        <Link href="#">
+                                            <a>Kits</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Tshirt</a>
+                                        <Link href="#">
+                                            <a>Tshirt</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Sunglass</a>
+                                        <Link href="#">
+                                            <a>Sunglass</a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -550,9 +670,9 @@ const ShopArea = () => {
                                         </div>
                                         <div className="desc">
                                             <h6>
-                                                <a href="shop-details.html">
-                                                    Polo Miranda Tshirt
-                                                </a>
+                                                <Link href="/shop-details">
+                                                    <a>Polo Miranda Tshirt</a>
+                                                </Link>
                                             </h6>
                                             <span className="price">
                                                 $79.00
@@ -568,9 +688,9 @@ const ShopArea = () => {
                                         </div>
                                         <div className="desc">
                                             <h6>
-                                                <a href="shop-details.html">
-                                                    Polo Miranda Tshirt
-                                                </a>
+                                                <Link href="/shop-details">
+                                                    <a>Polo Miranda Tshirt</a>
+                                                </Link>
                                             </h6>
                                             <span className="price">
                                                 $79.00
@@ -586,9 +706,9 @@ const ShopArea = () => {
                                         </div>
                                         <div className="desc">
                                             <h6>
-                                                <a href="shop-details.html">
-                                                    Polo Miranda Tshirt
-                                                </a>
+                                                <Link href="/shop-details">
+                                                    <a>Polo Miranda Tshirt</a>
+                                                </Link>
                                             </h6>
                                             <span className="price">
                                                 $79.00
@@ -604,9 +724,9 @@ const ShopArea = () => {
                                         </div>
                                         <div className="desc">
                                             <h6>
-                                                <a href="shop-details.html">
-                                                    Polo Miranda Tshirt
-                                                </a>
+                                                <Link href="/shop-details">
+                                                    <a>Polo Miranda Tshirt</a>
+                                                </Link>
                                             </h6>
                                             <span className="price">
                                                 $79.00

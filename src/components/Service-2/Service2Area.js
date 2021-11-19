@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Service2Area = () => {
@@ -12,7 +13,9 @@ const Service2Area = () => {
                                     <i className="fal fa-box-open" />
                                 </div>
                                 <h4 className="title">
-                                    <a href="#">Product Design</a>
+                                    <Link href="#">
+                                        <a>Product Design</a>
+                                    </Link>
                                 </h4>
                                 <p>Get an amazing experience here</p>
                             </div>
@@ -23,7 +26,9 @@ const Service2Area = () => {
                                     <i className="fal fa-globe" />
                                 </div>
                                 <h4 className="title">
-                                    <a href="#">Digital Marketing</a>
+                                    <Link href="#">
+                                        <a>Digital Marketing</a>
+                                    </Link>
                                 </h4>
                                 <p>Get an amazing experience here</p>
                             </div>
@@ -34,7 +39,9 @@ const Service2Area = () => {
                                     <i className="fal fa-mobile" />
                                 </div>
                                 <h4 className="title">
-                                    <a href="#">Mobile App Design</a>
+                                    <Link href="#">
+                                        <a>Mobile App Design</a>
+                                    </Link>
                                 </h4>
                                 <p>Get an amazing experience here</p>
                             </div>
@@ -45,7 +52,9 @@ const Service2Area = () => {
                                     <i className="fal fa-desktop" />
                                 </div>
                                 <h4 className="title">
-                                    <a href="#">Website Design</a>
+                                    <Link href="#">
+                                        <a>Website Design</a>
+                                    </Link>
                                 </h4>
                                 <p>Get an amazing experience here</p>
                             </div>
@@ -56,7 +65,9 @@ const Service2Area = () => {
                                     <i className="fal fa-chart-pie" />
                                 </div>
                                 <h4 className="title">
-                                    <a href="#">Business Strategy</a>
+                                    <Link href="#">
+                                        <a>Business Strategy</a>
+                                    </Link>
                                 </h4>
                                 <p>Get an amazing experience here</p>
                             </div>
@@ -67,7 +78,9 @@ const Service2Area = () => {
                                     <i className="fal fa-fill-drip" />
                                 </div>
                                 <h4 className="title">
-                                    <a href="#">Interior Design</a>
+                                    <Link href="#">
+                                        <a>Interior Design</a>
+                                    </Link>
                                 </h4>
                                 <p>Get an amazing experience here</p>
                             </div>
@@ -78,7 +91,9 @@ const Service2Area = () => {
                                     <i className="fal fa-clone" />
                                 </div>
                                 <h4 className="title">
-                                    <a href="#">Mining Storage</a>
+                                    <Link href="#">
+                                        <a>Mining Storage</a>
+                                    </Link>
                                 </h4>
                                 <p>Get an amazing experience here</p>
                             </div>
@@ -89,7 +104,9 @@ const Service2Area = () => {
                                     <i className="fal fa-cloud-download" />
                                 </div>
                                 <h4 className="title">
-                                    <a href="#">Cloud Solutions</a>
+                                    <Link href="#">
+                                        <a>Cloud Solutions</a>
+                                    </Link>
                                 </h4>
                                 <p>Get an amazing experience here</p>
                             </div>

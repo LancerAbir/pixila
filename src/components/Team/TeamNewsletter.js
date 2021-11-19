@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const TeamNewsletter = () => {
@@ -47,54 +48,74 @@ const TeamNewsletter = () => {
             </div>
             <div className="brand-logos section-gap row">
                 <div className="col">
-                    <a href="#" className="brand-logo">
-                        <img src="img/brand/1.png" alt="Image" />
-                    </a>
+                    <Link href="#">
+                        <a className="brand-logo">
+                            <img src="img/brand/1.png" alt="Image" />
+                        </a>
+                    </Link>
                 </div>
                 <div className="col">
-                    <a href="#" className="brand-logo">
-                        <img src="img/brand/2.png" alt="Image" />
-                    </a>
+                    <Link href="#">
+                        <a className="brand-logo">
+                            <img src="img/brand/2.png" alt="Image" />
+                        </a>
+                    </Link>
                 </div>
                 <div className="col">
-                    <a href="#" className="brand-logo">
-                        <img src="img/brand/3.png" alt="Image" />
-                    </a>
+                    <Link href="#">
+                        <a className="brand-logo">
+                            <img src="img/brand/3.png" alt="Image" />
+                        </a>
+                    </Link>
                 </div>
                 <div className="col">
-                    <a href="#" className="brand-logo">
-                        <img src="img/brand/4.png" alt="Image" />
-                    </a>
+                    <Link href="#">
+                        <a className="brand-logo">
+                            <img src="img/brand/4.png" alt="Image" />
+                        </a>
+                    </Link>
                 </div>
                 <div className="col">
-                    <a href="#" className="brand-logo">
-                        <img src="img/brand/5.png" alt="Image" />
-                    </a>
+                    <Link href="#">
+                        <a className="brand-logo">
+                            <img src="img/brand/5.png" alt="Image" />
+                        </a>
+                    </Link>
                 </div>
                 <div className="col">
-                    <a href="#" className="brand-logo">
-                        <img src="img/brand/1.png" alt="Image" />
-                    </a>
+                    <Link href="#">
+                        <a className="brand-logo">
+                            <img src="img/brand/1.png" alt="Image" />
+                        </a>
+                    </Link>
                 </div>
                 <div className="col">
-                    <a href="#" className="brand-logo">
-                        <img src="img/brand/2.png" alt="Image" />
-                    </a>
+                    <Link href="#">
+                        <a className="brand-logo">
+                            <img src="img/brand/2.png" alt="Image" />
+                        </a>
+                    </Link>
                 </div>
                 <div className="col">
-                    <a href="#" className="brand-logo">
-                        <img src="img/brand/3.png" alt="Image" />
-                    </a>
+                    <Link href="#">
+                        <a className="brand-logo">
+                            <img src="img/brand/3.png" alt="Image" />
+                        </a>
+                    </Link>
                 </div>
                 <div className="col">
-                    <a href="#" className="brand-logo">
-                        <img src="img/brand/4.png" alt="Image" />
-                    </a>
+                    <Link href="#">
+                        <a className="brand-logo">
+                            <img src="img/brand/4.png" alt="Image" />
+                        </a>
+                    </Link>
                 </div>
                 <div className="col">
-                    <a href="#" className="brand-logo">
-                        <img src="img/brand/5.png" alt="Image" />
-                    </a>
+                    <Link href="#">
+                        <a className="brand-logo">
+                            <img src="img/brand/5.png" alt="Image" />
+                        </a>
+                    </Link>
                 </div>
             </div>
         </div>

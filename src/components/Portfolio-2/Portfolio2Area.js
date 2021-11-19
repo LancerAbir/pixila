@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Portfolio2Area = () => {
@@ -27,13 +28,17 @@ const Portfolio2Area = () => {
                             />
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">App,</a>
-                                    <a href="#">Design</a>
+                                    <Link href="#">
+                                        <a>App,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Design</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Spay Mobile Banking App
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Spay Mobile Banking App</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -49,13 +54,17 @@ const Portfolio2Area = () => {
                             />
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">App,</a>
-                                    <a href="#">Design</a>
+                                    <Link href="#">
+                                        <a>App,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Design</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Spay Mobile Banking App
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Spay Mobile Banking App</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -71,13 +80,17 @@ const Portfolio2Area = () => {
                             />
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">App,</a>
-                                    <a href="#">Design</a>
+                                    <Link href="#">
+                                        <a>App,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Design</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Spay Mobile Banking App
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Spay Mobile Banking App</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -93,13 +106,17 @@ const Portfolio2Area = () => {
                             />
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">App,</a>
-                                    <a href="#">Design</a>
+                                    <Link href="#">
+                                        <a>App,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Design</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Spay Mobile Banking App
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Spay Mobile Banking App</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -115,13 +132,17 @@ const Portfolio2Area = () => {
                             />
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">App,</a>
-                                    <a href="#">Design</a>
+                                    <Link href="#">
+                                        <a>App,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Design</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Spay Mobile Banking App
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Spay Mobile Banking App</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -137,13 +158,17 @@ const Portfolio2Area = () => {
                             />
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">App,</a>
-                                    <a href="#">Design</a>
+                                    <Link href="#">
+                                        <a>App,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Design</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Spay Mobile Banking App
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Spay Mobile Banking App</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -159,13 +184,17 @@ const Portfolio2Area = () => {
                             />
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">App,</a>
-                                    <a href="#">Design</a>
+                                    <Link href="#">
+                                        <a>App,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Design</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Spay Mobile Banking App
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Spay Mobile Banking App</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -181,13 +210,17 @@ const Portfolio2Area = () => {
                             />
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">App,</a>
-                                    <a href="#">Design</a>
+                                    <Link href="#">
+                                        <a>App,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Design</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Spay Mobile Banking App
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Spay Mobile Banking App</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -203,13 +236,17 @@ const Portfolio2Area = () => {
                             />
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">App,</a>
-                                    <a href="#">Design</a>
+                                    <Link href="#">
+                                        <a>App,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Design</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Spay Mobile Banking App
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Spay Mobile Banking App</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -225,13 +262,17 @@ const Portfolio2Area = () => {
                             />
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">App,</a>
-                                    <a href="#">Design</a>
+                                    <Link href="#">
+                                        <a>App,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Design</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Spay Mobile Banking App
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Spay Mobile Banking App</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -247,13 +288,17 @@ const Portfolio2Area = () => {
                             />
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">App,</a>
-                                    <a href="#">Design</a>
+                                    <Link href="#">
+                                        <a>App,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Design</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Spay Mobile Banking App
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Spay Mobile Banking App</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -269,13 +314,17 @@ const Portfolio2Area = () => {
                             />
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">App,</a>
-                                    <a href="#">Design</a>
+                                    <Link href="#">
+                                        <a>App,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Design</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Spay Mobile Banking App
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Spay Mobile Banking App</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>

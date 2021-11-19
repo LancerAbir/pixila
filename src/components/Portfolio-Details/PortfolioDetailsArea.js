@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const PortfolioDetailsArea = () => {
@@ -66,25 +67,41 @@ const PortfolioDetailsArea = () => {
                                 <ul>
                                     <li>
                                         <span>Category:</span>
-                                        <a href="#">Branding,</a>
-                                        <a href="#">Design</a>
+                                        <Link href="#">
+                                            <a>Branding,</a>
+                                        </Link>
+                                        <Link href="#">
+                                            <a>Design</a>
+                                        </Link>
                                     </li>
                                     <li>
                                         <span>Date:</span> June 21, 2021
                                     </li>
                                     <li>
                                         <span>Tags:</span>
-                                        <a href="#">color,</a>
-                                        <a href="#">design,</a>
-                                        <a href="#">theme,</a>
-                                        <a href="#">ui,</a>
-                                        <a href="#">ux</a>
+                                        <Link href="#">
+                                            <a>color,</a>
+                                        </Link>
+                                        <Link href="#">
+                                            <a>design,</a>
+                                        </Link>
+                                        <Link href="#">
+                                            <a>theme,</a>
+                                        </Link>
+                                        <Link href="#">
+                                            <a>ui,</a>
+                                        </Link>
+                                        <Link href="#">
+                                            <a>ux</a>
+                                        </Link>
                                     </li>
                                 </ul>
-                                <a href="#" className="main-btn mt-30">
-                                    Live Preview
-                                    <i className="fal fa-long-arrow-right" />
-                                </a>
+                                <Link href="#">
+                                    <a className="main-btn mt-30">
+                                        Live Preview
+                                        <i className="fal fa-long-arrow-right" />
+                                    </a>
+                                </Link>
                                 <span className="icon">
                                     <i className="flaticon-files" />
                                 </span>
@@ -94,10 +111,12 @@ const PortfolioDetailsArea = () => {
                 </div>
                 <div className="portfolio-nav mt-60">
                     <div className="prev-post">
-                        <a href="#">
-                            <i className="fal fa-long-arrow-left" /> Prev
-                            Project
-                        </a>
+                        <Link href="#">
+                            <a>
+                                <i className="fal fa-long-arrow-left" /> Prev
+                                Project
+                            </a>
+                        </Link>
                     </div>
                     <div className="dot-icon">
                         <img
@@ -106,10 +125,12 @@ const PortfolioDetailsArea = () => {
                         />
                     </div>
                     <div className="next-post">
-                        <a href="#">
-                            Next Project
-                            <i className="fal fa-long-arrow-right" />
-                        </a>
+                        <Link href="#">
+                            <a>
+                                Next Project
+                                <i className="fal fa-long-arrow-right" />
+                            </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="related-portfolio">
@@ -126,22 +147,25 @@ const PortfolioDetailsArea = () => {
                                             "url(img/portfolio/05.jpg)",
                                     }}
                                 >
-                                    <a
-                                        href="portfolio-details.html"
-                                        className="link"
-                                    >
-                                        <i className="fal fa-long-arrow-right" />
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a className="link">
+                                            <i className="fal fa-long-arrow-right" />
+                                        </a>
+                                    </Link>
                                 </div>
                                 <div className="content">
                                     <div className="tags">
-                                        <a href="#">Design,</a>
-                                        <a href="#">Development</a>
+                                        <Link href="#">
+                                            <a>Design,</a>
+                                        </Link>
+                                        <Link href="#">
+                                            <a>Development</a>
+                                        </Link>
                                     </div>
                                     <h4 className="title">
-                                        <a href="portfolio-details.html">
-                                            Kikado Mobile App Design
-                                        </a>
+                                        <Link href="/portfolio-details">
+                                            <a>Kikado Mobile App Design</a>
+                                        </Link>
                                     </h4>
                                 </div>
                             </div>
@@ -155,22 +179,25 @@ const PortfolioDetailsArea = () => {
                                             "url(img/portfolio/06.jpg)",
                                     }}
                                 >
-                                    <a
-                                        href="portfolio-details.html"
-                                        className="link"
-                                    >
-                                        <i className="fal fa-long-arrow-right" />
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a className="link">
+                                            <i className="fal fa-long-arrow-right" />
+                                        </a>
+                                    </Link>
                                 </div>
                                 <div className="content">
                                     <div className="tags">
-                                        <a href="#">Design,</a>
-                                        <a href="#">Development</a>
+                                        <Link href="#">
+                                            <a>Design,</a>
+                                        </Link>
+                                        <Link href="#">
+                                            <a>Development</a>
+                                        </Link>
                                     </div>
                                     <h4 className="title">
-                                        <a href="portfolio-details.html">
-                                            Kikado Mobile App Design
-                                        </a>
+                                        <Link href="/portfolio-details">
+                                            <a>Kikado Mobile App Design</a>
+                                        </Link>
                                     </h4>
                                 </div>
                             </div>
@@ -184,22 +211,25 @@ const PortfolioDetailsArea = () => {
                                             "url(img/portfolio/07.jpg)",
                                     }}
                                 >
-                                    <a
-                                        href="portfolio-details.html"
-                                        className="link"
-                                    >
-                                        <i className="fal fa-long-arrow-right" />
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a className="link">
+                                            <i className="fal fa-long-arrow-right" />
+                                        </a>
+                                    </Link>
                                 </div>
                                 <div className="content">
                                     <div className="tags">
-                                        <a href="#">Design,</a>
-                                        <a href="#">Development</a>
+                                        <Link href="#">
+                                            <a>Design,</a>
+                                        </Link>
+                                        <Link href="#">
+                                            <a>Development</a>
+                                        </Link>
                                     </div>
                                     <h4 className="title">
-                                        <a href="portfolio-details.html">
-                                            Kikado Mobile App Design
-                                        </a>
+                                        <Link href="/portfolio-details">
+                                            <a>Kikado Mobile App Design</a>
+                                        </Link>
                                     </h4>
                                 </div>
                             </div>

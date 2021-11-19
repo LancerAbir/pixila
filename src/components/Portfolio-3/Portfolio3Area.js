@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Portfolio3Area = () => {
@@ -12,13 +13,17 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -30,13 +35,17 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -48,13 +57,17 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -66,13 +79,17 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -84,13 +101,17 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -102,13 +123,17 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -120,13 +145,17 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -138,13 +167,17 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -156,13 +189,17 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -174,13 +211,17 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -192,13 +233,17 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>
@@ -210,13 +255,17 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <a href="#">Design,</a>
-                                    <a href="#">Development</a>
+                                    <Link href="#">
+                                        <a>Design,</a>
+                                    </Link>
+                                    <Link href="#">
+                                        <a>Development</a>
+                                    </Link>
                                 </div>
                                 <h4 className="title">
-                                    <a href="portfolio-details.html">
-                                        Kikado Mobile App Design
-                                    </a>
+                                    <Link href="/portfolio-details">
+                                        <a>Kikado Mobile App Design</a>
+                                    </Link>
                                 </h4>
                             </div>
                         </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const PricingPricingSection = () => {
@@ -47,12 +48,11 @@ const PricingPricingSection = () => {
                                                 <i className="fal fa-check" />
                                             </li>
                                         </ul>
-                                        <a
-                                            href="#"
-                                            className="main-btn main-btn-3"
-                                        >
-                                            Purchase Now
-                                        </a>
+                                        <Link href="#">
+                                            <a className="main-btn main-btn-3">
+                                                Purchase Now
+                                            </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -92,12 +92,11 @@ const PricingPricingSection = () => {
                                                 <i className="fal fa-check" />
                                             </li>
                                         </ul>
-                                        <a
-                                            href="#"
-                                            className="main-btn main-btn-3"
-                                        >
-                                            Purchase Now
-                                        </a>
+                                        <Link href="#">
+                                            <a className="main-btn main-btn-3">
+                                                Purchase Now
+                                            </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -128,14 +127,16 @@ const PricingPricingSection = () => {
                             </p>
                             <ul className="d-flex">
                                 <li>
-                                    <a href="#" className="main-btn">
-                                        Monthly
-                                    </a>
+                                    <Link href="#">
+                                        <a className="main-btn">Monthly</a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#" className="main-btn main-btn-2">
-                                        Monthly
-                                    </a>
+                                    <Link href="#">
+                                        <a className="main-btn main-btn-2">
+                                            Monthly
+                                        </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
