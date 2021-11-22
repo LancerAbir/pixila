@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer5 = () => {
@@ -51,24 +52,32 @@ const Footer5 = () => {
                                 </p>
                                 <ul>
                                     <li>
-                                        <a href="#">
-                                            <i className="fab fa-facebook-f" />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <i className="fab fa-facebook-f" />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <i className="fab fa-twitter" />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <i className="fab fa-twitter" />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <i className="fab fa-behance" />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <i className="fab fa-behance" />
+                                            </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <i className="fab fa-youtube" />
-                                        </a>
+                                        <Link href="#">
+                                            <a>
+                                                <i className="fab fa-youtube" />
+                                            </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -78,19 +87,29 @@ const Footer5 = () => {
                                 <h5 className="widget-title">About Us</h5>
                                 <ul>
                                     <li>
-                                        <a href="#">Home</a>
+                                        <Link href="#">
+                                            <a>Home</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">About</a>
+                                        <Link href="#">
+                                            <a>About</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Services</a>
+                                        <Link href="#">
+                                            <a>Services</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Portfolio</a>
+                                        <Link href="#">
+                                            <a>Portfolio</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Pricing</a>
+                                        <Link href="#">
+                                            <a>Pricing</a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -112,10 +131,12 @@ const Footer5 = () => {
                                                 10th May 2020
                                             </span>
                                             <h6>
-                                                <a href="blog-single.html">
-                                                    Chemical Engineering
-                                                    Projects For All.
-                                                </a>
+                                                <Link href="/blog-single">
+                                                    <a>
+                                                        Chemical Engineering
+                                                        Projects For All.
+                                                    </a>
+                                                </Link>
                                             </h6>
                                         </div>
                                     </li>
@@ -132,10 +153,12 @@ const Footer5 = () => {
                                                 10th May 2020
                                             </span>
                                             <h6>
-                                                <a href="blog-single.html">
-                                                    Chemical Engineering
-                                                    Projects For All.
-                                                </a>
+                                                <Link href="/blog-single">
+                                                    <a>
+                                                        Chemical Engineering
+                                                        Projects For All.
+                                                    </a>
+                                                </Link>
                                             </h6>
                                         </div>
                                     </li>
@@ -177,7 +200,11 @@ const Footer5 = () => {
             <div className="footer-bottom">
                 <div className="container">
                     <p className="copyright-text">
-                        Copyright By@<a href="#">WebTend</a> - 2021
+                        Copyright By@
+                        <Link href="#">
+                            <a>WebTend</a>
+                        </Link>
+                        - 2021
                     </p>
                 </div>
             </div>

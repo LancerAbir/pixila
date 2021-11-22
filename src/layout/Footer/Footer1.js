@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer1 = () => {
@@ -11,29 +12,39 @@ const Footer1 = () => {
                         </div>
                         <ul className="social-icon">
                             <li>
-                                <a href="#">
-                                    <i className="fab fa-facebook-f" />
-                                </a>
+                                <Link href="#">
+                                    <a>
+                                        <i className="fab fa-facebook-f" />
+                                    </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">
-                                    <i className="fab fa-twitter" />
-                                </a>
+                                <Link href="#">
+                                    <a>
+                                        <i className="fab fa-twitter" />
+                                    </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">
-                                    <i className="fab fa-behance" />
-                                </a>
+                                <Link href="#">
+                                    <a>
+                                        <i className="fab fa-behance" />
+                                    </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">
-                                    <i className="fab fa-youtube" />
-                                </a>
+                                <Link href="#">
+                                    <a>
+                                        <i className="fab fa-youtube" />
+                                    </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">
-                                    <i className="fab fa-vimeo" />
-                                </a>
+                                <Link href="#">
+                                    <a>
+                                        <i className="fab fa-vimeo" />
+                                    </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -59,34 +70,54 @@ const Footer1 = () => {
                                 <h5 className="widget-title">Services.</h5>
                                 <ul>
                                     <li>
-                                        <a href="#">SEO Marketing</a>
+                                        <Link href="#">
+                                            <a>SEO Marketing</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Game Development</a>
+                                        <Link href="#">
+                                            <a>Game Development</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Link Building</a>
+                                        <Link href="#">
+                                            <a>Link Building</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Bitcoin Mining</a>
+                                        <Link href="#">
+                                            <a>Bitcoin Mining</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Keyword Targeting</a>
+                                        <Link href="#">
+                                            <a>Keyword Targeting</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Live Streaming</a>
+                                        <Link href="#">
+                                            <a>Live Streaming</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Web Analytics</a>
+                                        <Link href="#">
+                                            <a>Web Analytics</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Marketplace</a>
+                                        <Link href="#">
+                                            <a>Marketplace</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Email Marketing</a>
+                                        <Link href="#">
+                                            <a>Email Marketing</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Business Strategy</a>
+                                        <Link href="#">
+                                            <a>Business Strategy</a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -108,10 +139,12 @@ const Footer1 = () => {
                                                 10th May 2020
                                             </span>
                                             <h6>
-                                                <a href="blog-single.html">
-                                                    Chemical Engineering
-                                                    Projects For All.
-                                                </a>
+                                                <Link href="/blog-single">
+                                                    <a>
+                                                        Chemical Engineering
+                                                        Projects For All.
+                                                    </a>
+                                                </Link>
                                             </h6>
                                         </div>
                                     </li>
@@ -128,10 +161,12 @@ const Footer1 = () => {
                                                 10th May 2020
                                             </span>
                                             <h6>
-                                                <a href="blog-single.html">
-                                                    Chemical Engineering
-                                                    Projects For All.
-                                                </a>
+                                                <Link href="/blog-single">
+                                                    <a>
+                                                        Chemical Engineering
+                                                        Projects For All.
+                                                    </a>
+                                                </Link>
                                             </h6>
                                         </div>
                                     </li>
@@ -148,10 +183,12 @@ const Footer1 = () => {
                                                 10th May 2020
                                             </span>
                                             <h6>
-                                                <a href="blog-single.html">
-                                                    Chemical Engineering
-                                                    Projects For All.
-                                                </a>
+                                                <Link href="/blog-single">
+                                                    <a>
+                                                        Chemical Engineering
+                                                        Projects For All.
+                                                    </a>
+                                                </Link>
                                             </h6>
                                         </div>
                                     </li>
@@ -191,17 +228,27 @@ const Footer1 = () => {
                     <div className="d-md-flex align-items-center justify-content-between">
                         <ul className="footer-menu order-md-2">
                             <li>
-                                <a href="#">Terms &amp; Conditions</a>
+                                <Link href="#">
+                                    <a>Terms &amp; Conditions</a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">Refund Policy</a>
+                                <Link href="#">
+                                    <a>Refund Policy</a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">Support</a>
+                                <Link href="#">
+                                    <a>Support</a>
+                                </Link>
                             </li>
                         </ul>
                         <p className="copyright-text order-md-1">
-                            Copyright By@<a href="#">WebTend</a> - 2021
+                            Copyright By@
+                            <Link href="#">
+                                <a>WebTend</a>
+                            </Link>
+                            - 2021
                         </p>
                     </div>
                 </div>

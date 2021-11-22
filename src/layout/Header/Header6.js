@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Header6 = () => {
@@ -9,54 +10,74 @@ const Header6 = () => {
                         <div className="topbar-left d-flex align-items-center">
                             <ul className="social-icon">
                                 <li>
-                                    <a href="#">
-                                        <i className="fab fa-facebook-f" />
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-facebook-f" />
+                                        </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <i className="fab fa-twitter" />
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-twitter" />
+                                        </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <i className="fab fa-behance" />
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-behance" />
+                                        </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <i className="fab fa-youtube" />
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-youtube" />
+                                        </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <i className="fab fa-linkedin" />
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <i className="fab fa-linkedin" />
+                                        </a>
+                                    </Link>
                                 </li>
                             </ul>
                             <ul className="contact-info">
                                 <li>
-                                    <a href="#">
-                                        <span>Phone:</span> 987-098-756-09
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <span>Phone:</span> 987-098-756-09
+                                        </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <span>Email:</span> info@webmail.com
-                                    </a>
+                                    <Link href="#">
+                                        <a>
+                                            <span>Email:</span> info@webmail.com
+                                        </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="topbar-right d-flex align-items-center justify-content-lg-end">
                             <ul className="topbar-menu">
                                 <li>
-                                    <a href="#">Sign In</a>
+                                    <Link href="#">
+                                        <a>Sign In</a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#">Company</a>
+                                    <Link href="#">
+                                        <a>Company</a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#">Contact Us</a>
+                                    <Link href="#">
+                                        <a>Contact Us</a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -73,43 +94,61 @@ const Header6 = () => {
                     <div className="d-flex align-items-center justify-content-between">
                         <div className="navbar-left d-flex align-items-center">
                             <div className="site-logo">
-                                <a href="index.html">
-                                    <img src="img/logo.png" alt="Pixila" />
-                                </a>
+                                <Link href="/">
+                                    <a>
+                                        <img src="img/logo.png" alt="Pixila" />
+                                    </a>
+                                </Link>
                             </div>
                             <nav className="site-nav-menu">
                                 <ul className="primary-menu onepage-nav">
                                     <li className="current">
-                                        <a href="#home">Home</a>
+                                        <Link href="/">
+                                            <a>Home</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#services">Services</a>
+                                        <Link href="#">
+                                            <a href="#services">Services</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#about">About us</a>
+                                        <Link href="#">
+                                            <a href="#about">About us</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#team">Team</a>
+                                        <Link href="#">
+                                            <a href="#team">Team</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#feedbacks">Feedbacks</a>
+                                        <Link href="#">
+                                            <a href="#feedbacks">Feedbacks</a>
+                                        </Link>
                                     </li>
                                 </ul>
-                                <a href="#" className="nav-close">
-                                    <i className="fal fa-times" />
-                                </a>
+                                <Link href="#">
+                                    <a className="nav-close">
+                                        <i className="fal fa-times" />
+                                    </a>
+                                </Link>
                             </nav>
                         </div>
                         <div className="navbar-right d-flex align-items-center">
                             <div className="cart-widget">
-                                <a href="#" className="cart-icon">
-                                    <i className="fal fa-shopping-cart" />
-                                </a>
+                                <Link href="#">
+                                    <a className="cart-icon">
+                                        <i className="fal fa-shopping-cart" />
+                                    </a>
+                                </Link>
                             </div>
                             <div className="offcanvas-menu">
-                                <a href="#" className="panel-icon">
-                                    <i className="fal fa-bars" />
-                                </a>
+                                <Link href="#">
+                                    <a className="panel-icon">
+                                        <i className="fal fa-bars" />
+                                    </a>
+                                </Link>
                                 <div className="offcanvas-panel">
                                     <div className="offcanvas-panel-inner">
                                         <div className="panel-logo">
@@ -145,34 +184,46 @@ const Header6 = () => {
                                                 </li>
                                                 <li>
                                                     <i className="fal fa-envelope-open" />
-                                                    <a href="mailto:info@example.com">
-                                                        info@example.com
-                                                    </a>
-                                                    <a href="mailto:info@example.com">
-                                                        info@example.com
-                                                    </a>
+                                                    <Link href="#">
+                                                        <a href="mailto:info@example.com">
+                                                            info@example.com
+                                                        </a>
+                                                    </Link>
+                                                    <Link href="#">
+                                                        <a href="mailto:info@example.com">
+                                                            info@example.com
+                                                        </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
                                                     <i className="fal fa-phone" />
-                                                    <a href="tel:(312)-895-9800">
-                                                        +0 123-456-7890
-                                                    </a>
-                                                    <a href="tel:(312)-895-9888">
-                                                        +0 123-456-7890
-                                                    </a>
+                                                    <Link href="#">
+                                                        <a href="tel:(312)-895-9800">
+                                                            +0 123-456-7890
+                                                        </a>
+                                                    </Link>
+                                                    <Link href="#">
+                                                        <a href="tel:(312)-895-9800">
+                                                            +0 123-456-7890
+                                                        </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </div>
-                                        <a href="#" className="panel-close">
-                                            <i className="fal fa-times" />
-                                        </a>
+                                        <Link href="#">
+                                            <a className="panel-close">
+                                                <i className="fal fa-times" />
+                                            </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="search-widget">
-                                <a href="#" className="search-icon">
-                                    <i className="fal fa-search" />
-                                </a>
+                                <Link href="#">
+                                    <a className="search-icon">
+                                        <i className="fal fa-search" />
+                                    </a>
+                                </Link>
                                 <div className="search-form">
                                     <form action="#">
                                         <input
@@ -185,9 +236,11 @@ const Header6 = () => {
                                     </form>
                                 </div>
                             </div>
-                            <a href="#" className="nav-toggler">
-                                <i className="fal fa-bars" />
-                            </a>
+                            <Link href="#">
+                                <a className="nav-toggler">
+                                    <i className="fal fa-bars" />
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

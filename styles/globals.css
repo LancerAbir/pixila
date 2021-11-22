@@ -8,6 +8,7 @@
 @import "../public/css/slick";
 @import "../public/css/slick.css";
 @import "../public/css/style.css";
+@import "../node_modules/react-modal-video/css/modal-video";
 
 .owl-carousel {
     display: block !important;

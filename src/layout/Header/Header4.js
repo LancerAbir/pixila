@@ -9,9 +9,14 @@ const Header4 = () => {
                     <div className="d-flex align-items-center justify-content-between">
                         <div className="navbar-left d-flex align-items-center">
                             <div className="site-logo">
-                                <a href="index.html">
-                                    <img src="img/logo-3.png" alt="Pixila" />
-                                </a>
+                                <Link href="/">
+                                    <a>
+                                        <img
+                                            src="img/logo-3.png"
+                                            alt="Pixila"
+                                        />
+                                    </a>
+                                </Link>
                             </div>
                             <nav className="site-nav-menu">
                                 <ul className="primary-menu">
@@ -21,157 +26,184 @@ const Header4 = () => {
                                         </Link>
                                         <ul className="submenu">
                                             <li>
-                                                <a href="index.html">
-                                                    Home One
-                                                </a>
+                                                <Link href="/">
+                                                    <a>Home One</a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="index-2.html">
-                                                    Home Two
-                                                </a>
+                                                <Link href="/index-2">
+                                                    <a>Home Two</a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="index-3.html">
-                                                    Home Three
-                                                </a>
+                                                <Link href="/index-3">
+                                                    <a>Home Three</a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="index-4.html">
-                                                    Home Four
-                                                </a>
+                                                <Link href="/index-4">
+                                                    <a>Home Four</a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">OnePage</a>
+                                                <Link href="#">
+                                                    <a>OnePage</a>
+                                                </Link>
                                                 <ul className="submenu">
                                                     <li>
-                                                        <a href="index-onepage.html">
-                                                            Home One
-                                                        </a>
+                                                        <Link href="/index-onepage">
+                                                            <a>Home One</a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a href="index-2-onepage.html">
-                                                            Home Two
-                                                        </a>
+                                                        <Link href="/index-2-onepage">
+                                                            <a>Home Two</a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a href="index-3-onepage.html">
-                                                            Home Three
-                                                        </a>
+                                                        <Link href="/index-3-onepage">
+                                                            <a>Home Three</a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a href="index-4-onepage.html">
-                                                            Home Four
-                                                        </a>
+                                                        <Link href="/index-4-onepage">
+                                                            <a>Home Four</a>
+                                                        </Link>
                                                     </li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="about.html">About us</a>
+                                        <Link href="/about">
+                                            <a>About us</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Pages</a>
+                                        <Link href="#">
+                                            <a>Pages</a>
+                                        </Link>
                                         <ul className="submenu">
                                             <li>
-                                                <a href="portfolio.html">
-                                                    Portfolio
-                                                </a>
+                                                <Link href="/portfolio">
+                                                    <a>Portfolio</a>
+                                                </Link>
                                                 <ul className="submenu">
                                                     <li>
-                                                        <a href="portfolio.html">
-                                                            Portfolio One
-                                                        </a>
+                                                        <Link href="/portfolio">
+                                                            <a>Portfolio One</a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a href="portfolio-2.html">
-                                                            Portfolio Two
-                                                        </a>
+                                                        <Link href="/portfolio-2">
+                                                            <a>Portfolio Two</a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a href="portfolio-3.html">
-                                                            Portfolio Three
-                                                        </a>
+                                                        <Link href="/portfolio-3">
+                                                            <a>
+                                                                Portfolio Three
+                                                            </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a href="portfolio-details.html">
-                                                            Portfolio Details
-                                                        </a>
+                                                        <Link href="/portfolio-details">
+                                                            <a>
+                                                                Portfolio
+                                                                Details
+                                                            </a>
+                                                        </Link>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="service.html">
-                                                    Service
-                                                </a>
+                                                <Link href="/service">
+                                                    <a>Service</a>
+                                                </Link>
                                                 <ul className="submenu">
                                                     <li>
-                                                        <a href="service.html">
-                                                            Service One
-                                                        </a>
+                                                        <Link href="/service">
+                                                            <a>Service One</a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a href="service-2.html">
-                                                            Service Two
-                                                        </a>
+                                                        <Link href="/service-2">
+                                                            <a>Service Two</a>
+                                                        </Link>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="faq.html">FAQ</a>
+                                                <Link href="/faq">
+                                                    <a>FAQ</a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="pricing.html">
-                                                    Pricing
-                                                </a>
+                                                <Link href="/pricing">
+                                                    <a>Pricing</a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="process.html">
-                                                    Process
-                                                </a>
+                                                <Link href="/process">
+                                                    <a>Process</a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="team.html">Team</a>
+                                                <Link href="/team">
+                                                    <a>Team</a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="shop.html">Shop</a>
+                                                <Link href="/shop">
+                                                    <a>Shop</a>
+                                                </Link>
                                                 <ul className="submenu">
                                                     <li>
-                                                        <a href="shop-details.html">
-                                                            Shop Details
-                                                        </a>
+                                                        <Link href="/shop-details">
+                                                            <a>Shop Details</a>
+                                                        </Link>
                                                     </li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="blog.html">News</a>
+                                        <Link href="/blog">
+                                            <a>News</a>
+                                        </Link>
                                         <ul className="submenu">
                                             <li>
-                                                <a href="blog-single.html">
-                                                    News Details
-                                                </a>
+                                                <Link href="/blog-single">
+                                                    <a>News Details</a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="contact.html">Contact us</a>
+                                        <Link href="/contact">
+                                            <a>Contact us</a>
+                                        </Link>
                                     </li>
                                 </ul>
-                                <a href="#" className="nav-close">
-                                    <i className="fal fa-times" />
-                                </a>
+                                <Link href="#">
+                                    <a className="nav-close">
+                                        <i className="fal fa-times" />
+                                    </a>
+                                </Link>
                             </nav>
                         </div>
                         <div className="navbar-right d-flex align-items-center">
                             <div className="header-contact-btn">
-                                <a href="#">Support: 987.098.564.98</a>
+                                <Link href="#">
+                                    <a>Support: 987.098.564.98</a>
+                                </Link>
                             </div>
                             <div className="search-widget">
-                                <a href="#" className="search-icon">
-                                    <i className="far fa-search" />
-                                </a>
+                                <Link href="#">
+                                    <a className="search-icon">
+                                        <i className="far fa-search" />
+                                    </a>
+                                </Link>
                                 <div className="search-form">
                                     <form action="#">
                                         <input
@@ -184,9 +216,11 @@ const Header4 = () => {
                                     </form>
                                 </div>
                             </div>
-                            <a href="#" className="nav-toggler">
-                                <i className="far fa-bars" />
-                            </a>
+                            <Link href="#">
+                                <a className="nav-toggler">
+                                    <i className="far fa-bars" />
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

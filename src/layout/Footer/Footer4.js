@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer4 = () => {
@@ -8,27 +9,41 @@ const Footer4 = () => {
                     <div className="d-md-flex justify-content-between align-items-center">
                         <ul className="footer-top-menu">
                             <li>
-                                <a href="#">Roadmap</a>
+                                <Link href="#">
+                                    <a>Roadmap</a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">Careers</a>
+                                <Link href="#">
+                                    <a>Careers</a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">Connect</a>
+                                <Link href="#">
+                                    <a>Connect</a>
+                                </Link>
                             </li>
                         </ul>
                         <ul className="social-links">
                             <li>
-                                <a href="#">facebook</a>
+                                <Link href="#">
+                                    <a>facebook</a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">twtter</a>
+                                <Link href="#">
+                                    <a>twtter</a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">linkedin </a>
+                                <Link href="#">
+                                    <a>linkedin </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">pinterest</a>
+                                <Link href="#">
+                                    <a>pinterest</a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -53,37 +68,59 @@ const Footer4 = () => {
                                 <h5 className="widget-title">Main Links.</h5>
                                 <ul>
                                     <li>
-                                        <a href="#">About Us</a>
+                                        <Link href="#">
+                                            <a>About Us</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Reviews</a>
+                                        <Link href="#">
+                                            <a>Reviews</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Services</a>
+                                        <Link href="#">
+                                            <a>Services</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Best Products</a>
+                                        <Link href="#">
+                                            <a>Best Products</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Pricing</a>
+                                        <Link href="#">
+                                            <a>Pricing</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Categories</a>
+                                        <Link href="#">
+                                            <a>Categories</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Portfolio</a>
+                                        <Link href="#">
+                                            <a>Portfolio</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Brands</a>
+                                        <Link href="#">
+                                            <a>Brands</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Insights</a>
+                                        <Link href="#">
+                                            <a>Insights</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Hiring</a>
+                                        <Link href="#">
+                                            <a>Hiring</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">Business Strategy</a>
+                                        <Link href="#">
+                                            <a>Business Strategy</a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -101,10 +138,12 @@ const Footer4 = () => {
                                         71, Qlex Tower, Onthon, UK
                                     </li>
                                 </ul>
-                                <a href="#" className="info-btn">
-                                    Contact Us
-                                    <i className="fal fa-long-arrow-right" />
-                                </a>
+                                <Link href="#">
+                                    <a className="info-btn">
+                                        Contact Us
+                                        <i className="fal fa-long-arrow-right" />
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

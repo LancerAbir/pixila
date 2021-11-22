@@ -1,7 +1,10 @@
+import dynamic from "next/dynamic";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 
 const BlogArea = () => {
+    const [isOpen, setOpen] = useState(false);
     return (
         <section className="blog-area section-gap">
             <div className="container">
@@ -74,12 +77,20 @@ const BlogArea = () => {
                                     <img src="img/blog/02.jpg" alt="Image" />
                                     <Link href="#">
                                         <a
-                                            href="https://www.youtube.com/watch?v=pVE92TNDwUk"
+                                            onClick={() => setOpen(true)}
                                             className="popup-video"
                                         >
                                             <i className="fas fa-play" />
                                         </a>
                                     </Link>
+
+                                    <ModalVideo
+                                        channel="youtube"
+                                        autoplay
+                                        isOpen={isOpen}
+                                        videoId="pVE92TNDwUk"
+                                        onClose={() => setOpen(false)}
+                                    />
                                 </div>
                                 <div className="post-content">
                                     <Link href="#">

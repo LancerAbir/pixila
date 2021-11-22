@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Header3 = () => {
@@ -8,41 +9,62 @@ const Header3 = () => {
                     <div className="d-flex align-items-center justify-content-between">
                         <div className="navbar-left d-flex align-items-center">
                             <div className="site-logo">
-                                <a href="index.html">
-                                    <img src="img/logo-3.png" alt="Pixila" />
-                                </a>
+                                <Link href="/">
+                                    <a>
+                                        <img
+                                            src="img/logo-3.png"
+                                            alt="Pixila"
+                                        />
+                                    </a>
+                                </Link>
                             </div>
                             <nav className="site-nav-menu">
                                 <ul className="primary-menu onepage-nav">
                                     <li className="current">
-                                        <a href="#home">Home</a>
+                                        <Link href="/">
+                                            <a>Home</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#features">Features</a>
+                                        <Link href="#">
+                                            <a href="#features">Features</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#process">Process</a>
+                                        <Link href="#">
+                                            <a href="#process">Process</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#feedback">Feedback</a>
+                                        <Link href="#">
+                                            <a href="#feedback">Feedback</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#news">News</a>
+                                        <Link href="#">
+                                            <a href="#news">News</a>
+                                        </Link>
                                     </li>
                                 </ul>
-                                <a href="#" className="nav-close">
-                                    <i className="fal fa-times" />
-                                </a>
+                                <Link href="#">
+                                    <a className="nav-close">
+                                        <i className="fal fa-times" />
+                                    </a>
+                                </Link>
                             </nav>
                         </div>
                         <div className="navbar-right d-flex align-items-center">
                             <div className="header-contact-btn">
-                                <a href="#">Support: 987.098.564.98</a>
+                                <Link href="#">
+                                    <a>Support: 987.098.564.98</a>
+                                </Link>
                             </div>
                             <div className="search-widget">
-                                <a href="#" className="search-icon">
-                                    <i className="far fa-search" />
-                                </a>
+                                <Link href="#">
+                                    <a className="search-icon">
+                                        <i className="far fa-search" />
+                                    </a>
+                                </Link>
                                 <div className="search-form">
                                     <form action="#">
                                         <input
@@ -55,9 +77,11 @@ const Header3 = () => {
                                     </form>
                                 </div>
                             </div>
-                            <a href="#" className="nav-toggler">
-                                <i className="far fa-bars" />
-                            </a>
+                            <Link href="#">
+                                <a className="nav-toggler">
+                                    <i className="far fa-bars" />
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

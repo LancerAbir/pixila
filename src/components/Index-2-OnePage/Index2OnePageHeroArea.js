@@ -1,7 +1,10 @@
+import dynamic from "next/dynamic";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 
 const Index2OnePageHeroArea = () => {
+    const [isOpen, setOpen] = useState(false);
     return (
         <section className="hero-area hero-area-two" id="home">
             <div className="container">
@@ -52,12 +55,20 @@ const Index2OnePageHeroArea = () => {
                             <div className="hero-video-wrap">
                                 <Link href="#">
                                     <a
-                                        href="https://www.youtube.com/watch?v=pVE92TNDwUk"
+                                        onClick={() => setOpen(true)}
                                         className="video-btn popup-video"
                                     >
                                         Play
                                     </a>
                                 </Link>
+
+                                <ModalVideo
+                                    channel="youtube"
+                                    autoplay
+                                    isOpen={isOpen}
+                                    videoId="pVE92TNDwUk"
+                                    onClose={() => setOpen(false)}
+                                />
                                 <img
                                     src="img/hero-img/hero-02.jpg"
                                     alt="HeroImage"

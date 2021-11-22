@@ -1,7 +1,12 @@
+import dynamic from "next/dynamic";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import Counter from "../Counter";
+const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 
 const HomeSkillSection = () => {
+    const [isOpen, setOpen] = useState(false);
+
     return (
         <section className="skill-section section-gap-top">
             <div className="container">
@@ -29,7 +34,10 @@ const HomeSkillSection = () => {
                                 <div className="title">
                                     <span>Work Progress</span>
                                     <span className="progress-counter">
-                                        <span className="count">72</span>%
+                                        <span className="count">
+                                            <Counter end={72} />
+                                        </span>
+                                        %
                                     </span>
                                 </div>
                                 <div className="progressbar-wrap">
@@ -46,12 +54,21 @@ const HomeSkillSection = () => {
                         <div className="skillset-video active mb-xs-gap-30">
                             <Link href="#">
                                 <a
-                                    href="https://www.youtube.com/watch?v=pVE92TNDwUk"
+                                    onClick={() => setOpen(true)}
                                     className="popup-btn popup-video"
                                 >
                                     <i className="fas fa-play" />
                                 </a>
                             </Link>
+
+                            <ModalVideo
+                                channel="youtube"
+                                autoplay
+                                isOpen={isOpen}
+                                videoId="pVE92TNDwUk"
+                                onClose={() => setOpen(false)}
+                            />
+
                             <div
                                 className="video-bg"
                                 style={{
@@ -64,12 +81,20 @@ const HomeSkillSection = () => {
                         <div className="skillset-video">
                             <Link href="#">
                                 <a
-                                    href="https://www.youtube.com/watch?v=pVE92TNDwUk"
+                                    onClick={() => setOpen(true)}
                                     className="popup-btn popup-video"
                                 >
                                     <i className="fas fa-play" />
                                 </a>
                             </Link>
+
+                            <ModalVideo
+                                channel="youtube"
+                                autoplay
+                                isOpen={isOpen}
+                                videoId="pVE92TNDwUk"
+                                onClose={() => setOpen(false)}
+                            />
                             <div
                                 className="video-bg"
                                 style={{

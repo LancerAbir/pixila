@@ -1,7 +1,10 @@
+import dynamic from "next/dynamic";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 
 const ServiceSkillArea = () => {
+    const [isOpen, setOpen] = useState(false);
     return (
         <section className="skill-section section-gap-bottom grey-bg">
             <div className="container-fluid p-0 overflow-hidden">
@@ -10,12 +13,19 @@ const ServiceSkillArea = () => {
                         <div className="skillset-video">
                             <Link href="#">
                                 <a
-                                    href="https://www.youtube.com/watch?v=pVE92TNDwUk"
+                                    onClick={() => setOpen(true)}
                                     className="popup-btn popup-video"
                                 >
                                     <i className="fas fa-play" />
                                 </a>
                             </Link>
+                            <ModalVideo
+                                channel="youtube"
+                                autoplay
+                                isOpen={isOpen}
+                                videoId="pVE92TNDwUk"
+                                onClose={() => setOpen(false)}
+                            />
                             <div
                                 className="video-bg"
                                 style={{
@@ -29,12 +39,19 @@ const ServiceSkillArea = () => {
                         <div className="skillset-video">
                             <Link href="#">
                                 <a
-                                    href="https://www.youtube.com/watch?v=pVE92TNDwUk"
+                                    onClick={() => setOpen(true)}
                                     className="popup-btn popup-video"
                                 >
                                     <i className="fas fa-play" />
                                 </a>
                             </Link>
+                            <ModalVideo
+                                channel="youtube"
+                                autoplay
+                                isOpen={isOpen}
+                                videoId="pVE92TNDwUk"
+                                onClose={() => setOpen(false)}
+                            />
                             <div
                                 className="video-bg"
                                 style={{
@@ -48,12 +65,19 @@ const ServiceSkillArea = () => {
                         <div className="skillset-video">
                             <Link href="#">
                                 <a
-                                    href="https://www.youtube.com/watch?v=pVE92TNDwUk"
+                                    onClick={() => setOpen(true)}
                                     className="popup-btn popup-video"
                                 >
                                     <i className="fas fa-play" />
                                 </a>
                             </Link>
+                            <ModalVideo
+                                channel="youtube"
+                                autoplay
+                                isOpen={isOpen}
+                                videoId="pVE92TNDwUk"
+                                onClose={() => setOpen(false)}
+                            />
                             <div
                                 className="video-bg"
                                 style={{
