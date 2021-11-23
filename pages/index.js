@@ -15,7 +15,6 @@ export default function Home() {
             {/*====== Header Start ======*/}
             <HomeHeader />
             {/*====== Header End ======*/}
-
             {/*====== Hero Area Start ======*/}
             <IndexHeroArea />
             {/*====== Hero Area Start ======*/}

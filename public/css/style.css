@@ -258,6 +258,11 @@ a {
     padding-bottom: 120px;
 }
 
+.extra-padding {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 .section-gap-top {
     padding-top: 120px;
 }

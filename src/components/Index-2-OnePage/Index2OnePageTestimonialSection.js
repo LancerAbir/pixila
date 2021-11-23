@@ -1,6 +1,15 @@
 import React from "react";
+import Slider from "react-slick";
 
 const Index2OnePageTestimonialSection = () => {
+    const settings = {
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
     return (
         <section
             className="testimonial-section section-gap-top secondary-bg"
@@ -29,32 +38,34 @@ const Index2OnePageTestimonialSection = () => {
                             className="testimonial-boxes-two mb-negative"
                             id="testimonialSliderTwo"
                         >
-                            <div className="testimonial-box">
-                                <p>
-                                    As a fashion influencer with almost 2
-                                    million followers, @barbiestyle selected the
-                                    boldest looks for the launch as her fall
-                                    wardrobe transitions away from her summer
-                                    staples.
-                                </p>
-                                <div className="author-info">
-                                    <h4>Miranda H. Halim</h4>
-                                    <span>Founder</span>
+                            <Slider {...settings}>
+                                <div className="testimonial-box">
+                                    <p>
+                                        As a fashion influencer with almost 2
+                                        million followers, @barbiestyle selected
+                                        the boldest looks for the launch as her
+                                        fall wardrobe transitions away from her
+                                        summer staples.
+                                    </p>
+                                    <div className="author-info">
+                                        <h4>Miranda H. Halim</h4>
+                                        <span>Founder</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="testimonial-box">
-                                <p>
-                                    As a fashion influencer with almost 2
-                                    million followers, @barbiestyle selected the
-                                    boldest looks for the launch as her fall
-                                    wardrobe transitions away from her summer
-                                    staples.
-                                </p>
-                                <div className="author-info">
-                                    <h4>Miranda H. Halim</h4>
-                                    <span>Founder</span>
+                                <div className="testimonial-box">
+                                    <p>
+                                        As a fashion influencer with almost 2
+                                        million followers, @barbiestyle selected
+                                        the boldest looks for the launch as her
+                                        fall wardrobe transitions away from her
+                                        summer staples.
+                                    </p>
+                                    <div className="author-info">
+                                        <h4>Miranda H. Halim</h4>
+                                        <span>Founder</span>
+                                    </div>
                                 </div>
-                            </div>
+                            </Slider>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,24 @@
 import Link from "next/link";
 import React from "react";
+import Slider from "react-slick";
 
 const IndexTestimonialsArea = () => {
+    const settings = {
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+    };
+    const settings2 = {
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+    };
     return (
         <section className="testimonial-section with-pattern testimonial-brand-section primary-bg">
             <div className="container">
@@ -23,162 +40,166 @@ const IndexTestimonialsArea = () => {
                     className="testimonial-boxes row"
                     id="testimonialSliderOne"
                 >
-                    <div className="col">
-                        <div className="testimonial-box">
-                            <div className="author-img">
-                                <img
-                                    src="img/testimonial/testimonial-author-1.png"
-                                    alt="Testimonial"
-                                />
-                            </div>
-                            <div className="content">
-                                <p>
-                                    ”Hundreds Of Successful Organizations
-                                    Companies of every size, and in 62 different
-                                    countries, are using Betakit.”
-                                </p>
-                                <div className="author-info">
-                                    <h5>Miranda H. Halim</h5>
-                                    <span>Founder</span>
+                    <Slider {...settings}>
+                        <div className="col extra-padding">
+                            <div className="testimonial-box">
+                                <div className="author-img">
+                                    <img
+                                        src="img/testimonial/testimonial-author-1.png"
+                                        alt="Testimonial"
+                                    />
+                                </div>
+                                <div className="content">
+                                    <p>
+                                        ”Hundreds Of Successful Organizations
+                                        Companies of every size, and in 62
+                                        different countries, are using Betakit.”
+                                    </p>
+                                    <div className="author-info">
+                                        <h5>Miranda H. Halim</h5>
+                                        <span>Founder</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="col">
-                        <div className="testimonial-box">
-                            <div className="author-img">
-                                <img
-                                    src="img/testimonial/testimonial-author-2.png"
-                                    alt="Testimonial"
-                                />
-                            </div>
-                            <div className="content">
-                                <p>
-                                    ”Hundreds Of Successful Organizations
-                                    Companies of every size, and in 62 different
-                                    countries, are using Betakit.”
-                                </p>
-                                <div className="author-info">
-                                    <h5>Miranda H. Halim</h5>
-                                    <span>Founder</span>
+                        <div className="col extra-padding">
+                            <div className="testimonial-box">
+                                <div className="author-img">
+                                    <img
+                                        src="img/testimonial/testimonial-author-2.png"
+                                        alt="Testimonial"
+                                    />
+                                </div>
+                                <div className="content">
+                                    <p>
+                                        ”Hundreds Of Successful Organizations
+                                        Companies of every size, and in 62
+                                        different countries, are using Betakit.”
+                                    </p>
+                                    <div className="author-info">
+                                        <h5>Miranda H. Halim</h5>
+                                        <span>Founder</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="col">
-                        <div className="testimonial-box">
-                            <div className="author-img">
-                                <img
-                                    src="img/testimonial/testimonial-author-1.png"
-                                    alt="Testimonial"
-                                />
-                            </div>
-                            <div className="content">
-                                <p>
-                                    ”Hundreds Of Successful Organizations
-                                    Companies of every size, and in 62 different
-                                    countries, are using Betakit.”
-                                </p>
-                                <div className="author-info">
-                                    <h5>Miranda H. Halim</h5>
-                                    <span>Founder</span>
+                        <div className="col extra-padding">
+                            <div className="testimonial-box">
+                                <div className="author-img">
+                                    <img
+                                        src="img/testimonial/testimonial-author-1.png"
+                                        alt="Testimonial"
+                                    />
+                                </div>
+                                <div className="content">
+                                    <p>
+                                        ”Hundreds Of Successful Organizations
+                                        Companies of every size, and in 62
+                                        different countries, are using Betakit.”
+                                    </p>
+                                    <div className="author-info">
+                                        <h5>Miranda H. Halim</h5>
+                                        <span>Founder</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="col">
-                        <div className="testimonial-box">
-                            <div className="author-img">
-                                <img
-                                    src="img/testimonial/testimonial-author-2.png"
-                                    alt="Testimonial"
-                                />
-                            </div>
-                            <div className="content">
-                                <p>
-                                    ”Hundreds Of Successful Organizations
-                                    Companies of every size, and in 62 different
-                                    countries, are using Betakit.”
-                                </p>
-                                <div className="author-info">
-                                    <h5>Miranda H. Halim</h5>
-                                    <span>Founder</span>
+                        <div className="col extra-padding">
+                            <div className="testimonial-box">
+                                <div className="author-img">
+                                    <img
+                                        src="img/testimonial/testimonial-author-2.png"
+                                        alt="Testimonial"
+                                    />
+                                </div>
+                                <div className="content">
+                                    <p>
+                                        ”Hundreds Of Successful Organizations
+                                        Companies of every size, and in 62
+                                        different countries, are using Betakit.”
+                                    </p>
+                                    <div className="author-info">
+                                        <h5>Miranda H. Halim</h5>
+                                        <span>Founder</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Slider>
                 </div>
                 <div className="brand-logos section-gap-top row justify-content-between align-items-center">
-                    <div className="col">
-                        <Link href="#">
-                            <a className="brand-logo">
-                                <img src="img/brand/1.png" alt="Image" />
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="col">
-                        <Link href="#">
-                            <a className="brand-logo">
-                                <img src="img/brand/2.png" alt="Image" />
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="col">
-                        <Link href="#">
-                            <a className="brand-logo">
-                                <img src="img/brand/3.png" alt="Image" />
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="col">
-                        <Link href="#">
-                            <a className="brand-logo">
-                                <img src="img/brand/4.png" alt="Image" />
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="col">
-                        <Link href="#">
-                            <a className="brand-logo">
-                                <img src="img/brand/5.png" alt="Image" />
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="col">
-                        <Link href="#">
-                            <a className="brand-logo">
-                                <img src="img/brand/1.png" alt="Image" />
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="col">
-                        <Link href="#">
-                            <a className="brand-logo">
-                                <img src="img/brand/2.png" alt="Image" />
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="col">
-                        <Link href="#">
-                            <a className="brand-logo">
-                                <img src="img/brand/3.png" alt="Image" />
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="col">
-                        <Link href="#">
-                            <a className="brand-logo">
-                                <img src="img/brand/4.png" alt="Image" />
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="col">
-                        <Link href="#">
-                            <a className="brand-logo">
-                                <img src="img/brand/5.png" alt="Image" />
-                            </a>
-                        </Link>
-                    </div>
+                    <Slider {...settings2}>
+                        <div className="col">
+                            <Link href="#">
+                                <a className="brand-logo">
+                                    <img src="img/brand/1.png" alt="Image" />
+                                </a>
+                            </Link>
+                        </div>
+                        <div className="col">
+                            <Link href="#">
+                                <a className="brand-logo">
+                                    <img src="img/brand/2.png" alt="Image" />
+                                </a>
+                            </Link>
+                        </div>
+                        <div className="col">
+                            <Link href="#">
+                                <a className="brand-logo">
+                                    <img src="img/brand/3.png" alt="Image" />
+                                </a>
+                            </Link>
+                        </div>
+                        <div className="col">
+                            <Link href="#">
+                                <a className="brand-logo">
+                                    <img src="img/brand/4.png" alt="Image" />
+                                </a>
+                            </Link>
+                        </div>
+                        <div className="col">
+                            <Link href="#">
+                                <a className="brand-logo">
+                                    <img src="img/brand/5.png" alt="Image" />
+                                </a>
+                            </Link>
+                        </div>
+                        <div className="col">
+                            <Link href="#">
+                                <a className="brand-logo">
+                                    <img src="img/brand/1.png" alt="Image" />
+                                </a>
+                            </Link>
+                        </div>
+                        <div className="col">
+                            <Link href="#">
+                                <a className="brand-logo">
+                                    <img src="img/brand/2.png" alt="Image" />
+                                </a>
+                            </Link>
+                        </div>
+                        <div className="col">
+                            <Link href="#">
+                                <a className="brand-logo">
+                                    <img src="img/brand/3.png" alt="Image" />
+                                </a>
+                            </Link>
+                        </div>
+                        <div className="col">
+                            <Link href="#">
+                                <a className="brand-logo">
+                                    <img src="img/brand/4.png" alt="Image" />
+                                </a>
+                            </Link>
+                        </div>
+                        <div className="col">
+                            <Link href="#">
+                                <a className="brand-logo">
+                                    <img src="img/brand/5.png" alt="Image" />
+                                </a>
+                            </Link>
+                        </div>
+                    </Slider>
                 </div>
             </div>
         </section>
