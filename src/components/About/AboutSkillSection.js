@@ -1,8 +1,7 @@
-import dynamic from "next/dynamic";
 import Link from "next/link";
 import React, { useState } from "react";
 import Counter from "../Counter";
-const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
+// const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 
 const AboutSkillSection = () => {
     const [isOpen, setOpen] = useState(false);
@@ -20,13 +19,14 @@ const AboutSkillSection = () => {
                                     <i className="fas fa-play" />
                                 </a>
                             </Link>
-                            <ModalVideo
+
+                            {/**<ModalVideo
                                 channel="youtube"
                                 autoplay
                                 isOpen={isOpen}
                                 videoId="pVE92TNDwUk"
                                 onClose={() => setOpen(false)}
-                            />
+                            /> */}
                             <div
                                 className="video-bg"
                                 style={{

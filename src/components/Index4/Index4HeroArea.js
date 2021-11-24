@@ -1,7 +1,6 @@
-import dynamic from "next/dynamic";
 import Link from "next/link";
 import React, { useState } from "react";
-const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
+// const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 
 const Index4HeroArea = () => {
     const [isOpen, setOpen] = useState(false);
@@ -20,14 +19,14 @@ const Index4HeroArea = () => {
                                     <i className="fas fa-play" />
                                 </a>
                             </Link>
-
-                            <ModalVideo
+                            {/**<ModalVideo
                                 channel="youtube"
                                 autoplay
                                 isOpen={isOpen}
                                 videoId="ScMzIvxBSi4"
                                 onClose={() => setOpen(false)}
-                            />
+                            /> */}
+
                             <h2
                                 className="title wow fadeInLeft"
                                 data-wow-delay="0.5s"

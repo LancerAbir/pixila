@@ -1,7 +1,6 @@
-import dynamic from "next/dynamic";
 import Link from "next/link";
 import React, { useState } from "react";
-const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
+// const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 
 const BlogArea = () => {
     const [isOpen, setOpen] = useState(false);
@@ -84,13 +83,13 @@ const BlogArea = () => {
                                         </a>
                                     </Link>
 
-                                    <ModalVideo
+                                    {/** <ModalVideo
                                         channel="youtube"
                                         autoplay
                                         isOpen={isOpen}
                                         videoId="pVE92TNDwUk"
                                         onClose={() => setOpen(false)}
-                                    />
+                                    />*/}
                                 </div>
                                 <div className="post-content">
                                     <Link href="#">
