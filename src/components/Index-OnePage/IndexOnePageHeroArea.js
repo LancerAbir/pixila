@@ -12,7 +12,8 @@ const IndexOnePageHeroArea = () => {
                                 className="title-tag wow fadeInDown"
                                 data-wow-delay="0.3s"
                             >
-                                It's a lot easy to make a difference togather.
+                                It &apos; s a lot easy to make a difference
+                                togather.
                             </span>
                             <h2
                                 className="title wow fadeInLeft"

@@ -28,7 +28,7 @@ const BlogArea = () => {
                                         </Link>
                                     </h3>
                                     <p>
-                                        Novia's spaciously two bedroom
+                                        Novia &apos; s spaciously two bedroom
                                         apartments are perfect for families and
                                         even business partners. Look out into
                                         the Manhattan skyline from the open
@@ -105,7 +105,7 @@ const BlogArea = () => {
                                         </Link>
                                     </h3>
                                     <p>
-                                        Novia's spaciously two bedroom
+                                        Novia &apos; s spaciously two bedroom
                                         apartments are perfect for families and
                                         even business partners. Look out into
                                         the Manhattan skyline from the open
@@ -166,7 +166,7 @@ const BlogArea = () => {
                                         </Link>
                                     </h3>
                                     <p>
-                                        Novia's spaciously two bedroom
+                                        Novia &apos; s spaciously two bedroom
                                         apartments are perfect for families and
                                         even business partners. Look out into
                                         the Manhattan skyline from the open
@@ -227,7 +227,7 @@ const BlogArea = () => {
                                         </Link>
                                     </h3>
                                     <p>
-                                        Novia's spaciously two bedroom
+                                        Novia &apos; s spaciously two bedroom
                                         apartments are perfect for families and
                                         even business partners. Look out into
                                         the Manhattan skyline from the open
@@ -273,7 +273,7 @@ const BlogArea = () => {
                                         </Link>
                                     </h3>
                                     <p>
-                                        Novia's spaciously two bedroom
+                                        Novia &apos; s spaciously two bedroom
                                         apartments are perfect for families and
                                         even business partners. Look out into
                                         the Manhattan skyline from the open
