@@ -66,7 +66,7 @@ const AboutAboutSection = () => {
                                     <span>Founder of Bella</span>
                                 </div>
                                 <div className="brand-img">
-                                    <img src="img/brand/2.png" alt />
+                                    <img src="img/brand/2.png" alt="2.png" />
                                 </div>
                             </div>
                         </div>

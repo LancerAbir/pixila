@@ -18,7 +18,7 @@ const Index2OnePageHeroArea = () => {
                                 Product.
                             </h2>
                             <p className="wow fadeInLeft" data-wow-delay="0.5s">
-                                Let's create something together
+                                Let &apos; s create something together
                             </p>
                             <ul className="social-counts">
                                 <li
