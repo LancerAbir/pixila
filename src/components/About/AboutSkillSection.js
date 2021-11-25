@@ -12,7 +12,7 @@ const AboutSkillSection = () => {
                 <div className="row align-items-center justify-content-center">
                     <div className="col-lg-7 col-md-10 order-lg-2">
                         <div className="skillset-video active ms-lg-5">
-                            <Link href="#">
+                            <Link href="/about">
                                 <a
                                     onClick={(e) => {
                                         e.preventDefault();

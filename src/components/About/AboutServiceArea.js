@@ -14,7 +14,7 @@ const AboutServiceArea = () => {
                         <div className="service-box-two mt-30">
                             <span className="box-count">01</span>
                             <h4 className="title">
-                                <Link href="#">
+                                <Link href="/about">
                                     <a>Digital Product Developoment</a>
                                 </Link>
                             </h4>
@@ -23,7 +23,7 @@ const AboutServiceArea = () => {
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <Link href="#">
+                            <Link href="/about">
                                 <a className="service-link">
                                     <i className="fal fa-plus" />
                                     <span>Read More</span>
@@ -35,7 +35,7 @@ const AboutServiceArea = () => {
                         <div className="service-box-two mt-30">
                             <span className="box-count">02</span>
                             <h4 className="title">
-                                <Link href="#">
+                                <Link href="/about">
                                     <a>General Consulting Process</a>
                                 </Link>
                             </h4>
@@ -44,7 +44,7 @@ const AboutServiceArea = () => {
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <Link href="#">
+                            <Link href="/about">
                                 <a className="service-link">
                                     <i className="fal fa-plus" />
                                     <span>Read More</span>
@@ -56,7 +56,7 @@ const AboutServiceArea = () => {
                         <div className="service-box-two mt-30">
                             <span className="box-count">03</span>
                             <h4 className="title">
-                                <Link href="#">
+                                <Link href="/about">
                                     <a>Hire in Fixed Contracting</a>
                                 </Link>
                             </h4>
@@ -65,7 +65,7 @@ const AboutServiceArea = () => {
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <Link href="#">
+                            <Link href="/about">
                                 <a className="service-link">
                                     <i className="fal fa-plus" />
                                     <span>Read More</span>

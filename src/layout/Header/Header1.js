@@ -46,7 +46,7 @@ const Header1 = () => {
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
+                                                <Link href="/index-onepage">
                                                     <a>OnePage</a>
                                                 </Link>
 
@@ -81,7 +81,7 @@ const Header1 = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="">
                                             <a>Pages</a>
                                         </Link>
                                         <ul className="submenu">
@@ -186,14 +186,14 @@ const Header1 = () => {
                                         </Link>
                                     </li>
                                 </ul>
-                                <Link href="#">
+                                <Link href="">
                                     <a className="nav-close">
                                         <i className="fal fa-times" />
                                     </a>
                                 </Link>
                             </nav>
                             <div className="search-widget">
-                                <Link href="#">
+                                <Link href="">
                                     <a className="search-icon">
                                         <i className="far fa-search" />
                                     </a>
@@ -214,11 +214,11 @@ const Header1 = () => {
                         </div>
                         <div className="navbar-right d-flex align-items-center">
                             <div className="header-contact-btn">
-                                <Link href="#">
+                                <Link href="">
                                     <a>Get Started Now</a>
                                 </Link>
                             </div>
-                            <Link href="#">
+                            <Link href="">
                                 <a className="nav-toggler">
                                     <i className="far fa-bars" />
                                 </a>

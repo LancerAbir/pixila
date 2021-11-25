@@ -51,7 +51,7 @@ const AboutAboutSection = () => {
                                 help market or advertise your business online.
                                 Best Way to Manage and Share Work Resources.
                             </p>
-                            <Link href="#">
+                            <Link href="/about">
                                 <a className="main-btn mt-30">Learn More</a>
                             </Link>
                             <div className="about-author">

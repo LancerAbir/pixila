@@ -24,7 +24,7 @@ const AboutNewsSection = () => {
                                     <div className="content">
                                         <ul className="post-meta">
                                             <li>
-                                                <Link href="#">
+                                                <Link href="/about">
                                                     <a>
                                                         <i className="fal fa-calendar-alt" />
                                                         10th May 2020
@@ -32,13 +32,13 @@ const AboutNewsSection = () => {
                                                 </Link>
                                             </li>
                                             <li className="admin">
-                                                <Link href="#">
+                                                <Link href="/about">
                                                     <a>Admin</a>
                                                 </Link>
                                             </li>
                                         </ul>
                                         <h4>
-                                            <Link href="#">
+                                            <Link href="/about">
                                                 <a>
                                                     Chemical engineering
                                                     projects for all
@@ -68,7 +68,7 @@ const AboutNewsSection = () => {
                                     <div className="content">
                                         <ul className="post-meta">
                                             <li>
-                                                <Link href="#">
+                                                <Link href="/about">
                                                     <a>
                                                         <i className="fal fa-calendar-alt" />
                                                         10th May 2020
@@ -76,13 +76,13 @@ const AboutNewsSection = () => {
                                                 </Link>
                                             </li>
                                             <li className="admin">
-                                                <Link href="#">
+                                                <Link href="/about">
                                                     <a>Admin</a>
                                                 </Link>
                                             </li>
                                         </ul>
                                         <h4>
-                                            <Link href="#">
+                                            <Link href="/about">
                                                 <a>
                                                     Chemical engineering
                                                     projects for all
@@ -115,7 +115,7 @@ const AboutNewsSection = () => {
                                 <div className="content">
                                     <ul className="post-meta">
                                         <li>
-                                            <Link href="#">
+                                            <Link href="/about">
                                                 <a>
                                                     <i className="fal fa-calendar-alt" />
                                                     10th May 2020
@@ -123,13 +123,13 @@ const AboutNewsSection = () => {
                                             </Link>
                                         </li>
                                         <li className="admin">
-                                            <Link href="#">
+                                            <Link href="/about">
                                                 <a>Admin</a>
                                             </Link>
                                         </li>
                                     </ul>
                                     <h4>
-                                        <Link href="#">
+                                        <Link href="/about">
                                             <a>
                                                 Engineering projects for all
                                                 technologies
@@ -149,7 +149,7 @@ const AboutNewsSection = () => {
                                 <div className="content">
                                     <ul className="post-meta">
                                         <li>
-                                            <Link href="#">
+                                            <Link href="/about">
                                                 <a>
                                                     <i className="fal fa-calendar-alt" />
                                                     10th May 2020
@@ -157,13 +157,13 @@ const AboutNewsSection = () => {
                                             </Link>
                                         </li>
                                         <li className="admin">
-                                            <Link href="#">
+                                            <Link href="/about">
                                                 <a>Admin</a>
                                             </Link>
                                         </li>
                                     </ul>
                                     <h4>
-                                        <Link href="#">
+                                        <Link href="/about">
                                             <a>
                                                 Engineering projects for all
                                                 technologies
@@ -183,7 +183,7 @@ const AboutNewsSection = () => {
                                 <div className="content">
                                     <ul className="post-meta">
                                         <li>
-                                            <Link href="#">
+                                            <Link href="/about">
                                                 <a>
                                                     <i className="fal fa-calendar-alt" />
                                                     10th May 2020
@@ -191,13 +191,13 @@ const AboutNewsSection = () => {
                                             </Link>
                                         </li>
                                         <li className="admin">
-                                            <Link href="#">
+                                            <Link href="/about">
                                                 <a>Admin</a>
                                             </Link>
                                         </li>
                                     </ul>
                                     <h4>
-                                        <Link href="#">
+                                        <Link href="/about">
                                             <a>
                                                 Engineering projects for all
                                                 technologies
@@ -206,7 +206,7 @@ const AboutNewsSection = () => {
                                     </h4>
                                 </div>
                             </div>
-                            <Link href="#">
+                            <Link href="/about">
                                 <a className="load-more-btn">
                                     <i className="fal fa-newspaper" /> More News
                                 </a>
