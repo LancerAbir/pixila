@@ -31,7 +31,7 @@ const BlogArea = () => {
                                         Novia &apos; s spaciously two bedroom
                                         apartments are perfect for families and
                                         even business partners. Look out into
-                                        the Manhattan skyline from the open
+                                        the Manhattan skyline from that open
                                         fully equipped kitchen.
                                     </p>
                                     <ul className="post-meta">
