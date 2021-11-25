@@ -54,7 +54,7 @@ const ShopDetailsShopArea = () => {
                         <div className="col-xl-6 col-md-10">
                             <div className="product-summary">
                                 <span className="product-cat">
-                                    // Maxi Dress
+                                    {/*Maxi Dress*/}
                                 </span>
                                 <h3 className="product-title">
                                     Good Deeds Royal Blue Furniture
