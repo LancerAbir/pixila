@@ -46,7 +46,7 @@ const HomeCounterSection = () => {
                                 <div className="counter-wrap">
                                     <i className="fal fa-book" />
                                     <span className="counter">
-                                        <Counter end={500} />{" "}
+                                        <Counter end={500} />
                                     </span>
                                     +
                                 </div>

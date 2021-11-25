@@ -14,7 +14,10 @@ const AboutSkillSection = () => {
                         <div className="skillset-video active ms-lg-5">
                             <Link href="#">
                                 <a
-                                    onClick={() => setOpen(true)}
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        setOpen(true);
+                                    }}
                                     className="popup-btn popup-video"
                                 >
                                     <i className="fas fa-play" />
