@@ -2,6 +2,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import React, { useState } from "react";
 import Counter from "../Counter";
+import Line1 from "../ProgressBar/Line1";
 const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 
 const HomeSkillSection = () => {
@@ -40,9 +41,7 @@ const HomeSkillSection = () => {
                                         %
                                     </span>
                                 </div>
-                                <div className="progressbar-wrap">
-                                    <div className="progressbar" />
-                                </div>
+                                <Line1 />
                             </div>
                         </div>
                     </div>

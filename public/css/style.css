@@ -258,6 +258,14 @@ a {
     padding-bottom: 120px;
 }
 
+svg.rc-progress-circle.chart.progressBar {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin-left: -64px;
+}
 .extra-padding {
     padding-right: 15px;
     padding-left: 15px;

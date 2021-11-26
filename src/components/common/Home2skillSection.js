@@ -1,4 +1,6 @@
 import React from "react";
+import Circle1 from "../ProgressBar/Circle1";
+import Circle2 from "../ProgressBar/Circle2";
 
 const Home2skillSection = () => {
     return (
@@ -29,6 +31,9 @@ const Home2skillSection = () => {
                                     >
                                         <span>61</span>
                                     </div>
+
+                                    <Circle1 />
+
                                     <h4 className="title">Work Progress</h4>
                                     <p>
                                         As emerging technologies converge with
@@ -44,6 +49,7 @@ const Home2skillSection = () => {
                                     >
                                         <span>85</span>
                                     </div>
+                                    <Circle2 />
                                     <h4 className="title">Projects Done</h4>
                                     <p>
                                         As emerging technologies converge with

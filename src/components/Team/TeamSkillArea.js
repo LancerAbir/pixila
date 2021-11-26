@@ -1,5 +1,6 @@
 import React from "react";
-
+import Circle3 from "../ProgressBar/Circle3";
+import Circle4 from "../ProgressBar/Circle4";
 const TeamSkillArea = () => {
     return (
         <section className="skill-section with-gallery">
@@ -18,6 +19,7 @@ const TeamSkillArea = () => {
                             >
                                 <span>61</span>
                             </div>
+                            <Circle3 />
                             <h4 className="title">Work Progress</h4>
                             <p>
                                 As emerging technologies converge with urban
@@ -32,6 +34,7 @@ const TeamSkillArea = () => {
                             >
                                 <span>85</span>
                             </div>
+                            <Circle4 />
                             <h4 className="title">Projects Done</h4>
                             <p>
                                 As emerging technologies converge with urban
@@ -46,6 +49,7 @@ const TeamSkillArea = () => {
                             >
                                 <span>61</span>
                             </div>
+                            <Circle3 />
                             <h4 className="title">Work Progress</h4>
                             <p>
                                 As emerging technologies converge with urban
@@ -60,6 +64,7 @@ const TeamSkillArea = () => {
                             >
                                 <span>85</span>
                             </div>
+                            <Circle4 />
                             <h4 className="title">Projects Done</h4>
                             <p>
                                 As emerging technologies converge with urban

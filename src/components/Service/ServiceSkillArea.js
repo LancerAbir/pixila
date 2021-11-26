@@ -3,6 +3,8 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Slider from "react-slick";
 const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
+import Circle3 from "../ProgressBar/Circle3";
+import Circle4 from "../ProgressBar/Circle4";
 
 const ServiceSkillArea = () => {
     const [isOpen, setOpen] = useState(false);
@@ -125,6 +127,7 @@ const ServiceSkillArea = () => {
                         >
                             <span>61</span>
                         </div>
+                        <Circle3 />
                         <h4 className="title">Work Progress</h4>
                         <p>
                             As emerging technologies converge with urban
@@ -139,6 +142,7 @@ const ServiceSkillArea = () => {
                         >
                             <span>85</span>
                         </div>
+                        <Circle4 />
                         <h4 className="title">Projects Done</h4>
                         <p>
                             As emerging technologies converge with urban
@@ -153,6 +157,7 @@ const ServiceSkillArea = () => {
                         >
                             <span>61</span>
                         </div>
+                        <Circle3 />
                         <h4 className="title">Work Progress</h4>
                         <p>
                             As emerging technologies converge with urban
@@ -167,6 +172,7 @@ const ServiceSkillArea = () => {
                         >
                             <span>85</span>
                         </div>
+                        <Circle4 />
                         <h4 className="title">Projects Done</h4>
                         <p>
                             As emerging technologies converge with urban
