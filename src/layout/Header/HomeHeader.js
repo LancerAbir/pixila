@@ -46,7 +46,7 @@ const HomeHeader = () => {
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
+                                                <Link href="/index-onepage">
                                                     <a>OnePage</a>
                                                 </Link>
                                                 <ul className="submenu">
@@ -80,7 +80,7 @@ const HomeHeader = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="">
                                             <a>Pages</a>
                                         </Link>
                                         <ul className="submenu">
@@ -185,15 +185,25 @@ const HomeHeader = () => {
                                         </Link>
                                     </li>
                                 </ul>
-                                <Link href="#">
-                                    <a className="nav-close">
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="nav-close"
+                                    >
                                         <i className="fal fa-times" />
                                     </a>
                                 </Link>
                             </nav>
                             <div className="search-widget">
-                                <Link href="#">
-                                    <a className="search-icon">
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="search-icon"
+                                    >
                                         <i className="far fa-search" />
                                     </a>
                                 </Link>
@@ -212,12 +222,23 @@ const HomeHeader = () => {
                         </div>
                         <div className="navbar-right d-flex align-items-center">
                             <div className="header-contact-btn">
-                                <Link href="#">
-                                    <a>Get Started Now</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        Get Started Now
+                                    </a>
                                 </Link>
                             </div>
-                            <Link href="#">
-                                <a className="nav-toggler">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="nav-toggler"
+                                >
                                     <i className="far fa-bars" />
                                 </a>
                             </Link>

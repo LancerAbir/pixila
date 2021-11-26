@@ -13,15 +13,24 @@ const ShopArea = () => {
                             </p>
                             <ul className="product-view-style">
                                 <li>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fal fa-list" />
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a className="active-view">
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                            className="active-view"
+                                        >
                                             <i className="fal fa-th" />
                                         </a>
                                     </Link>
@@ -38,22 +47,34 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-shopping-cart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-heart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-eye" />
                                                     </a>
                                                 </Link>
@@ -77,22 +98,34 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-shopping-cart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-heart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-eye" />
                                                     </a>
                                                 </Link>
@@ -116,22 +149,34 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-shopping-cart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-heart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-eye" />
                                                     </a>
                                                 </Link>
@@ -155,22 +200,34 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-shopping-cart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-heart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-eye" />
                                                     </a>
                                                 </Link>
@@ -194,22 +251,34 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-shopping-cart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-heart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-eye" />
                                                     </a>
                                                 </Link>
@@ -233,22 +302,34 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-shopping-cart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-heart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-eye" />
                                                     </a>
                                                 </Link>
@@ -272,22 +353,34 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-shopping-cart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-heart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-eye" />
                                                     </a>
                                                 </Link>
@@ -311,22 +404,34 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-shopping-cart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-heart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-eye" />
                                                     </a>
                                                 </Link>
@@ -350,22 +455,34 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-shopping-cart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-heart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-eye" />
                                                     </a>
                                                 </Link>
@@ -389,22 +506,34 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-shopping-cart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-heart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-eye" />
                                                     </a>
                                                 </Link>
@@ -428,22 +557,34 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-shopping-cart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-heart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-eye" />
                                                     </a>
                                                 </Link>
@@ -467,22 +608,34 @@ const ShopArea = () => {
                                         />
                                         <ul className="product-action">
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-shopping-cart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-heart" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-eye" />
                                                     </a>
                                                 </Link>
@@ -501,14 +654,18 @@ const ShopArea = () => {
                         <div className="pagination-wrap">
                             <ul>
                                 <li>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fal fa-arrow-left" />
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
+                                    <Link href="">
                                         <a
                                             onClick={(e) => {
                                                 e.preventDefault();
@@ -520,23 +677,45 @@ const ShopArea = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a>02</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            02
+                                        </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a>----</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            ----
+                                        </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a>08</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            08
+                                        </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fal fa-arrow-right" />
                                         </a>
                                     </Link>
@@ -563,36 +742,56 @@ const ShopArea = () => {
                                 <h5 className="widget-title">Categories</h5>
                                 <ul>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 Tshirt <span>08</span>
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 Accessories <span>12</span>
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 Books <span>12</span>
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 Laptop &amp; PC <span>15</span>
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 Polo <span>09</span>
                                             </a>
                                         </Link>
@@ -617,43 +816,91 @@ const ShopArea = () => {
                                 <h5 className="widget-title">Tags</h5>
                                 <ul>
                                     <li>
-                                        <Link href="#">
-                                            <a>Tshirt</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Tshirt
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Sunglass</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Sunglass
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Kits</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Kits
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Tshirt</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Tshirt
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Sunglass</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Sunglass
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Kits</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Kits
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Tshirt</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Tshirt
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Sunglass</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Sunglass
+                                            </a>
                                         </Link>
                                     </li>
                                 </ul>

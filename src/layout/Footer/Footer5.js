@@ -14,7 +14,12 @@ const Footer5 = () => {
                         </div>
                         <div className="col-xxl-6 col-xl-7 col-lg-9">
                             <div className="footer-newsletter-form">
-                                <form action="#">
+                                <form
+                                    action="#"
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                >
                                     <label htmlFor="email">Newsletter</label>
                                     <div className="input-wrap">
                                         <div className="position-relative">
@@ -52,29 +57,45 @@ const Footer5 = () => {
                                 </p>
                                 <ul>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <i className="fab fa-facebook-f" />
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <i className="fab fa-twitter" />
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <i className="fab fa-behance" />
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <i className="fab fa-youtube" />
                                             </a>
                                         </Link>
@@ -87,28 +108,58 @@ const Footer5 = () => {
                                 <h5 className="widget-title">About Us</h5>
                                 <ul>
                                     <li>
-                                        <Link href="#">
-                                            <a>Home</a>
+                                        <Link href="/">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Home
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>About</a>
+                                        <Link href="/about">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                About
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Services</a>
+                                        <Link href="/service">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Services
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Portfolio</a>
+                                        <Link href="/portfolio">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Portfolio
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Pricing</a>
+                                        <Link href="/pricing">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Pricing
+                                            </a>
                                         </Link>
                                     </li>
                                 </ul>
@@ -201,8 +252,14 @@ const Footer5 = () => {
                 <div className="container">
                     <p className="copyright-text">
                         Copyright By@
-                        <Link href="#">
-                            <a>WebTend</a>
+                        <Link href="">
+                            <a
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                }}
+                            >
+                                WebTend
+                            </a>
                         </Link>
                         - 2021
                     </p>

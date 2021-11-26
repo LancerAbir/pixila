@@ -13,8 +13,14 @@ const Service2Area = () => {
                                     <i className="fal fa-box-open" />
                                 </div>
                                 <h4 className="title">
-                                    <Link href="#">
-                                        <a>Product Design</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Product Design
+                                        </a>
                                     </Link>
                                 </h4>
                                 <p>Get an amazing experience here</p>
@@ -26,8 +32,14 @@ const Service2Area = () => {
                                     <i className="fal fa-globe" />
                                 </div>
                                 <h4 className="title">
-                                    <Link href="#">
-                                        <a>Digital Marketing</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Digital Marketing
+                                        </a>
                                     </Link>
                                 </h4>
                                 <p>Get an amazing experience here</p>
@@ -39,8 +51,14 @@ const Service2Area = () => {
                                     <i className="fal fa-mobile" />
                                 </div>
                                 <h4 className="title">
-                                    <Link href="#">
-                                        <a>Mobile App Design</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Mobile App Design
+                                        </a>
                                     </Link>
                                 </h4>
                                 <p>Get an amazing experience here</p>
@@ -52,8 +70,14 @@ const Service2Area = () => {
                                     <i className="fal fa-desktop" />
                                 </div>
                                 <h4 className="title">
-                                    <Link href="#">
-                                        <a>Website Design</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Website Design
+                                        </a>
                                     </Link>
                                 </h4>
                                 <p>Get an amazing experience here</p>
@@ -65,8 +89,14 @@ const Service2Area = () => {
                                     <i className="fal fa-chart-pie" />
                                 </div>
                                 <h4 className="title">
-                                    <Link href="#">
-                                        <a>Business Strategy</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Business Strategy
+                                        </a>
                                     </Link>
                                 </h4>
                                 <p>Get an amazing experience here</p>
@@ -78,8 +108,14 @@ const Service2Area = () => {
                                     <i className="fal fa-fill-drip" />
                                 </div>
                                 <h4 className="title">
-                                    <Link href="#">
-                                        <a>Interior Design</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Interior Design
+                                        </a>
                                     </Link>
                                 </h4>
                                 <p>Get an amazing experience here</p>
@@ -91,8 +127,14 @@ const Service2Area = () => {
                                     <i className="fal fa-clone" />
                                 </div>
                                 <h4 className="title">
-                                    <Link href="#">
-                                        <a>Mining Storage</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Mining Storage
+                                        </a>
                                     </Link>
                                 </h4>
                                 <p>Get an amazing experience here</p>
@@ -104,8 +146,14 @@ const Service2Area = () => {
                                     <i className="fal fa-cloud-download" />
                                 </div>
                                 <h4 className="title">
-                                    <Link href="#">
-                                        <a>Cloud Solutions</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Cloud Solutions
+                                        </a>
                                     </Link>
                                 </h4>
                                 <p>Get an amazing experience here</p>

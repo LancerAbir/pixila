@@ -29,8 +29,13 @@ const Index4OnePageFeaturesSection = () => {
                                     <li>Keyword Building</li>
                                 </ul>
                             </div>
-                            <Link href="#">
-                                <a className="feature-link">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="feature-link"
+                                >
                                     Learn More
                                     <i className="fal fa-long-arrow-right" />
                                 </a>
@@ -56,8 +61,13 @@ const Index4OnePageFeaturesSection = () => {
                                     <li>Keyword Building</li>
                                 </ul>
                             </div>
-                            <Link href="#">
-                                <a className="feature-link">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="feature-link"
+                                >
                                     Learn More
                                     <i className="fal fa-long-arrow-right" />
                                 </a>
@@ -83,8 +93,13 @@ const Index4OnePageFeaturesSection = () => {
                                     <li>Keyword Building</li>
                                 </ul>
                             </div>
-                            <Link href="#">
-                                <a className="feature-link">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="feature-link"
+                                >
                                     Learn More
                                     <i className="fal fa-long-arrow-right" />
                                 </a>

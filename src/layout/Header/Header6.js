@@ -10,36 +10,56 @@ const Header6 = () => {
                         <div className="topbar-left d-flex align-items-center">
                             <ul className="social-icon">
                                 <li>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-facebook-f" />
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-twitter" />
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-behance" />
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-youtube" />
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-linkedin" />
                                         </a>
                                     </Link>
@@ -47,15 +67,23 @@ const Header6 = () => {
                             </ul>
                             <ul className="contact-info">
                                 <li>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <span>Phone:</span> 987-098-756-09
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <span>Email:</span> info@webmail.com
                                         </a>
                                     </Link>
@@ -65,18 +93,36 @@ const Header6 = () => {
                         <div className="topbar-right d-flex align-items-center justify-content-lg-end">
                             <ul className="topbar-menu">
                                 <li>
-                                    <Link href="#">
-                                        <a>Sign In</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Sign In
+                                        </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a>Company</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Company
+                                        </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a>Contact Us</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Contact Us
+                                        </a>
                                     </Link>
                                 </li>
                             </ul>
@@ -108,28 +154,61 @@ const Header6 = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a href="#services">Services</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                href="#services"
+                                            >
+                                                Services
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a href="#about">About us</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                href="#about"
+                                            >
+                                                About us
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a href="#team">Team</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                href="#team"
+                                            >
+                                                Team
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a href="#feedbacks">Feedbacks</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                href="#feedbacks"
+                                            >
+                                                Feedbacks
+                                            </a>
                                         </Link>
                                     </li>
                                 </ul>
-                                <Link href="#">
-                                    <a className="nav-close">
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="nav-close"
+                                    >
                                         <i className="fal fa-times" />
                                     </a>
                                 </Link>
@@ -137,15 +216,25 @@ const Header6 = () => {
                         </div>
                         <div className="navbar-right d-flex align-items-center">
                             <div className="cart-widget">
-                                <Link href="#">
-                                    <a className="cart-icon">
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="cart-icon"
+                                    >
                                         <i className="fal fa-shopping-cart" />
                                     </a>
                                 </Link>
                             </div>
                             <div className="offcanvas-menu">
-                                <Link href="#">
-                                    <a className="panel-icon">
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="panel-icon"
+                                    >
                                         <i className="fal fa-bars" />
                                     </a>
                                 </Link>
@@ -184,34 +273,59 @@ const Header6 = () => {
                                                 </li>
                                                 <li>
                                                     <i className="fal fa-envelope-open" />
-                                                    <Link href="#">
-                                                        <a href="mailto:info@example.com">
+                                                    <Link href="">
+                                                        <a
+                                                            onClick={(e) => {
+                                                                e.preventDefault();
+                                                            }}
+                                                            href="mailto:info@example.com"
+                                                        >
                                                             info@example.com
                                                         </a>
                                                     </Link>
-                                                    <Link href="#">
-                                                        <a href="mailto:info@example.com">
+                                                    <Link href="">
+                                                        <a
+                                                            onClick={(e) => {
+                                                                e.preventDefault();
+                                                            }}
+                                                            href="mailto:info@example.com"
+                                                        >
                                                             info@example.com
                                                         </a>
                                                     </Link>
                                                 </li>
                                                 <li>
                                                     <i className="fal fa-phone" />
-                                                    <Link href="#">
-                                                        <a href="tel:(312)-895-9800">
+                                                    <Link href="">
+                                                        <a
+                                                            onClick={(e) => {
+                                                                e.preventDefault();
+                                                            }}
+                                                            href="tel:(312)-895-9800"
+                                                        >
                                                             +0 123-456-7890
                                                         </a>
                                                     </Link>
-                                                    <Link href="#">
-                                                        <a href="tel:(312)-895-9800">
+                                                    <Link href="">
+                                                        <a
+                                                            onClick={(e) => {
+                                                                e.preventDefault();
+                                                            }}
+                                                            href="tel:(312)-895-9800"
+                                                        >
                                                             +0 123-456-7890
                                                         </a>
                                                     </Link>
                                                 </li>
                                             </ul>
                                         </div>
-                                        <Link href="#">
-                                            <a className="panel-close">
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="panel-close"
+                                            >
                                                 <i className="fal fa-times" />
                                             </a>
                                         </Link>
@@ -219,8 +333,13 @@ const Header6 = () => {
                                 </div>
                             </div>
                             <div className="search-widget">
-                                <Link href="#">
-                                    <a className="search-icon">
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="search-icon"
+                                    >
                                         <i className="fal fa-search" />
                                     </a>
                                 </Link>
@@ -236,8 +355,13 @@ const Header6 = () => {
                                     </form>
                                 </div>
                             </div>
-                            <Link href="#">
-                                <a className="nav-toggler">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="nav-toggler"
+                                >
                                     <i className="fal fa-bars" />
                                 </a>
                             </Link>

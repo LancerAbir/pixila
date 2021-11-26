@@ -22,19 +22,35 @@ const Index4NewsSection = () => {
                             <div className="content">
                                 <ul className="post-meta">
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <i className="fal fa-calendar-alt" />
                                                 10th May 2020
                                             </a>
                                         </Link>
                                     </li>
                                     <li className="cates">
-                                        <Link href="#">
-                                            <a>Sass</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Sass
+                                            </a>
                                         </Link>
-                                        <Link href="#">
-                                            <a>Applications</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Applications
+                                            </a>
                                         </Link>
                                     </li>
                                 </ul>
@@ -68,19 +84,35 @@ const Index4NewsSection = () => {
                             <div className="content">
                                 <ul className="post-meta">
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <i className="fal fa-calendar-alt" />
                                                 10th May 2020
                                             </a>
                                         </Link>
                                     </li>
                                     <li className="cates">
-                                        <Link href="#">
-                                            <a>Sass</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Sass
+                                            </a>
                                         </Link>
-                                        <Link href="#">
-                                            <a>Applications</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Applications
+                                            </a>
                                         </Link>
                                     </li>
                                 </ul>
@@ -114,19 +146,35 @@ const Index4NewsSection = () => {
                             <div className="content">
                                 <ul className="post-meta">
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <i className="fal fa-calendar-alt" />
                                                 10th May 2020
                                             </a>
                                         </Link>
                                     </li>
                                     <li className="cates">
-                                        <Link href="#">
-                                            <a>Sass</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Sass
+                                            </a>
                                         </Link>
-                                        <Link href="#">
-                                            <a>Applications</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Applications
+                                            </a>
                                         </Link>
                                     </li>
                                 </ul>

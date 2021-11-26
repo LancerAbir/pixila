@@ -13,11 +13,23 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <Link href="#">
-                                        <a>Design,</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Design,
+                                        </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>Development</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Development
+                                        </a>
                                     </Link>
                                 </div>
                                 <h4 className="title">
@@ -35,11 +47,23 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <Link href="#">
-                                        <a>Design,</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Design,
+                                        </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>Development</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Development
+                                        </a>
                                     </Link>
                                 </div>
                                 <h4 className="title">
@@ -57,11 +81,23 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <Link href="#">
-                                        <a>Design,</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Design,
+                                        </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>Development</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Development
+                                        </a>
                                     </Link>
                                 </div>
                                 <h4 className="title">
@@ -79,11 +115,23 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <Link href="#">
-                                        <a>Design,</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Design,
+                                        </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>Development</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Development
+                                        </a>
                                     </Link>
                                 </div>
                                 <h4 className="title">
@@ -101,11 +149,23 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <Link href="#">
-                                        <a>Design,</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Design,
+                                        </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>Development</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Development
+                                        </a>
                                     </Link>
                                 </div>
                                 <h4 className="title">
@@ -123,11 +183,23 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <Link href="#">
-                                        <a>Design,</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Design,
+                                        </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>Development</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Development
+                                        </a>
                                     </Link>
                                 </div>
                                 <h4 className="title">
@@ -145,11 +217,23 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <Link href="#">
-                                        <a>Design,</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Design,
+                                        </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>Development</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Development
+                                        </a>
                                     </Link>
                                 </div>
                                 <h4 className="title">
@@ -167,11 +251,23 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <Link href="#">
-                                        <a>Design,</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Design,
+                                        </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>Development</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Development
+                                        </a>
                                     </Link>
                                 </div>
                                 <h4 className="title">
@@ -189,11 +285,23 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <Link href="#">
-                                        <a>Design,</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Design,
+                                        </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>Development</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Development
+                                        </a>
                                     </Link>
                                 </div>
                                 <h4 className="title">
@@ -211,11 +319,23 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <Link href="#">
-                                        <a>Design,</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Design,
+                                        </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>Development</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Development
+                                        </a>
                                     </Link>
                                 </div>
                                 <h4 className="title">
@@ -233,11 +353,23 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <Link href="#">
-                                        <a>Design,</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Design,
+                                        </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>Development</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Development
+                                        </a>
                                     </Link>
                                 </div>
                                 <h4 className="title">
@@ -255,11 +387,23 @@ const Portfolio3Area = () => {
                             </div>
                             <div className="content">
                                 <div className="tags">
-                                    <Link href="#">
-                                        <a>Design,</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Design,
+                                        </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>Development</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
+                                            Development
+                                        </a>
                                     </Link>
                                 </div>
                                 <h4 className="title">

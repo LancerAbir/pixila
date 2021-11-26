@@ -11,7 +11,7 @@ const Index4HeroArea = () => {
                 <div className="row justify-content-center">
                     <div className="col-xl-8 col-lg-10 col-md-11">
                         <div className="hero-text">
-                            <Link href="#">
+                            <Link href="">
                                 <a
                                     onClick={(e) => {
                                         e.preventDefault();

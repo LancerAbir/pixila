@@ -10,8 +10,14 @@ const ServiceArea = () => {
                         <div className="service-box-two mt-30">
                             <span className="box-count">01</span>
                             <h4 className="title">
-                                <Link href="#">
-                                    <a>Digital Product Developoment</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        Digital Product Developoment
+                                    </a>
                                 </Link>
                             </h4>
                             <p>
@@ -19,8 +25,13 @@ const ServiceArea = () => {
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <Link href="#">
-                                <a className="service-link">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="service-link"
+                                >
                                     <i className="fal fa-plus" />
                                     <span>Read More</span>
                                 </a>
@@ -31,8 +42,14 @@ const ServiceArea = () => {
                         <div className="service-box-two mt-30">
                             <span className="box-count">02</span>
                             <h4 className="title">
-                                <Link href="#">
-                                    <a>General Consulting Process</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        General Consulting Process
+                                    </a>
                                 </Link>
                             </h4>
                             <p>
@@ -40,8 +57,13 @@ const ServiceArea = () => {
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <Link href="#">
-                                <a className="service-link">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="service-link"
+                                >
                                     <i className="fal fa-plus" />
                                     <span>Read More</span>
                                 </a>
@@ -52,8 +74,14 @@ const ServiceArea = () => {
                         <div className="service-box-two mt-30">
                             <span className="box-count">03</span>
                             <h4 className="title">
-                                <Link href="#">
-                                    <a>Hire in Fixed Contracting</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        Hire in Fixed Contracting
+                                    </a>
                                 </Link>
                             </h4>
                             <p>
@@ -61,8 +89,13 @@ const ServiceArea = () => {
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <Link href="#">
-                                <a className="service-link">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="service-link"
+                                >
                                     <i className="fal fa-plus" />
                                     <span>Read More</span>
                                 </a>
@@ -73,8 +106,14 @@ const ServiceArea = () => {
                         <div className="service-box-two mt-30">
                             <span className="box-count">04</span>
                             <h4 className="title">
-                                <Link href="#">
-                                    <a>Pro Game Developemnt</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        Pro Game Developemnt
+                                    </a>
                                 </Link>
                             </h4>
                             <p>
@@ -82,8 +121,13 @@ const ServiceArea = () => {
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <Link href="#">
-                                <a className="service-link">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="service-link"
+                                >
                                     <i className="fal fa-plus" />
                                     <span>Read More</span>
                                 </a>
@@ -94,8 +138,14 @@ const ServiceArea = () => {
                         <div className="service-box-two mt-30">
                             <span className="box-count">05</span>
                             <h4 className="title">
-                                <Link href="#">
-                                    <a>Wordpress Theme Develop</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        Wordpress Theme Develop
+                                    </a>
                                 </Link>
                             </h4>
                             <p>
@@ -103,8 +153,13 @@ const ServiceArea = () => {
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <Link href="#">
-                                <a className="service-link">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="service-link"
+                                >
                                     <i className="fal fa-plus" />
                                     <span>Read More</span>
                                 </a>
@@ -115,8 +170,14 @@ const ServiceArea = () => {
                         <div className="service-box-two mt-30">
                             <span className="box-count">06</span>
                             <h4 className="title">
-                                <Link href="#">
-                                    <a>24/7 Online &amp; Offline Support</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        24/7 Online &amp; Offline Support
+                                    </a>
                                 </Link>
                             </h4>
                             <p>
@@ -124,8 +185,13 @@ const ServiceArea = () => {
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <Link href="#">
-                                <a className="service-link">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="service-link"
+                                >
                                     <i className="fal fa-plus" />
                                     <span>Read More</span>
                                 </a>

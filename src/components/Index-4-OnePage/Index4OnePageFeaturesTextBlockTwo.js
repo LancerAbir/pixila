@@ -44,8 +44,15 @@ const Index4OnePageFeaturesTextBlockTwo = () => {
                                     cillum dolore eu fugiat nulla pariatur..
                                 </li>
                             </ul>
-                            <Link href="#">
-                                <a className="block-btn">Learn More</a>
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="block-btn"
+                                >
+                                    Learn More
+                                </a>
                             </Link>
                         </div>
                     </div>

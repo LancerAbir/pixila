@@ -48,8 +48,13 @@ const PricingPricingSection = () => {
                                                 <i className="fal fa-check" />
                                             </li>
                                         </ul>
-                                        <Link href="#">
-                                            <a className="main-btn main-btn-3">
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="main-btn main-btn-3"
+                                            >
                                                 Purchase Now
                                             </a>
                                         </Link>
@@ -92,8 +97,13 @@ const PricingPricingSection = () => {
                                                 <i className="fal fa-check" />
                                             </li>
                                         </ul>
-                                        <Link href="#">
-                                            <a className="main-btn main-btn-3">
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="main-btn main-btn-3"
+                                            >
                                                 Purchase Now
                                             </a>
                                         </Link>
@@ -127,13 +137,25 @@ const PricingPricingSection = () => {
                             </p>
                             <ul className="d-flex">
                                 <li>
-                                    <Link href="#">
-                                        <a className="main-btn">Monthly</a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                            className="main-btn"
+                                        >
+                                            Monthly
+                                        </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a className="main-btn main-btn-2">
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                            className="main-btn main-btn-2"
+                                        >
                                             Monthly
                                         </a>
                                     </Link>

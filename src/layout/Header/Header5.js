@@ -26,35 +26,73 @@ const Header5 = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a href="#features">Features</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                href="#features"
+                                            >
+                                                Features
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a href="#about">About</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                href="#about"
+                                            >
+                                                About
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a href="#process">Process</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                href="#process"
+                                            >
+                                                Process
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a href="#news">News</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                href="#news"
+                                            >
+                                                News
+                                            </a>
                                         </Link>
                                     </li>
                                 </ul>
-                                <Link href="#">
-                                    <a className="nav-close">
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="nav-close"
+                                    >
                                         <i className="fal fa-times" />
                                     </a>
                                 </Link>
                             </nav>
                             <div className="search-widget">
-                                <Link href="#">
-                                    <a className="search-icon">
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="search-icon"
+                                    >
                                         <i className="far fa-search" />
                                     </a>
                                 </Link>
@@ -73,12 +111,23 @@ const Header5 = () => {
                         </div>
                         <div className="navbar-right d-flex align-items-center">
                             <div className="header-contact-btn">
-                                <Link href="#">
-                                    <a>Get Started Now</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        Get Started Now
+                                    </a>
                                 </Link>
                             </div>
-                            <Link href="#">
-                                <a className="nav-toggler">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="nav-toggler"
+                                >
                                     <i className="far fa-bars" />
                                 </a>
                             </Link>

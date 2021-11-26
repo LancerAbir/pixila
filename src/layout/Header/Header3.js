@@ -26,22 +26,22 @@ const Header3 = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="/blog">
                                             <a href="#features">Features</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="/process">
                                             <a href="#process">Process</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="/blog">
                                             <a href="#feedback">Feedback</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="">
                                             <a href="#news">News</a>
                                         </Link>
                                     </li>

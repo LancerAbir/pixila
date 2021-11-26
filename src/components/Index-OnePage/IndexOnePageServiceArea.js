@@ -36,8 +36,13 @@ const IndexOnePageServiceArea = () => {
                                             services that help market or
                                             advertise your business online.
                                         </p>
-                                        <Link href="#">
-                                            <a className="service-link">
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="service-link"
+                                            >
                                                 Learn More
                                             </a>
                                         </Link>
@@ -65,8 +70,13 @@ const IndexOnePageServiceArea = () => {
                                             services that help market or
                                             advertise your business online.
                                         </p>
-                                        <Link href="#">
-                                            <a className="service-link">
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="service-link"
+                                            >
                                                 Learn More
                                             </a>
                                         </Link>
@@ -96,8 +106,13 @@ const IndexOnePageServiceArea = () => {
                                             services that help market or
                                             advertise your business online.
                                         </p>
-                                        <Link href="#">
-                                            <a className="service-link">
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="service-link"
+                                            >
                                                 Learn More
                                             </a>
                                         </Link>
@@ -125,8 +140,13 @@ const IndexOnePageServiceArea = () => {
                                             services that help market or
                                             advertise your business online.
                                         </p>
-                                        <Link href="#">
-                                            <a className="service-link">
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                                className="service-link"
+                                            >
                                                 Learn More
                                             </a>
                                         </Link>
@@ -141,7 +161,12 @@ const IndexOnePageServiceArea = () => {
                         Need Help With Your IT Endeavors? Contact Us to Get a
                         Pro Service!
                     </p>
-                    <a href="#">
+                    <a
+                        onClick={(e) => {
+                            e.preventDefault();
+                        }}
+                        href=""
+                    >
                         <i className="fal fa-ticket" /> Generate A Ticket
                     </a>
                 </div>

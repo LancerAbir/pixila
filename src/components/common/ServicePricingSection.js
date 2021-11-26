@@ -55,8 +55,13 @@ const ServicePricingSection = () => {
                                         <i className="fal fa-check" />
                                     </li>
                                 </ul>
-                                <Link href="#">
-                                    <a className="main-btn main-btn-3">
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="main-btn main-btn-3"
+                                    >
                                         Purchase Now
                                     </a>
                                 </Link>
@@ -108,8 +113,13 @@ const ServicePricingSection = () => {
                                         <i className="fal fa-check" />
                                     </li>
                                 </ul>
-                                <Link href="#">
-                                    <a className="main-btn main-btn-3">
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="main-btn main-btn-3"
+                                    >
                                         Purchase Now
                                     </a>
                                 </Link>
@@ -161,8 +171,13 @@ const ServicePricingSection = () => {
                                         <i className="fal fa-check" />
                                     </li>
                                 </ul>
-                                <Link href="#">
-                                    <a className="main-btn main-btn-3">
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="main-btn main-btn-3"
+                                    >
                                         Purchase Now
                                     </a>
                                 </Link>

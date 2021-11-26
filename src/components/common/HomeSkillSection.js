@@ -52,7 +52,7 @@ const HomeSkillSection = () => {
                 <div className="row">
                     <div className="col-sm-7">
                         <div className="skillset-video active mb-xs-gap-30">
-                            <Link href="#">
+                            <Link href="">
                                 <a
                                     onClick={(e) => {
                                         e.preventDefault();
@@ -81,7 +81,7 @@ const HomeSkillSection = () => {
                     </div>
                     <div className="col-sm-5">
                         <div className="skillset-video">
-                            <Link href="#">
+                            <Link href="">
                                 <a
                                     onClick={(e) => {
                                         e.preventDefault();

@@ -12,7 +12,7 @@ const Service2SkillArea = () => {
                 <div className="row align-items-center justify-content-center">
                     <div className="col-lg-7 col-md-10 order-lg-2">
                         <div className="skillset-video active ms-lg-5">
-                            <Link href="/service-2">
+                            <Link href="">
                                 <a
                                     className="popup-btn popup-video"
                                     onClick={(e) => {

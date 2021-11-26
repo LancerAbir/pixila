@@ -25,8 +25,15 @@ const IndexOnePageAboutSection = () => {
                                 help market or advertise your business online.
                                 Best Way to Manage and Share Work Resources.
                             </p>
-                            <Link href="#">
-                                <a className="main-btn mt-30">Learn More</a>
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="main-btn mt-30"
+                                >
+                                    Learn More
+                                </a>
                             </Link>
                             <div className="about-author">
                                 <div className="author-img">

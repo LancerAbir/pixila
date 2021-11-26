@@ -11,28 +11,48 @@ const TeamTeamSection = () => {
                             <div className="member-img">
                                 <img src="img/teams/01.jpg" alt="TeamMember" />
                                 <div className="social-icon">
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-facebook-f" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-twitter" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-behance" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-youtube" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-linkedin" />
                                         </a>
                                     </Link>
@@ -49,28 +69,48 @@ const TeamTeamSection = () => {
                             <div className="member-img">
                                 <img src="img/teams/02.jpg" alt="TeamMember" />
                                 <div className="social-icon">
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-facebook-f" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-twitter" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-behance" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-youtube" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-linkedin" />
                                         </a>
                                     </Link>
@@ -87,28 +127,48 @@ const TeamTeamSection = () => {
                             <div className="member-img">
                                 <img src="img/teams/03.jpg" alt="TeamMember" />
                                 <div className="social-icon">
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-facebook-f" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-twitter" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-behance" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-youtube" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-linkedin" />
                                         </a>
                                     </Link>
@@ -127,28 +187,48 @@ const TeamTeamSection = () => {
                             <div className="member-img">
                                 <img src="img/teams/04.jpg" alt="TeamMember" />
                                 <div className="social-icon">
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-facebook-f" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-twitter" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-behance" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-youtube" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-linkedin" />
                                         </a>
                                     </Link>
@@ -167,28 +247,48 @@ const TeamTeamSection = () => {
                             <div className="member-img">
                                 <img src="img/teams/05.jpg" alt="TeamMember" />
                                 <div className="social-icon">
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-facebook-f" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-twitter" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-behance" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-youtube" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-linkedin" />
                                         </a>
                                     </Link>
@@ -205,28 +305,48 @@ const TeamTeamSection = () => {
                             <div className="member-img">
                                 <img src="img/teams/06.jpg" alt="TeamMember" />
                                 <div className="social-icon">
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-facebook-f" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-twitter" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-behance" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-youtube" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-linkedin" />
                                         </a>
                                     </Link>
@@ -243,28 +363,48 @@ const TeamTeamSection = () => {
                             <div className="member-img">
                                 <img src="img/teams/07.jpg" alt="TeamMember" />
                                 <div className="social-icon">
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-facebook-f" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-twitter" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-behance" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-youtube" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-linkedin" />
                                         </a>
                                     </Link>
@@ -283,28 +423,48 @@ const TeamTeamSection = () => {
                             <div className="member-img">
                                 <img src="img/teams/08.jpg" alt="TeamMember" />
                                 <div className="social-icon">
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-facebook-f" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-twitter" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-behance" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-youtube" />
                                         </a>
                                     </Link>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-linkedin" />
                                         </a>
                                     </Link>

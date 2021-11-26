@@ -27,8 +27,13 @@ const IndexOnePageHeroArea = () => {
                                     className="wow fadeInUp"
                                     data-wow-delay="0.7s"
                                 >
-                                    <Link href="#">
-                                        <a className="main-btn">
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                            className="main-btn"
+                                        >
                                             Get Started Now
                                         </a>
                                     </Link>
@@ -37,8 +42,13 @@ const IndexOnePageHeroArea = () => {
                                     className="wow fadeInUp"
                                     data-wow-delay="0.9s"
                                 >
-                                    <Link href="#">
-                                        <a className="main-btn main-btn-2">
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                            className="main-btn main-btn-2"
+                                        >
                                             Learn More
                                         </a>
                                     </Link>

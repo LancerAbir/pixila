@@ -65,12 +65,11 @@ const IndexServiceArea = () => {
                                             services that help market or
                                             advertise your business online.
                                         </p>
-                                        <a
-                                            href="service.html"
-                                            className="service-link"
-                                        >
-                                            Learn More
-                                        </a>
+                                        <Link href="/service">
+                                            <a className="service-link">
+                                                Learn More
+                                            </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -142,8 +141,12 @@ const IndexServiceArea = () => {
                         Need Help With Your IT Endeavors? Contact Us to Get a
                         Pro Service!
                     </p>
-                    <Link href="#">
-                        <a>
+                    <Link href="">
+                        <a
+                            onClick={(e) => {
+                                e.preventDefault();
+                            }}
+                        >
                             <i className="fal fa-ticket" /> Generate A Ticket
                         </a>
                     </Link>

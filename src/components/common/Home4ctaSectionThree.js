@@ -12,16 +12,26 @@ const Home4ctaSectionThree = () => {
                     </div>
                     <ul className="cta-links">
                         <li>
-                            <Link href="#">
-                                <a className="main-btn main-btn-4">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="main-btn main-btn-4"
+                                >
                                     Get Started
                                     <i className="fal fa-long-arrow-right" />
                                 </a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="#">
-                                <a className="main-btn main-btn-5">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="main-btn main-btn-5"
+                                >
                                     Learn More
                                     <i className="fal fa-long-arrow-right" />
                                 </a>

@@ -23,7 +23,7 @@ const ServiceSkillArea = () => {
                     <Slider {...settings}>
                         <div className="col extra-padding">
                             <div className="skillset-video">
-                                <Link href="#">
+                                <Link href="">
                                     <a
                                         onClick={(e) => {
                                             e.preventDefault();
@@ -53,7 +53,7 @@ const ServiceSkillArea = () => {
                         </div>
                         <div className="col extra-padding">
                             <div className="skillset-video">
-                                <Link href="#">
+                                <Link href="">
                                     <a
                                         onClick={(e) => {
                                             e.preventDefault();
@@ -84,7 +84,7 @@ const ServiceSkillArea = () => {
                         </div>
                         <div className="col extra-padding">
                             <div className="skillset-video">
-                                <Link href="#">
+                                <Link href="">
                                     <a
                                         onClick={(e) => {
                                             e.preventDefault();

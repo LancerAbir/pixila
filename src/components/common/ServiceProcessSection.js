@@ -70,8 +70,13 @@ const ServiceProcessSection = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 text-lg-end">
-                            <Link href="#">
-                                <a className="main-btn mt-md-gap-30">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="main-btn mt-md-gap-30"
+                                >
                                     Make Appointment
                                 </a>
                             </Link>

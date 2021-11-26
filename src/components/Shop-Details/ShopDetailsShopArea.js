@@ -107,14 +107,34 @@ const ShopDetailsShopArea = () => {
                                     </li>
                                     <li>
                                         <span>Tags:</span>
-                                        <Link href="#">
-                                            <a> Fashion,</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                {" "}
+                                                Fashion,
+                                            </a>
                                         </Link>
-                                        <Link href="#">
-                                            <a> Hood,</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                {" "}
+                                                Hood,
+                                            </a>
                                         </Link>
-                                        <Link href="#">
-                                            <a>Classic</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Classic
+                                            </a>
                                         </Link>
                                     </li>
                                 </ul>
@@ -178,8 +198,13 @@ const ShopDetailsShopArea = () => {
                                                 </div>
                                             </div>
                                             <div className="input-field">
-                                                <Link href="#">
-                                                    <a className="clear-btn">
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                        className="clear-btn"
+                                                    >
                                                         Clear Selection
                                                     </a>
                                                 </Link>
@@ -196,7 +221,7 @@ const ShopDetailsShopArea = () => {
                                                 </button>
                                             </div>
                                             <div className="input-field">
-                                                <Link href="#">
+                                                <Link href="">
                                                     <a
                                                         onClick={(e) => {
                                                             e.preventDefault();
@@ -209,7 +234,7 @@ const ShopDetailsShopArea = () => {
                                                 </Link>
                                             </div>
                                             <div className="input-field">
-                                                <Link href="#">
+                                                <Link href="">
                                                     <a
                                                         onClick={(e) => {
                                                             e.preventDefault();
@@ -229,36 +254,56 @@ const ShopDetailsShopArea = () => {
                                         <span>Share This: </span>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <i className="fab fa-facebook-f" />
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <i className="fab fa-youtube" />
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <i className="fab fa-slack" />
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <i className="fab fa-whatsapp" />
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <i className="fab fa-twitter" />
                                             </a>
                                         </Link>
@@ -535,8 +580,15 @@ const ShopDetailsShopArea = () => {
                                                                     <i className="far fa-star" />
                                                                 </li>
                                                             </ul>
-                                                            <Link href="#">
-                                                                <a className="reply-btn">
+                                                            <Link href="">
+                                                                <a
+                                                                    onClick={(
+                                                                        e
+                                                                    ) => {
+                                                                        e.preventDefault();
+                                                                    }}
+                                                                    className="reply-btn"
+                                                                >
                                                                     Reply
                                                                 </a>
                                                             </Link>
@@ -584,8 +636,15 @@ const ShopDetailsShopArea = () => {
                                                                     <i className="far fa-star" />
                                                                 </li>
                                                             </ul>
-                                                            <Link href="#">
-                                                                <a className="reply-btn">
+                                                            <Link href="">
+                                                                <a
+                                                                    onClick={(
+                                                                        e
+                                                                    ) => {
+                                                                        e.preventDefault();
+                                                                    }}
+                                                                    className="reply-btn"
+                                                                >
                                                                     Reply
                                                                 </a>
                                                             </Link>

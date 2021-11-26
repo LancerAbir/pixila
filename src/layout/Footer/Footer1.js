@@ -12,36 +12,56 @@ const Footer1 = () => {
                         </div>
                         <ul className="social-icon">
                             <li>
-                                <Link href="#">
-                                    <a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
                                         <i className="fab fa-facebook-f" />
                                     </a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
-                                    <a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
                                         <i className="fab fa-twitter" />
                                     </a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
-                                    <a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
                                         <i className="fab fa-behance" />
                                     </a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
-                                    <a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
                                         <i className="fab fa-youtube" />
                                     </a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
-                                    <a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
                                         <i className="fab fa-vimeo" />
                                     </a>
                                 </Link>
@@ -70,53 +90,113 @@ const Footer1 = () => {
                                 <h5 className="widget-title">Services.</h5>
                                 <ul>
                                     <li>
-                                        <Link href="#">
-                                            <a>SEO Marketing</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                SEO Marketing
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Game Development</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Game Development
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Link Building</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Link Building
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Bitcoin Mining</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Bitcoin Mining
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Keyword Targeting</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Keyword Targeting
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Live Streaming</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Live Streaming
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Web Analytics</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Web Analytics
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Marketplace</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Marketplace
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Email Marketing</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Email Marketing
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Business Strategy</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Business Strategy
+                                            </a>
                                         </Link>
                                     </li>
                                 </ul>
@@ -228,25 +308,49 @@ const Footer1 = () => {
                     <div className="d-md-flex align-items-center justify-content-between">
                         <ul className="footer-menu order-md-2">
                             <li>
-                                <Link href="#">
-                                    <a>Terms &amp; Conditions</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        Terms &amp; Conditions
+                                    </a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
-                                    <a>Refund Policy</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        Refund Policy
+                                    </a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
-                                    <a>Support</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        Support
+                                    </a>
                                 </Link>
                             </li>
                         </ul>
                         <p className="copyright-text order-md-1">
                             Copyright By@
-                            <Link href="#">
-                                <a>WebTend</a>
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                >
+                                    WebTend
+                                </a>
                             </Link>
                             - 2021
                         </p>
