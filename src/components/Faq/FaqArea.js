@@ -1,4 +1,6 @@
 import React from "react";
+import { Accordion } from "react-bootstrap";
+import AccordionTab from "../common/AccordionTab";
 
 const FaqArea = () => {
     return (
@@ -6,269 +8,62 @@ const FaqArea = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-xl-8">
-                        <div
-                            className="accordion faq-accordion"
-                            id="accordionFAQ"
-                        >
-                            <div className="accordion-item">
-                                <h4 className="accordion-header">
-                                    <button
-                                        className="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne"
-                                    >
+                        <Accordion defaultActiveKey="0">
+                            <div
+                                className="accordion faq-accordion"
+                                id="accordionFAQ"
+                            >
+                                <Accordion.Item eventKey="0">
+                                    <Accordion.Header>
                                         How can i make this kind very easily?
-                                    </button>
-                                </h4>
-                                <div
-                                    id="collapseOne"
-                                    className="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFAQ"
-                                >
-                                    <div className="accordion-body">
-                                        <div className="row align-items-center">
-                                            <div className="col-lg-2 mb-md-gap-30">
-                                                <img
-                                                    src="img/faq.jpg"
-                                                    alt="image"
-                                                />
-                                            </div>
-                                            <div className="col-lg-8">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit, sed do eiusmod tempor
-                                                    incididunt ut labore et
-                                                    dolore magna aliqua. Ut enim
-                                                    ad minim veniam, quis nost
-                                                    rud exercitation ullamco
-                                                    laboris nisi ut aliquip ex
-                                                    ea commodo consequat. Duis
-                                                    aute irure dolor in
-                                                    reprehenderit in voluptate.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h4 className="accordion-header">
-                                    <button
-                                        className="accordion-button"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo"
-                                    >
+                                    </Accordion.Header>
+
+                                    <Accordion.Body>
+                                        <AccordionTab />
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="1">
+                                    <Accordion.Header>
                                         How can i make this kind very easily?
-                                    </button>
-                                </h4>
-                                <div
-                                    id="collapseTwo"
-                                    className="accordion-collapse collapse show"
-                                    data-bs-parent="#accordionFAQ"
-                                >
-                                    <div className="accordion-body">
-                                        <div className="row align-items-center">
-                                            <div className="col-lg-2 mb-md-gap-30">
-                                                <img
-                                                    src="img/faq.jpg"
-                                                    alt="image"
-                                                />
-                                            </div>
-                                            <div className="col-lg-8">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit, sed do eiusmod tempor
-                                                    incididunt ut labore et
-                                                    dolore magna aliqua. Ut enim
-                                                    ad minim veniam, quis nost
-                                                    rud exercitation ullamco
-                                                    laboris nisi ut aliquip ex
-                                                    ea commodo consequat. Duis
-                                                    aute irure dolor in
-                                                    reprehenderit in voluptate.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h4 className="accordion-header">
-                                    <button
-                                        className="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree"
-                                    >
+                                    </Accordion.Header>
+                                    <Accordion.Body>
+                                        <AccordionTab />
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="2">
+                                    <Accordion.Header>
                                         How can i make this kind very easily?
-                                    </button>
-                                </h4>
-                                <div
-                                    id="collapseThree"
-                                    className="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFAQ"
-                                >
-                                    <div className="accordion-body">
-                                        <div className="row align-items-center">
-                                            <div className="col-lg-2 mb-md-gap-30">
-                                                <img
-                                                    src="img/faq.jpg"
-                                                    alt="image"
-                                                />
-                                            </div>
-                                            <div className="col-lg-8">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit, sed do eiusmod tempor
-                                                    incididunt ut labore et
-                                                    dolore magna aliqua. Ut enim
-                                                    ad minim veniam, quis nost
-                                                    rud exercitation ullamco
-                                                    laboris nisi ut aliquip ex
-                                                    ea commodo consequat. Duis
-                                                    aute irure dolor in
-                                                    reprehenderit in voluptate.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h4 className="accordion-header">
-                                    <button
-                                        className="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseFour"
-                                    >
+                                    </Accordion.Header>
+                                    <Accordion.Body>
+                                        <AccordionTab />
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="3">
+                                    <Accordion.Header>
                                         How can i make this kind very easily?
-                                    </button>
-                                </h4>
-                                <div
-                                    id="collapseFour"
-                                    className="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFAQ"
-                                >
-                                    <div className="accordion-body">
-                                        <div className="row align-items-center">
-                                            <div className="col-lg-2 mb-md-gap-30">
-                                                <img
-                                                    src="img/faq.jpg"
-                                                    alt="image"
-                                                />
-                                            </div>
-                                            <div className="col-lg-8">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit, sed do eiusmod tempor
-                                                    incididunt ut labore et
-                                                    dolore magna aliqua. Ut enim
-                                                    ad minim veniam, quis nost
-                                                    rud exercitation ullamco
-                                                    laboris nisi ut aliquip ex
-                                                    ea commodo consequat. Duis
-                                                    aute irure dolor in
-                                                    reprehenderit in voluptate.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h4 className="accordion-header">
-                                    <button
-                                        className="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseFive"
-                                    >
+                                    </Accordion.Header>
+                                    <Accordion.Body>
+                                        <AccordionTab />
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="4">
+                                    <Accordion.Header>
                                         How can i make this kind very easily?
-                                    </button>
-                                </h4>
-                                <div
-                                    id="collapseFive"
-                                    className="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFAQ"
-                                >
-                                    <div className="accordion-body">
-                                        <div className="row align-items-center">
-                                            <div className="col-lg-2 mb-md-gap-30">
-                                                <img
-                                                    src="img/faq.jpg"
-                                                    alt="image"
-                                                />
-                                            </div>
-                                            <div className="col-lg-8">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit, sed do eiusmod tempor
-                                                    incididunt ut labore et
-                                                    dolore magna aliqua. Ut enim
-                                                    ad minim veniam, quis nost
-                                                    rud exercitation ullamco
-                                                    laboris nisi ut aliquip ex
-                                                    ea commodo consequat. Duis
-                                                    aute irure dolor in
-                                                    reprehenderit in voluptate.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h4 className="accordion-header">
-                                    <button
-                                        className="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseSix"
-                                    >
+                                    </Accordion.Header>
+                                    <Accordion.Body>
+                                        <AccordionTab />
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="5">
+                                    <Accordion.Header>
                                         How can i make this kind very easily?
-                                    </button>
-                                </h4>
-                                <div
-                                    id="collapseSix"
-                                    className="accordion-collapse collapse"
-                                    data-bs-parent="#accordionFAQ"
-                                >
-                                    <div className="accordion-body">
-                                        <div className="row align-items-center">
-                                            <div className="col-lg-2 mb-md-gap-30">
-                                                <img
-                                                    src="img/faq.jpg"
-                                                    alt="image"
-                                                />
-                                            </div>
-                                            <div className="col-lg-8">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing
-                                                    elit, sed do eiusmod tempor
-                                                    incididunt ut labore et
-                                                    dolore magna aliqua. Ut enim
-                                                    ad minim veniam, quis nost
-                                                    rud exercitation ullamco
-                                                    laboris nisi ut aliquip ex
-                                                    ea commodo consequat. Duis
-                                                    aute irure dolor in
-                                                    reprehenderit in voluptate.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                    </Accordion.Header>
+                                    <Accordion.Body>
+                                        <AccordionTab />
+                                    </Accordion.Body>
+                                </Accordion.Item>
                             </div>
-                        </div>
+                        </Accordion>
                     </div>
                     <div className="col-xl-4">
                         <div className="primary-sidebar faq-sidebar">

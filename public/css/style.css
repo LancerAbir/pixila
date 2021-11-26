@@ -6893,6 +6893,9 @@ header .container-fluid {
 /*=======  FAQ  =======*/
 .accordion.faq-accordion .accordion-collapse {
     border: none;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
 }
 
 .accordion.faq-accordion .accordion-header .accordion-button {
