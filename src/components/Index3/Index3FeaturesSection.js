@@ -19,8 +19,13 @@ const Index3FeaturesSection = () => {
                                     online base work.
                                 </p>
                             </div>
-                            <Link href="#">
-                                <a className="feature-link">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="feature-link"
+                                >
                                     Check Details
                                     <i className="fal fa-long-arrow-right" />
                                 </a>
@@ -40,8 +45,13 @@ const Index3FeaturesSection = () => {
                                     online base work.
                                 </p>
                             </div>
-                            <Link href="#">
-                                <a className="feature-link">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="feature-link"
+                                >
                                     Check Details
                                     <i className="fal fa-long-arrow-right" />
                                 </a>
@@ -61,8 +71,13 @@ const Index3FeaturesSection = () => {
                                     online base work.
                                 </p>
                             </div>
-                            <Link href="#">
-                                <a className="feature-link">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="feature-link"
+                                >
                                     Check Details
                                     <i className="fal fa-long-arrow-right" />
                                 </a>

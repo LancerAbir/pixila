@@ -24,16 +24,26 @@ const Index3NewsSection = () => {
                                     <div className="content">
                                         <ul className="post-meta">
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-calendar-alt" />
                                                         10th May 2020
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li className="admin">
-                                                <Link href="#">
-                                                    <a>Admin</a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
+                                                        Admin
+                                                    </a>
                                                 </Link>
                                             </li>
                                         </ul>
@@ -68,16 +78,26 @@ const Index3NewsSection = () => {
                                     <div className="content">
                                         <ul className="post-meta">
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fal fa-calendar-alt" />
                                                         10th May 2020
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li className="admin">
-                                                <Link href="#">
-                                                    <a>Admin</a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
+                                                        Admin
+                                                    </a>
                                                 </Link>
                                             </li>
                                         </ul>
@@ -115,16 +135,26 @@ const Index3NewsSection = () => {
                                 <div className="content">
                                     <ul className="post-meta">
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                >
                                                     <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </a>
                                             </Link>
                                         </li>
                                         <li className="admin">
-                                            <Link href="#">
-                                                <a>Admin</a>
+                                            <Link href="">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                >
+                                                    Admin
+                                                </a>
                                             </Link>
                                         </li>
                                     </ul>
@@ -149,16 +179,26 @@ const Index3NewsSection = () => {
                                 <div className="content">
                                     <ul className="post-meta">
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                >
                                                     <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </a>
                                             </Link>
                                         </li>
                                         <li className="admin">
-                                            <Link href="#">
-                                                <a>Admin</a>
+                                            <Link href="">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                >
+                                                    Admin
+                                                </a>
                                             </Link>
                                         </li>
                                     </ul>
@@ -183,16 +223,26 @@ const Index3NewsSection = () => {
                                 <div className="content">
                                     <ul className="post-meta">
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                >
                                                     <i className="fal fa-calendar-alt" />
                                                     10th May 2020
                                                 </a>
                                             </Link>
                                         </li>
                                         <li className="admin">
-                                            <Link href="#">
-                                                <a>Admin</a>
+                                            <Link href="">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                >
+                                                    Admin
+                                                </a>
                                             </Link>
                                         </li>
                                     </ul>

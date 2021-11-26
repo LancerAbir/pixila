@@ -22,71 +22,121 @@ const Home2brandSectionTwo = () => {
                 <div className="brand-logos row justify-content-between align-items-center">
                     <Slider {...settings}>
                         <div className="col">
-                            <Link href="#">
-                                <a className="brand-logo">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="brand-logo"
+                                >
                                     <img src="img/brand/6.png" alt="Image" />
                                 </a>
                             </Link>
                         </div>
                         <div className="col">
-                            <Link href="#">
-                                <a className="brand-logo">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="brand-logo"
+                                >
                                     <img src="img/brand/7.png" alt="Image" />
                                 </a>
                             </Link>
                         </div>
                         <div className="col">
-                            <Link href="#">
-                                <a className="brand-logo">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="brand-logo"
+                                >
                                     <img src="img/brand/8.png" alt="Image" />
                                 </a>
                             </Link>
                         </div>
                         <div className="col">
-                            <Link href="#">
-                                <a className="brand-logo">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="brand-logo"
+                                >
                                     <img src="img/brand/9.png" alt="Image" />
                                 </a>
                             </Link>
                         </div>
                         <div className="col">
-                            <Link href="#">
-                                <a className="brand-logo">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="brand-logo"
+                                >
                                     <img src="img/brand/10.png" alt="Image" />
                                 </a>
                             </Link>
                         </div>
                         <div className="col">
-                            <Link href="#">
-                                <a className="brand-logo">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="brand-logo"
+                                >
                                     <img src="img/brand/6.png" alt="Image" />
                                 </a>
                             </Link>
                         </div>
                         <div className="col">
-                            <Link href="#">
-                                <a className="brand-logo">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="brand-logo"
+                                >
                                     <img src="img/brand/7.png" alt="Image" />
                                 </a>
                             </Link>
                         </div>
                         <div className="col">
-                            <Link href="#">
-                                <a className="brand-logo">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="brand-logo"
+                                >
                                     <img src="img/brand/8.png" alt="Image" />
                                 </a>
                             </Link>
                         </div>
                         <div className="col">
-                            <Link href="#">
-                                <a className="brand-logo">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="brand-logo"
+                                >
                                     <img src="img/brand/9.png" alt="Image" />
                                 </a>
                             </Link>
                         </div>
                         <div className="col">
-                            <Link href="#">
-                                <a className="brand-logo">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="brand-logo"
+                                >
                                     <img src="img/brand/10.png" alt="Image" />
                                 </a>
                             </Link>

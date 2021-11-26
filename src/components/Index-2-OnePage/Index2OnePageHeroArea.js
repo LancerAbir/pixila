@@ -26,8 +26,12 @@ const Index2OnePageHeroArea = () => {
                                     className="facebook wow fadeInUp"
                                     data-wow-delay="0.7s"
                                 >
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-facebook-f" />
                                             <span>10000 Like</span>
                                         </a>
@@ -37,8 +41,12 @@ const Index2OnePageHeroArea = () => {
                                     className="dribbble wow fadeInUp"
                                     data-wow-delay="0.9s"
                                 >
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                            }}
+                                        >
                                             <i className="fab fa-dribbble" />
                                             <span>500K Followers</span>
                                         </a>
@@ -53,7 +61,7 @@ const Index2OnePageHeroArea = () => {
                             data-wow-delay="0.3s"
                         >
                             <div className="hero-video-wrap">
-                                <Link href="#">
+                                <Link href="">
                                     <a
                                         onClick={(e) => {
                                             e.preventDefault();

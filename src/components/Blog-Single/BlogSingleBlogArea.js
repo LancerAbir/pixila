@@ -9,8 +9,15 @@ const BlogSingleBlogArea = () => {
                     <div className="col-xl-8">
                         <div className="single-post-box post-details">
                             <div className="post-content">
-                                <Link href="#">
-                                    <a className="post-cat">Business</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="post-cat"
+                                    >
+                                        Business
+                                    </a>
                                 </Link>
                                 <h3 className="post-title">
                                     Business contents insurance is a type
@@ -18,24 +25,36 @@ const BlogSingleBlogArea = () => {
                                 </h3>
                                 <ul className="post-meta">
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <i className="fal fa-eye" />
                                                 100 Views
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <i className="fal fa-comments" />
                                                 30 Comments
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <i className="fal fa-calendar-alt" />
                                                 24th March 2020
                                             </a>
@@ -273,18 +292,36 @@ const BlogSingleBlogArea = () => {
                                         <h5>Releted Tags</h5>
                                         <ul>
                                             <li>
-                                                <Link href="#">
-                                                    <a>Popular</a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
+                                                        Popular
+                                                    </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>Desgin</a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
+                                                        Desgin
+                                                    </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>UX</a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
+                                                        UX
+                                                    </a>
                                                 </Link>
                                             </li>
                                         </ul>
@@ -293,36 +330,56 @@ const BlogSingleBlogArea = () => {
                                         <h5>Social Share</h5>
                                         <ul>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fab fa-facebook-f" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fab fa-twitter" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fab fa-vk" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fab fa-whatsapp" />
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         <i className="fab fa-blogger-b" />
                                                     </a>
                                                 </Link>
@@ -335,16 +392,28 @@ const BlogSingleBlogArea = () => {
                                     <div className="prev-post">
                                         <span>Prev Post</span>
                                         <h3>
-                                            <Link href="#">
-                                                <a>Tips On Minimalist</a>
+                                            <Link href="">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                >
+                                                    Tips On Minimalist
+                                                </a>
                                             </Link>
                                         </h3>
                                     </div>
                                     <div className="next-post">
                                         <span>Next Post</span>
                                         <h3>
-                                            <Link href="#">
-                                                <a>Less Is More</a>
+                                            <Link href="">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                >
+                                                    Less Is More
+                                                </a>
                                             </Link>
                                         </h3>
                                     </div>
@@ -370,8 +439,14 @@ const BlogSingleBlogArea = () => {
                                                         24th March 2020
                                                     </span>
                                                     <h4>
-                                                        <Link href="#">
-                                                            <a>
+                                                        <Link href="">
+                                                            <a
+                                                                onClick={(
+                                                                    e
+                                                                ) => {
+                                                                    e.preventDefault();
+                                                                }}
+                                                            >
                                                                 A series of iOS
                                                                 7 inspire vector
                                                                 icons sense.
@@ -402,8 +477,14 @@ const BlogSingleBlogArea = () => {
                                                         24th March 2020
                                                     </span>
                                                     <h4>
-                                                        <Link href="#">
-                                                            <a>
+                                                        <Link href="">
+                                                            <a
+                                                                onClick={(
+                                                                    e
+                                                                ) => {
+                                                                    e.preventDefault();
+                                                                }}
+                                                            >
                                                                 A series of iOS
                                                                 7 inspire vector
                                                                 icons sense.
@@ -472,8 +553,13 @@ const BlogSingleBlogArea = () => {
                                                 ullamco laboris nisi ut aliquip
                                                 ex ea commodo consequat.
                                             </p>
-                                            <Link href="#">
-                                                <a className="reply-link">
+                                            <Link href="">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    className="reply-link"
+                                                >
                                                     <i className="fal fa-reply" />
                                                     Reply
                                                 </a>
@@ -504,8 +590,13 @@ const BlogSingleBlogArea = () => {
                                                         quis nostrud
                                                         exercitation
                                                     </p>
-                                                    <Link href="#">
-                                                        <a className="reply-link">
+                                                    <Link href="">
+                                                        <a
+                                                            onClick={(e) => {
+                                                                e.preventDefault();
+                                                            }}
+                                                            className="reply-link"
+                                                        >
                                                             <i className="fal fa-reply" />
                                                             Reply
                                                         </a>
@@ -537,8 +628,13 @@ const BlogSingleBlogArea = () => {
                                                 ullamco laboris nisi ut aliquip
                                                 ex ea commodo consequat.
                                             </p>
-                                            <Link href="#">
-                                                <a className="reply-link">
+                                            <Link href="">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                    className="reply-link"
+                                                >
                                                     <i className="fal fa-reply" />
                                                     Reply
                                                 </a>
@@ -616,36 +712,56 @@ const BlogSingleBlogArea = () => {
                                     </p>
                                     <ul className="social-icon">
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                >
                                                     <i className="fab fa-facebook-f" />
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                >
                                                     <i className="fab fa-twitter" />
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                >
                                                     <i className="fab fa-behance" />
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                >
                                                     <i className="fab fa-linkedin" />
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                    }}
+                                                >
                                                     <i className="fab fa-youtube" />
                                                 </a>
                                             </Link>
@@ -678,8 +794,12 @@ const BlogSingleBlogArea = () => {
                                         />
                                         <div className="content">
                                             <h6>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         Lorem ipsum dolor sit
                                                         cing elit, sed do
                                                         something.
@@ -702,8 +822,12 @@ const BlogSingleBlogArea = () => {
                                         />
                                         <div className="content">
                                             <h6>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         Lorem ipsum dolor sit
                                                         cing elit, sed do
                                                         something.
@@ -726,8 +850,12 @@ const BlogSingleBlogArea = () => {
                                         />
                                         <div className="content">
                                             <h6>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         Lorem ipsum dolor sit
                                                         cing elit, sed do
                                                         something.
@@ -750,8 +878,12 @@ const BlogSingleBlogArea = () => {
                                         />
                                         <div className="content">
                                             <h6>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
                                                         Lorem ipsum dolor sit
                                                         cing elit, sed do
                                                         something.
@@ -770,36 +902,56 @@ const BlogSingleBlogArea = () => {
                                 <h5 className="widget-title">Categories</h5>
                                 <ul>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 Business <span>26</span>
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 Consultant <span>30</span>
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 Creative <span>71</span>
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 UI/UX <span>56</span>
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 Technology <span>60</span>
                                             </a>
                                         </Link>
@@ -812,8 +964,12 @@ const BlogSingleBlogArea = () => {
                                 </h5>
                                 <ul>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <img
                                                     src="img/blog/instagram/01.jpg"
                                                     alt="img"
@@ -822,8 +978,12 @@ const BlogSingleBlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <img
                                                     src="img/blog/instagram/02.jpg"
                                                     alt="img"
@@ -832,8 +992,12 @@ const BlogSingleBlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <img
                                                     src="img/blog/instagram/03.jpg"
                                                     alt="img"
@@ -842,8 +1006,12 @@ const BlogSingleBlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <img
                                                     src="img/blog/instagram/04.jpg"
                                                     alt="img"
@@ -852,8 +1020,12 @@ const BlogSingleBlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <img
                                                     src="img/blog/instagram/05.jpg"
                                                     alt="img"
@@ -862,8 +1034,12 @@ const BlogSingleBlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <img
                                                     src="img/blog/instagram/06.jpg"
                                                     alt="img"
@@ -872,8 +1048,12 @@ const BlogSingleBlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <img
                                                     src="img/blog/instagram/07.jpg"
                                                     alt="img"
@@ -882,8 +1062,12 @@ const BlogSingleBlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <img
                                                     src="img/blog/instagram/08.jpg"
                                                     alt="img"
@@ -892,8 +1076,12 @@ const BlogSingleBlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <img
                                                     src="img/blog/instagram/09.jpg"
                                                     alt="img"
@@ -902,8 +1090,12 @@ const BlogSingleBlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <img
                                                     src="img/blog/instagram/10.jpg"
                                                     alt="img"
@@ -912,8 +1104,12 @@ const BlogSingleBlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <img
                                                     src="img/blog/instagram/11.jpg"
                                                     alt="img"
@@ -922,8 +1118,12 @@ const BlogSingleBlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
                                                 <img
                                                     src="img/blog/instagram/12.jpg"
                                                     alt="img"
@@ -937,83 +1137,179 @@ const BlogSingleBlogArea = () => {
                                 <h5 className="widget-title">Popular Tags</h5>
                                 <ul>
                                     <li>
-                                        <Link href="#">
-                                            <a>Popular</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Popular
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Design</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Design
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>UI</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                UI
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>UX</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                UX
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Usability</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Usability
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Develop</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Develop
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Icon</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Icon
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Icon</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Icon
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Business</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Business
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Consult</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Consult
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Kit</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Kit
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Kit</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Kit
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Keyboard</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Keyboard
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Mouse</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Mouse
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Tech</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Tech
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Tech</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Tech
+                                            </a>
                                         </Link>
                                     </li>
                                 </ul>

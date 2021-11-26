@@ -46,7 +46,7 @@ const Header4 = () => {
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#">
+                                                <Link href="/index-onepage">
                                                     <a>OnePage</a>
                                                 </Link>
                                                 <ul className="submenu">
@@ -80,7 +80,7 @@ const Header4 = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="">
                                             <a>Pages</a>
                                         </Link>
                                         <ul className="submenu">
@@ -185,8 +185,13 @@ const Header4 = () => {
                                         </Link>
                                     </li>
                                 </ul>
-                                <Link href="#">
-                                    <a className="nav-close">
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="nav-close"
+                                    >
                                         <i className="fal fa-times" />
                                     </a>
                                 </Link>
@@ -194,13 +199,24 @@ const Header4 = () => {
                         </div>
                         <div className="navbar-right d-flex align-items-center">
                             <div className="header-contact-btn">
-                                <Link href="#">
-                                    <a>Support: 987.098.564.98</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        Support: 987.098.564.98
+                                    </a>
                                 </Link>
                             </div>
                             <div className="search-widget">
-                                <Link href="#">
-                                    <a className="search-icon">
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="search-icon"
+                                    >
                                         <i className="far fa-search" />
                                     </a>
                                 </Link>
@@ -216,8 +232,13 @@ const Header4 = () => {
                                     </form>
                                 </div>
                             </div>
-                            <Link href="#">
-                                <a className="nav-toggler">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="nav-toggler"
+                                >
                                     <i className="far fa-bars" />
                                 </a>
                             </Link>

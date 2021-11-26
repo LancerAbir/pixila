@@ -9,40 +9,82 @@ const Footer4 = () => {
                     <div className="d-md-flex justify-content-between align-items-center">
                         <ul className="footer-top-menu">
                             <li>
-                                <Link href="#">
-                                    <a>Roadmap</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        Roadmap
+                                    </a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
-                                    <a>Careers</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        Careers
+                                    </a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
-                                    <a>Connect</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        Connect
+                                    </a>
                                 </Link>
                             </li>
                         </ul>
                         <ul className="social-links">
                             <li>
-                                <Link href="#">
-                                    <a>facebook</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        facebook
+                                    </a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
-                                    <a>twtter</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        twtter
+                                    </a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
-                                    <a>linkedin </a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        linkedin
+                                    </a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
-                                    <a>pinterest</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        pinterest
+                                    </a>
                                 </Link>
                             </li>
                         </ul>
@@ -68,58 +110,124 @@ const Footer4 = () => {
                                 <h5 className="widget-title">Main Links.</h5>
                                 <ul>
                                     <li>
-                                        <Link href="#">
-                                            <a>About Us</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                About Us
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Reviews</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Reviews
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Services</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Services
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Best Products</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Best Products
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Pricing</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Pricing
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Categories</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Categories
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Portfolio</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Portfolio
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Brands</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Brands
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Insights</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Insights
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Hiring</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Hiring
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Business Strategy</a>
+                                        <Link href="">
+                                            <a
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                }}
+                                            >
+                                                Business Strategy
+                                            </a>
                                         </Link>
                                     </li>
                                 </ul>
@@ -138,8 +246,13 @@ const Footer4 = () => {
                                         71, Qlex Tower, Onthon, UK
                                     </li>
                                 </ul>
-                                <Link href="#">
-                                    <a className="info-btn">
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="info-btn"
+                                    >
                                         Contact Us
                                         <i className="fal fa-long-arrow-right" />
                                     </a>

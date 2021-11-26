@@ -17,8 +17,14 @@ const Index2ServiceArea = () => {
                         <div className="service-box-two primary-color-2 mt-30">
                             <span className="box-count">01</span>
                             <h4 className="title">
-                                <Link href="#">
-                                    <a>Digital Product Developoment</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
+                                        Digital Product Developoment
+                                    </a>
                                 </Link>
                             </h4>
                             <p>
@@ -50,8 +56,13 @@ const Index2ServiceArea = () => {
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <Link href="#">
-                                <a className="service-link">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="service-link"
+                                >
                                     <i className="fal fa-plus" />
                                     <span>Read More</span>
                                 </a>
@@ -74,8 +85,13 @@ const Index2ServiceArea = () => {
                                 for whom quality, service, integrity &amp;
                                 aesthetics matter deeply.
                             </p>
-                            <Link href="#">
-                                <a className="service-link">
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                    className="service-link"
+                                >
                                     <i className="fal fa-plus" />
                                     <span>Read More</span>
                                 </a>

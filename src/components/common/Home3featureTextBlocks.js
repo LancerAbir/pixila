@@ -39,8 +39,15 @@ const Home3featureTextBlocks = () => {
                                     muscular strength, muscular endurance, body
                                     composition, and flexibility.
                                 </p>
-                                <Link href="#">
-                                    <a className="block-btn">Learn More</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="block-btn"
+                                    >
+                                        Learn More
+                                    </a>
                                 </Link>
                             </div>
                         </div>
@@ -82,8 +89,15 @@ const Home3featureTextBlocks = () => {
                                     muscular strength, muscular endurance, body
                                     composition, and flexibility.
                                 </p>
-                                <Link href="#">
-                                    <a className="block-btn">Learn More</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="block-btn"
+                                    >
+                                        Learn More
+                                    </a>
                                 </Link>
                             </div>
                         </div>
@@ -125,8 +139,15 @@ const Home3featureTextBlocks = () => {
                                     muscular strength, muscular endurance, body
                                     composition, and flexibility.
                                 </p>
-                                <Link href="#">
-                                    <a className="block-btn">Learn More</a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                        className="block-btn"
+                                    >
+                                        Learn More
+                                    </a>
                                 </Link>
                             </div>
                         </div>

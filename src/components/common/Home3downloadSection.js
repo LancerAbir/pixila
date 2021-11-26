@@ -14,8 +14,12 @@ const Home3downloadSection = () => {
                         </h2>
                         <ul className="download-btns">
                             <li>
-                                <Link href="#">
-                                    <a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
                                         <img
                                             src="img/app-store.png"
                                             alt="AppStore"
@@ -24,8 +28,12 @@ const Home3downloadSection = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
-                                    <a>
+                                <Link href="">
+                                    <a
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
                                         <img
                                             src="img/play-store.png"
                                             alt="PlayStore"

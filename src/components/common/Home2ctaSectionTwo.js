@@ -8,42 +8,68 @@ const Home2ctaSectionTwo = () => {
                 <div className="cta-text">
                     <h4 className="cta-title">
                         Do you need similar project? Call Us
-                        <Link href="#">
-                            <a>+ 422 081 748 212</a>
+                        <Link href="">
+                            <a
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                }}
+                            >
+                                + 422 081 748 212
+                            </a>
                         </Link>
                     </h4>
                     <ul className="cta-social-icon">
                         <li>
-                            <Link href="#">
-                                <a>
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                >
                                     <i className="fab fa-facebook-f" />
                                 </a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="#">
-                                <a>
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                >
                                     <i className="fab fa-twitter" />
                                 </a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="#">
-                                <a>
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                >
                                     <i className="fab fa-behance" />
                                 </a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="#">
-                                <a>
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                >
                                     <i className="fab fa-youtube" />
                                 </a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="#">
-                                <a>
+                            <Link href="">
+                                <a
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                >
                                     <i className="fab fa-linkedin" />
                                 </a>
                             </Link>

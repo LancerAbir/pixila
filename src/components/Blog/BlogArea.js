@@ -16,8 +16,8 @@ const BlogArea = () => {
                                     <img src="img/blog/01.jpg" alt="Image" />
                                 </div>
                                 <div className="post-content">
-                                    <Link href="#">
-                                        <a className="post-cat">Business</a>
+                                    <Link href="">
+                                    <a onClick={e=>{e.preventDefault()}} className="post-cat">Business</a>
                                     </Link>
                                     <h3 className="post-title">
                                         <Link href="/blog-single">
@@ -37,32 +37,32 @@ const BlogArea = () => {
                                     </p>
                                     <ul className="post-meta">
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fal fa-eye" />
                                                     100 Views
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fal fa-comments" />
                                                     30 Comments
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fal fa-calendar-alt" />
                                                     24th March 2020
                                                 </a>
                                             </Link>
                                         </li>
                                     </ul>
-                                    <Link href="#">
-                                        <a className="posted-by">
+                                    <Link href="">
+                                        <a onClick={e=>{e.preventDefault()}} className="posted-by">
                                             <img
                                                 src="img/blog/post-author.jpg"
                                                 alt="Author"
@@ -75,7 +75,7 @@ const BlogArea = () => {
                             <div className="single-post-box video-post">
                                 <div className="post-thumb">
                                     <img src="img/blog/02.jpg" alt="Image" />
-                                    <Link href="#">
+                                    <Link href="">
                                         <a
                                             onClick={(e) => {
                                                 e.preventDefault();
@@ -96,8 +96,8 @@ const BlogArea = () => {
                                     />
                                 </div>
                                 <div className="post-content">
-                                    <Link href="#">
-                                        <a className="post-cat">Business</a>
+                                    <Link href="">
+                                    <a onClick={e=>{e.preventDefault()}} className="post-cat">Business</a>
                                     </Link>
                                     <h3 className="post-title">
                                         <Link href="/blog-single">
@@ -117,32 +117,32 @@ const BlogArea = () => {
                                     </p>
                                     <ul className="post-meta">
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fal fa-eye" />
                                                     100 Views
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fal fa-comments" />
                                                     30 Comments
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fal fa-calendar-alt" />
                                                     24th March 2020
                                                 </a>
                                             </Link>
                                         </li>
                                     </ul>
-                                    <Link href="#">
-                                        <a className="posted-by">
+                                    <Link href="">
+                                        <a onClick={e=>{e.preventDefault()}} className="posted-by">
                                             <img
                                                 src="img/blog/post-author.jpg"
                                                 alt="Author"
@@ -157,8 +157,8 @@ const BlogArea = () => {
                                     <img src="img/blog/03.jpg" alt="Image" />
                                 </div>
                                 <div className="post-content">
-                                    <Link href="#">
-                                        <a className="post-cat">Business</a>
+                                    <Link href="">
+                                        <a onClick={e=>{e.preventDefault()}} className="post-cat">Business</a>
                                     </Link>
                                     <h3 className="post-title">
                                         <Link href="/blog-single">
@@ -178,32 +178,32 @@ const BlogArea = () => {
                                     </p>
                                     <ul className="post-meta">
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fal fa-eye" />
                                                     100 Views
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fal fa-comments" />
                                                     30 Comments
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fal fa-calendar-alt" />
                                                     24th March 2020
                                                 </a>
                                             </Link>
                                         </li>
                                     </ul>
-                                    <Link href="#">
-                                        <a className="posted-by">
+                                    <Link href="">
+                                        <a onClick={e=>{e.preventDefault()}} className="posted-by">
                                             <img
                                                 src="img/blog/post-author.jpg"
                                                 alt="Author"
@@ -239,24 +239,24 @@ const BlogArea = () => {
                                     </p>
                                     <ul className="post-meta">
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fal fa-eye" />
                                                     100 Views
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fal fa-comments" />
                                                     30 Comments
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fal fa-calendar-alt" />
                                                     24th March 2020
                                                 </a>
@@ -285,24 +285,24 @@ const BlogArea = () => {
                                     </p>
                                     <ul className="post-meta">
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fal fa-eye" />
                                                     100 Views
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fal fa-comments" />
                                                     30 Comments
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fal fa-calendar-alt" />
                                                     24th March 2020
                                                 </a>
@@ -328,35 +328,35 @@ const BlogArea = () => {
                         <div className="pagination-wrap">
                             <ul>
                                 <li>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a onClick={e=>{e.preventDefault()}}>
                                             <i className="fal fa-arrow-left" />
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a className="current-page">01</a>
+                                    <Link href="">
+                                        <a onClick={e=>{e.preventDefault()}} className="current-page">01</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a>02</a>
+                                    <Link href="">
+                                        <a onClick={e=>{e.preventDefault()}}>02</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a>----</a>
+                                    <Link href="">
+                                        <a onClick={e=>{e.preventDefault()}}>----</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a>08</a>
+                                    <Link href="">
+                                        <a onClick={e=>{e.preventDefault()}}>08</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
-                                        <a>
+                                    <Link href="">
+                                        <a onClick={e=>{e.preventDefault()}}>
                                             <i className="fal fa-arrow-right" />
                                         </a>
                                     </Link>
@@ -383,36 +383,36 @@ const BlogArea = () => {
                                     </p>
                                     <ul className="social-icon">
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fab fa-facebook-f" />
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fab fa-twitter" />
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fab fa-behance" />
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fab fa-linkedin" />
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                <a>
+                                            <Link href="">
+                                                <a onClick={e=>{e.preventDefault()}}>
                                                     <i className="fab fa-youtube" />
                                                 </a>
                                             </Link>
@@ -445,8 +445,8 @@ const BlogArea = () => {
                                         />
                                         <div className="content">
                                             <h6>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a onClick={e=>{e.preventDefault()}}>
                                                         Lorem ipsum dolor sit
                                                         cing elit, sed do
                                                         something.
@@ -469,8 +469,8 @@ const BlogArea = () => {
                                         />
                                         <div className="content">
                                             <h6>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a onClick={e=>{e.preventDefault()}}>
                                                         Lorem ipsum dolor sit
                                                         cing elit, sed do
                                                         something.
@@ -493,8 +493,8 @@ const BlogArea = () => {
                                         />
                                         <div className="content">
                                             <h6>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a onClick={e=>{e.preventDefault()}}>
                                                         Lorem ipsum dolor sit
                                                         cing elit, sed do
                                                         something.
@@ -517,8 +517,8 @@ const BlogArea = () => {
                                         />
                                         <div className="content">
                                             <h6>
-                                                <Link href="#">
-                                                    <a>
+                                                <Link href="">
+                                                    <a onClick={e=>{e.preventDefault()}}>
                                                         Lorem ipsum dolor sit
                                                         cing elit, sed do
                                                         something.
@@ -537,36 +537,36 @@ const BlogArea = () => {
                                 <h5 className="widget-title">Categories</h5>
                                 <ul>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 Business <span>26</span>
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 Consultant <span>30</span>
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 Creative <span>71</span>
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 UI/UX <span>56</span>
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 Technology <span>60</span>
                                             </a>
                                         </Link>
@@ -579,8 +579,8 @@ const BlogArea = () => {
                                 </h5>
                                 <ul>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 <img
                                                     src="img/blog/instagram/01.jpg"
                                                     alt="img"
@@ -589,8 +589,8 @@ const BlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 <img
                                                     src="img/blog/instagram/02.jpg"
                                                     alt="img"
@@ -599,8 +599,8 @@ const BlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 <img
                                                     src="img/blog/instagram/03.jpg"
                                                     alt="img"
@@ -609,8 +609,8 @@ const BlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 <img
                                                     src="img/blog/instagram/04.jpg"
                                                     alt="img"
@@ -619,8 +619,8 @@ const BlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 <img
                                                     src="img/blog/instagram/05.jpg"
                                                     alt="img"
@@ -629,8 +629,8 @@ const BlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 <img
                                                     src="img/blog/instagram/06.jpg"
                                                     alt="img"
@@ -639,8 +639,8 @@ const BlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 <img
                                                     src="img/blog/instagram/07.jpg"
                                                     alt="img"
@@ -649,8 +649,8 @@ const BlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 <img
                                                     src="img/blog/instagram/08.jpg"
                                                     alt="img"
@@ -659,8 +659,8 @@ const BlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 <img
                                                     src="img/blog/instagram/09.jpg"
                                                     alt="img"
@@ -669,8 +669,8 @@ const BlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 <img
                                                     src="img/blog/instagram/10.jpg"
                                                     alt="img"
@@ -679,8 +679,8 @@ const BlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 <img
                                                     src="img/blog/instagram/11.jpg"
                                                     alt="img"
@@ -689,8 +689,8 @@ const BlogArea = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>
                                                 <img
                                                     src="img/blog/instagram/12.jpg"
                                                     alt="img"
@@ -704,83 +704,83 @@ const BlogArea = () => {
                                 <h5 className="widget-title">Popular Tags</h5>
                                 <ul>
                                     <li>
-                                        <Link href="#">
-                                            <a>Popular</a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>Popular</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Design</a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>Design</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>UI</a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>UI</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>UX</a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>UX</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Usability</a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>Usability</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Develop</a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>Develop</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Icon</a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>Icon</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Icon</a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>Icon</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Business</a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>Business</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Consult</a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>Consult</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Kit</a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>Kit</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Kit</a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>Kit</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Keyboard</a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>Keyboard</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Mouse</a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>Mouse</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Tech</a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>Tech</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Tech</a>
+                                        <Link href="">
+                                            <a onClick={e=>{e.preventDefault()}}>Tech</a>
                                         </Link>
                                     </li>
                                 </ul>

@@ -100,7 +100,12 @@ const ContactArea = () => {
                         <span className="title-tag">Call To Action</span>
                         <h2 className="title">Make Your Request</h2>
                     </div>
-                    <form action="#">
+                    <form
+                        action="#"
+                        onClick={(e) => {
+                            e.preventDefault();
+                        }}
+                    >
                         <div className="row">
                             <div className="col-lg-6 mb-30">
                                 <input type="text" placeholder="Full name" />
