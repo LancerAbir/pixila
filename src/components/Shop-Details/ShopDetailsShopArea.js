@@ -1,7 +1,9 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 const ShopDetailsShopArea = () => {
+    const [activeBox, setActive] = useState(1);
+    const activeLi = (value) => (activeBox === value ? "active" : "");
     return (
         <section className="shop-area">
             <div className="product-top section-gap">
@@ -113,7 +115,6 @@ const ShopDetailsShopArea = () => {
                                                     e.preventDefault();
                                                 }}
                                             >
-                                                {" "}
                                                 Fashion,
                                             </a>
                                         </Link>
@@ -123,7 +124,6 @@ const ShopDetailsShopArea = () => {
                                                     e.preventDefault();
                                                 }}
                                             >
-                                                {" "}
                                                 Hood,
                                             </a>
                                         </Link>
@@ -325,7 +325,8 @@ const ShopDetailsShopArea = () => {
                             >
                                 <li className="nav-item" role="presentation">
                                     <button
-                                        className="nav-link active"
+                                        className={`nav-link ${activeLi(1)}`}
+                                        onClick={() => setActive(1)}
                                         data-bs-toggle="tab"
                                         data-bs-target="#descriptions"
                                         type="button"
@@ -336,7 +337,8 @@ const ShopDetailsShopArea = () => {
                                 </li>
                                 <li className="nav-item" role="presentation">
                                     <button
-                                        className="nav-link"
+                                        className={`nav-link ${activeLi(2)}`}
+                                        onClick={() => setActive(2)}
                                         data-bs-toggle="tab"
                                         data-bs-target="#additional-info"
                                         type="button"
@@ -347,7 +349,8 @@ const ShopDetailsShopArea = () => {
                                 </li>
                                 <li className="nav-item" role="presentation">
                                     <button
-                                        className="nav-link"
+                                        className={`nav-link ${activeLi(3)}`}
+                                        onClick={() => setActive(3)}
                                         data-bs-toggle="tab"
                                         data-bs-target="#reviews"
                                         type="button"
@@ -359,7 +362,9 @@ const ShopDetailsShopArea = () => {
                             </ul>
                             <div className="tab-content" id="productTabContent">
                                 <div
-                                    className="tab-pane fade show active"
+                                    className={`tab-pane fade ${activeLi(
+                                        1
+                                    )} && show`}
                                     id="descriptions"
                                     role="tabpanel"
                                 >
@@ -475,7 +480,9 @@ const ShopDetailsShopArea = () => {
                                     </p>
                                 </div>
                                 <div
-                                    className="tab-pane fade"
+                                    className={`tab-pane fade ${activeLi(
+                                        2
+                                    )} && show`}
                                     id="additional-info"
                                     role="tabpanel"
                                 >
@@ -530,7 +537,9 @@ const ShopDetailsShopArea = () => {
                                     </table>
                                 </div>
                                 <div
-                                    className="tab-pane fade"
+                                    className={`tab-pane fade ${activeLi(
+                                        3
+                                    )} && show`}
                                     id="reviews"
                                     role="tabpanel"
                                 >
