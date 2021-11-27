@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Home4processTabSection = () => {
+    const [activeBox, setActive] = useState(1);
+    const activeLi = (value) => (activeBox === value ? "active" : "");
     return (
         <section className="process-tab-section section-gap-bottom">
             <div className="container">
@@ -8,7 +10,8 @@ const Home4processTabSection = () => {
                     <ul className="nav nav-tabs" id="processTab" role="tablist">
                         <li className="nav-item" role="presentation">
                             <button
-                                className="nav-link"
+                                className={`nav-link ${activeLi(1)}`}
+                                onClick={() => setActive(1)}
                                 data-bs-toggle="tab"
                                 data-bs-target="#collaborate-options"
                                 type="button"
@@ -25,7 +28,8 @@ const Home4processTabSection = () => {
                         </li>
                         <li className="nav-item" role="presentation">
                             <button
-                                className="nav-link active"
+                                className={`nav-link ${activeLi(2)}`}
+                                onClick={() => setActive(2)}
                                 data-bs-toggle="tab"
                                 data-bs-target="#messaging-options"
                                 type="button"
@@ -42,7 +46,8 @@ const Home4processTabSection = () => {
                         </li>
                         <li className="nav-item" role="presentation">
                             <button
-                                className="nav-link"
+                                className={`nav-link ${activeLi(3)}`}
+                                onClick={() => setActive(3)}
                                 data-bs-toggle="tab"
                                 data-bs-target="#chatbot-options"
                                 type="button"
@@ -60,7 +65,7 @@ const Home4processTabSection = () => {
                     </ul>
                     <div className="tab-content" id="processTabContent">
                         <div
-                            className="tab-pane fade"
+                            className={`tab-pane fade  ${activeLi(1)} && show`}
                             id="collaborate-options"
                             role="tabpanel"
                         >
@@ -76,7 +81,7 @@ const Home4processTabSection = () => {
                             </div>
                         </div>
                         <div
-                            className="tab-pane fade show active"
+                            className={`tab-pane fade  ${activeLi(2)} && show`}
                             id="messaging-options"
                             role="tabpanel"
                         >
@@ -92,7 +97,7 @@ const Home4processTabSection = () => {
                             </div>
                         </div>
                         <div
-                            className="tab-pane fade"
+                            className={`tab-pane fade  ${activeLi(3)} && show`}
                             id="chatbot-options"
                             role="tabpanel"
                         >

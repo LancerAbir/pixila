@@ -1,6 +1,7 @@
 import React from "react";
 import { Accordion } from "react-bootstrap";
 import AccordionTab from "../common/AccordionTab";
+import SelectSide from "../Select/SelectSide";
 
 const FaqArea = () => {
     return (
@@ -78,20 +79,7 @@ const FaqArea = () => {
                                         type="text"
                                         placeholder="Enter email address"
                                     />
-                                    <select name="#">
-                                        <option value={1}>
-                                            Select Subject
-                                        </option>
-                                        <option value={2}>
-                                            Select Subject
-                                        </option>
-                                        <option value={3}>
-                                            Select Subject
-                                        </option>
-                                        <option value={4}>
-                                            Select Subject
-                                        </option>
-                                    </select>
+                                    <SelectSide />
                                     <textarea
                                         placeholder="Enter message"
                                         defaultValue={""}

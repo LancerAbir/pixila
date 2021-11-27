@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Index3ProcessTabSection = () => {
+    const [activeBox, setActive] = useState(1);
+    const activeLi = (value) => (activeBox === value ? "active" : "");
     return (
         <section className="process-tab-section section-gap with-gradient-bg">
             <div className="container">
                 <div className="process-tab">
                     <ul className="nav nav-tabs" id="processTab" role="tablist">
-                        <li className="nav-item analysis" role="presentation">
+                        <li role="presentation" className="nav-item analysis">
                             <button
-                                className="nav-link active"
+                                className={`nav-link ${activeLi(1)}`}
+                                onClick={() => setActive(1)}
                                 data-bs-toggle="tab"
                                 data-bs-target="#analysis"
                                 type="button"
@@ -19,11 +22,12 @@ const Index3ProcessTabSection = () => {
                             </button>
                         </li>
                         <li
-                            className="nav-item building-edit"
                             role="presentation"
+                            className="nav-item building-edit"
                         >
                             <button
-                                className="nav-link"
+                                className={`nav-link ${activeLi(2)}`}
+                                onClick={() => setActive(2)}
                                 data-bs-toggle="tab"
                                 data-bs-target="#building-edit"
                                 type="button"
@@ -34,11 +38,12 @@ const Index3ProcessTabSection = () => {
                             </button>
                         </li>
                         <li
-                            className="nav-item team-collab"
                             role="presentation"
+                            className="nav-item team-collab"
                         >
                             <button
-                                className="nav-link"
+                                className={`nav-link ${activeLi(3)}`}
+                                onClick={() => setActive(3)}
                                 data-bs-toggle="tab"
                                 data-bs-target="#team-collab"
                                 type="button"
@@ -48,9 +53,10 @@ const Index3ProcessTabSection = () => {
                                 collaboration
                             </button>
                         </li>
-                        <li className="nav-item customize" role="presentation">
+                        <li role="presentation" className="nav-item customize">
                             <button
-                                className="nav-link"
+                                className={`nav-link ${activeLi(4)}`}
+                                onClick={() => setActive(4)}
                                 data-bs-toggle="tab"
                                 data-bs-target="#customize"
                                 type="button"
@@ -62,7 +68,7 @@ const Index3ProcessTabSection = () => {
                     </ul>
                     <div className="tab-content" id="processTabContent">
                         <div
-                            className="tab-pane fade show active"
+                            className={`tab-pane fade ${activeLi(1)} && show`}
                             id="analysis"
                             role="tabpanel"
                         >
@@ -78,9 +84,9 @@ const Index3ProcessTabSection = () => {
                             </div>
                         </div>
                         <div
-                            className="tab-pane fade"
                             id="building-edit"
                             role="tabpanel"
+                            className={`tab-pane fade  ${activeLi(2)} && show`}
                         >
                             <div className="row justify-content-center">
                                 <div className="col-lg-10">
@@ -94,9 +100,9 @@ const Index3ProcessTabSection = () => {
                             </div>
                         </div>
                         <div
-                            className="tab-pane fade"
                             id="team-collab"
                             role="tabpanel"
+                            className={`tab-pane fade ${activeLi(3)} && show`}
                         >
                             <div className="row justify-content-center">
                                 <div className="col-lg-10">
@@ -110,9 +116,9 @@ const Index3ProcessTabSection = () => {
                             </div>
                         </div>
                         <div
-                            className="tab-pane fade"
                             id="customize"
                             role="tabpanel"
+                            className={`tab-pane fade ${activeLi(4)} && show`}
                         >
                             <div className="row justify-content-center">
                                 <div className="col-lg-10">
