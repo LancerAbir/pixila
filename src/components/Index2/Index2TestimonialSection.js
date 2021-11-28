@@ -2,9 +2,36 @@ import React from "react";
 import Slider from "react-slick";
 
 const Index2TestimonialSection = () => {
+    const SampleNextArrow = (props) => {
+        const { onClick } = props;
+        return (
+            <button
+                className="slick-arrow prev-arrow"
+                style={{ display: "block" }}
+                onClick={onClick}
+            >
+                <i className="fal fa-long-arrow-left" />
+            </button>
+        );
+    };
+
+    const SamplePrevArrow = (props) => {
+        const { onClick } = props;
+        return (
+            <button
+                className="slick-arrow next-arrow"
+                style={{ display: "block" }}
+                onClick={onClick}
+            >
+                <i className="fal fa-long-arrow-right" />
+            </button>
+        );
+    };
+
     const settings = {
         dots: false,
-        arrows: false,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -35,6 +62,7 @@ const Index2TestimonialSection = () => {
                             className="testimonial-boxes-two mb-negative"
                             id="testimonialSliderTwo"
                         >
+                            {SampleNextArrow}
                             <Slider {...settings}>
                                 <div className="testimonial-box">
                                     <p>
@@ -63,6 +91,7 @@ const Index2TestimonialSection = () => {
                                     </div>
                                 </div>
                             </Slider>
+                            {SamplePrevArrow}
                         </div>
                     </div>
                 </div>

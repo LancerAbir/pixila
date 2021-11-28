@@ -1,7 +1,16 @@
 import Link from "next/link";
 import React, { useState } from "react";
+import Slider from "react-slick";
 
 const ShopDetailsShopArea = () => {
+    const settings = {
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
     const [activeBox, setActive] = useState(1);
     const activeLi = (value) => (activeBox === value ? "active" : "");
     return (
@@ -12,24 +21,26 @@ const ShopDetailsShopArea = () => {
                         <div className="col-xl-4 col-lg-6 col-md-8 col-sm-10">
                             <div className="product-gallery">
                                 <div className="main-gallery-image">
-                                    <div className="image">
-                                        <img
-                                            src="img/shop/product-gallery/01.jpg"
-                                            alt="Image"
-                                        />
-                                    </div>
-                                    <div className="image">
-                                        <img
-                                            src="img/shop/product-gallery/02.jpg"
-                                            alt="Image"
-                                        />
-                                    </div>
-                                    <div className="image">
-                                        <img
-                                            src="img/shop/product-gallery/03.jpg"
-                                            alt="Image"
-                                        />
-                                    </div>
+                                    <Slider {...settings}>
+                                        <div className="image">
+                                            <img
+                                                src="img/shop/product-gallery/01.jpg"
+                                                alt="Image"
+                                            />
+                                        </div>
+                                        <div className="image">
+                                            <img
+                                                src="img/shop/product-gallery/02.jpg"
+                                                alt="Image"
+                                            />
+                                        </div>
+                                        <div className="image">
+                                            <img
+                                                src="img/shop/product-gallery/03.jpg"
+                                                alt="Image"
+                                            />
+                                        </div>
+                                    </Slider>
                                 </div>
                                 <div className="gallery-dots-slider">
                                     <div className="dots-image">
