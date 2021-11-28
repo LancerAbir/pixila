@@ -4,6 +4,7 @@ export const PortfolioData = [
         image: "img/portfolio/16.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "graphics",
     },
@@ -12,6 +13,7 @@ export const PortfolioData = [
         image: "img/portfolio/16.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -20,6 +22,7 @@ export const PortfolioData = [
         image: "img/portfolio/16.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "ui-ux",
     },
@@ -28,6 +31,7 @@ export const PortfolioData = [
         image: "img/portfolio/16.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "consultancy",
     },
@@ -36,6 +40,7 @@ export const PortfolioData = [
         image: "img/portfolio/17.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "website",
     },
@@ -44,6 +49,7 @@ export const PortfolioData = [
         image: "img/portfolio/17.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -52,6 +58,7 @@ export const PortfolioData = [
         image: "img/portfolio/17.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "ui-ux",
     },
@@ -60,6 +67,7 @@ export const PortfolioData = [
         image: "img/portfolio/18.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "consultancy",
     },
@@ -68,6 +76,7 @@ export const PortfolioData = [
         image: "img/portfolio/18.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -76,6 +85,7 @@ export const PortfolioData = [
         image: "img/portfolio/18.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "ui-ux",
     },
@@ -84,6 +94,7 @@ export const PortfolioData = [
         image: "img/portfolio/19.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "consultancy",
     },
@@ -92,6 +103,7 @@ export const PortfolioData = [
         image: "img/portfolio/19.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -100,6 +112,7 @@ export const PortfolioData = [
         image: "img/portfolio/19.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "website",
     },
@@ -108,6 +121,7 @@ export const PortfolioData = [
         image: "img/portfolio/20.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "graphics",
     },
@@ -116,6 +130,7 @@ export const PortfolioData = [
         image: "img/portfolio/20.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -124,6 +139,7 @@ export const PortfolioData = [
         image: "img/portfolio/20.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "ui-ux",
     },
@@ -133,6 +149,7 @@ export const PortfolioData = [
         image: "img/portfolio/21.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "website",
     },
@@ -141,6 +158,7 @@ export const PortfolioData = [
         image: "img/portfolio/21.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -149,6 +167,7 @@ export const PortfolioData = [
         image: "img/portfolio/21.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "consultancy",
     },
@@ -158,6 +177,7 @@ export const PortfolioData = [
         image: "img/portfolio/22.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "website",
     },
@@ -166,6 +186,7 @@ export const PortfolioData = [
         image: "img/portfolio/22.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -174,6 +195,7 @@ export const PortfolioData = [
         image: "img/portfolio/22.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "ui-ux",
     },
@@ -183,6 +205,7 @@ export const PortfolioData = [
         image: "img/portfolio/23.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "graphics",
     },
@@ -191,6 +214,7 @@ export const PortfolioData = [
         image: "img/portfolio/23.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -199,6 +223,7 @@ export const PortfolioData = [
         image: "img/portfolio/23.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "website",
     },
@@ -209,6 +234,7 @@ export const PortfolioData = [
         subTitle1: "App",
         subTitle2: "Design",
         title: "Spay Mobile Banking App",
+
         category: "consultancy",
     },
     {
@@ -216,6 +242,7 @@ export const PortfolioData = [
         image: "img/portfolio/24.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -224,6 +251,7 @@ export const PortfolioData = [
         image: "img/portfolio/24.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "ui-ux",
     },
@@ -233,6 +261,7 @@ export const PortfolioData = [
         image: "img/portfolio/25.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "graphics",
     },
@@ -241,6 +270,7 @@ export const PortfolioData = [
         image: "img/portfolio/25.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -249,6 +279,7 @@ export const PortfolioData = [
         image: "img/portfolio/25.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "ui-ux",
     },
@@ -258,6 +289,7 @@ export const PortfolioData = [
         image: "img/portfolio/26.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "graphics",
     },
@@ -266,6 +298,7 @@ export const PortfolioData = [
         image: "img/portfolio/26.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -274,6 +307,7 @@ export const PortfolioData = [
         image: "img/portfolio/26.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "consultancy",
     },
@@ -283,6 +317,7 @@ export const PortfolioData = [
         image: "img/portfolio/27.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "graphics",
     },
@@ -291,6 +326,7 @@ export const PortfolioData = [
         image: "img/portfolio/27.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -299,7 +335,284 @@ export const PortfolioData = [
         image: "img/portfolio/27.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+
         title: "Spay Mobile Banking App",
         category: "ui-ux",
+    },
+];
+
+export const PortfolioOneData = [
+    {
+        id: 1,
+        image: "img/portfolio/05.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "graphics",
+    },
+    {
+        id: 2,
+        image: "img/portfolio/05.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "all",
+    },
+    {
+        id: 3,
+        image: "img/portfolio/07.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "ui-ux",
+    },
+    {
+        id: 5,
+        image: "img/portfolio/05.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "consultancy",
+    },
+    {
+        id: 7,
+        image: "img/portfolio/06.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "website",
+    },
+    {
+        id: 8,
+        image: "img/portfolio/06.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "all",
+    },
+    {
+        id: 9,
+        image: "img/portfolio/08.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "ui-ux",
+    },
+    {
+        id: 10,
+        image: "img/portfolio/08.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "all",
+    },
+    {
+        id: 11,
+        image: "img/portfolio/07.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "consultancy",
+    },
+    {
+        id: 13,
+        image: "img/portfolio/09.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "ui-ux",
+    },
+    {
+        id: 14,
+        image: "img/portfolio/09.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "all",
+    },
+    {
+        id: 15,
+        image: "img/portfolio/07.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "consultancy",
+    },
+    {
+        id: 17,
+        image: "img/portfolio/07.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "website",
+    },
+    {
+        id: 19,
+        image: "img/portfolio/06.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "graphics",
+    },
+    {
+        id: 21,
+        image: "img/portfolio/12.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "ui-ux",
+    },
+    {
+        id: 22,
+        image: "img/portfolio/12.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "all",
+    },
+    {
+        id: 23,
+        image: "img/portfolio/10.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "website",
+    },
+    {
+        id: 24,
+        image: "img/portfolio/10.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "all",
+    },
+    {
+        id: 25,
+        image: "img/portfolio/10.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "consultancy",
+    },
+    {
+        id: 27,
+        image: "img/portfolio/11.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "website",
+    },
+    {
+        id: 28,
+        image: "img/portfolio/11.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "all",
+    },
+    {
+        id: 29,
+        image: "img/portfolio/13.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "ui-ux",
+    },
+    {
+        id: 30,
+        image: "img/portfolio/13.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "all",
+    },
+    {
+        id: 31,
+        image: "img/portfolio/08.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "graphics",
+    },
+    {
+        id: 33,
+        image: "img/portfolio/13.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "website",
+    },
+    {
+        id: 34,
+        image: "img/portfolio/15.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "website",
+    },
+
+    {
+        id: 35,
+        image: "img/portfolio/12.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "consultancy",
+    },
+    {
+        id: 39,
+        image: "img/portfolio/09.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "graphics",
+    },
+    {
+        id: 43,
+        image: "img/portfolio/11.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "graphics",
+    },
+    {
+        id: 45,
+        image: "img/portfolio/14.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "consultancy",
+    },
+    {
+        id: 48,
+        image: "img/portfolio/14.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "all",
+    },
+    {
+        id: 47,
+        image: "img/portfolio/14.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "graphics",
+    },
+    {
+        id: 49,
+        image: "img/portfolio/15.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "graphics",
+    },
+    {
+        id: 50,
+        image: "img/portfolio/15.jpg",
+        subTitle1: "Design",
+        subTitle2: "Development",
+        title: "Kikado Mobile App Design",
+        category: "all",
     },
 ];

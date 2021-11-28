@@ -13,6 +13,7 @@ const Portfolio2Area = () => {
         });
         setData(updateItems);
     };
+
     return (
         <section className="portfolio-area section-gap">
             <div className="container">
@@ -66,15 +67,24 @@ const Portfolio2Area = () => {
                 </div>
                 <div className="portfolio-filter-items row">
                     {data.map((element) => {
-                        const { id, image, subTitle1, subTitle2, title } =
-                            element;
+                        const {
+                            id,
+                            image,
+                            subTitle1,
+                            subTitle2,
+                            title,
+                            classGrid,
+                        } = element;
+
                         return (
-                            <div className="col-xl-3 col-md-6" key={id}>
+                            <div className={classGrid && classGrid} key={id}>
                                 <div className="portfolio-box-three mt-30">
                                     <div
                                         className="thumb"
                                         style={{
-                                            backgroundImage: `url(${image})`,
+                                            backgroundImage: `url(${
+                                                image && image
+                                            })`,
                                         }}
                                     />
                                     <div className="content">
@@ -85,7 +95,7 @@ const Portfolio2Area = () => {
                                                         e.preventDefault();
                                                     }}
                                                 >
-                                                    {subTitle1},
+                                                    {subTitle1 && subTitle1},
                                                 </a>
                                             </Link>
                                             <Link href="">
@@ -94,13 +104,13 @@ const Portfolio2Area = () => {
                                                         e.preventDefault();
                                                     }}
                                                 >
-                                                    {subTitle2}
+                                                    {subTitle2 && subTitle2}
                                                 </a>
                                             </Link>
                                         </div>
                                         <h4 className="title">
                                             <Link href="/portfolio-details">
-                                                <a>{title}</a>
+                                                <a>{title && title}</a>
                                             </Link>
                                         </h4>
                                     </div>
