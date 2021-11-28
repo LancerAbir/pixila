@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useEffect, useState } from "react";
 import PreLoader from "../src/layout/PreLoader";
 import "../styles/globals.css";
@@ -13,6 +14,7 @@ function MyApp({ Component, pageProps }) {
 
     return (
         <>
+            <Head></Head>
             {loader && <PreLoader />}
             <div>
                 <Component {...pageProps} />
