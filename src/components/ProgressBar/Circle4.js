@@ -1,6 +1,6 @@
 import { Circle } from "rc-progress";
 import React, { Component } from "react";
-
+import ReactVisibilitySensor from "react-visibility-sensor";
 class Circle4 extends Component {
     constructor(props) {
         super(props);
@@ -36,13 +36,17 @@ class Circle4 extends Component {
     render() {
         const { percent } = this.state;
         return (
-            <Circle
-                className="chart progressBar"
-                strokeLinecap="square"
-                strokeColor="#1baaa0"
-                strokeWidth={8}
-                percent={percent}
-            ></Circle>
+            <ReactVisibilitySensor>
+                {({ isVisible }) => (
+                    <Circle
+                        className="chart progressBar"
+                        strokeLinecap="square"
+                        strokeColor="#1baaa0"
+                        strokeWidth={8}
+                        percent={isVisible ? percent : ""}
+                    ></Circle>
+                )}
+            </ReactVisibilitySensor>
         );
     }
 }

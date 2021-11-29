@@ -38,12 +38,14 @@ class Line1 extends React.Component {
         const { percent } = this.state;
         return (
             <ReactVisibilitySensor>
-                <Line
-                    strokeWidth="2"
-                    strokeLinecap="square"
-                    strokeColor="#1baaa0"
-                    percent={percent}
-                />
+                {({ isVisible }) => (
+                    <Line
+                        strokeWidth="2"
+                        strokeLinecap="square"
+                        strokeColor="#1baaa0"
+                        percent={isVisible ? percent : ""}
+                    />
+                )}
             </ReactVisibilitySensor>
         );
     }
