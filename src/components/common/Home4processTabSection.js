@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Fade from "react-reveal/Fade";
 
 const Home4processTabSection = () => {
     const [activeBox, setActive] = useState(1);
@@ -64,54 +65,66 @@ const Home4processTabSection = () => {
                         </li>
                     </ul>
                     <div className="tab-content" id="processTabContent">
-                        <div
-                            className={`tab-pane fade  ${activeLi(1)} && show`}
-                            id="collaborate-options"
-                            role="tabpanel"
-                        >
-                            <div className="row justify-content-center">
-                                <div className="col-lg-10">
-                                    <div className="tab-img text-center">
-                                        <img
-                                            src="img/process-tab-2.jpg"
-                                            alt="Image"
-                                        />
+                        <Fade big>
+                            <div
+                                className={`tab-pane fade  ${activeLi(
+                                    1
+                                )} && show`}
+                                id="collaborate-options"
+                                role="tabpanel"
+                            >
+                                <div className="row justify-content-center">
+                                    <div className="col-lg-10">
+                                        <div className="tab-img text-center">
+                                            <img
+                                                src="img/process-tab-2.jpg"
+                                                alt="Image"
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div
-                            className={`tab-pane fade  ${activeLi(2)} && show`}
-                            id="messaging-options"
-                            role="tabpanel"
-                        >
-                            <div className="row justify-content-center">
-                                <div className="col-lg-10">
-                                    <div className="tab-img text-center">
-                                        <img
-                                            src="img/process-tab-2.jpg"
-                                            alt="Image"
-                                        />
+                        </Fade>
+                        <Fade big>
+                            <div
+                                className={`tab-pane fade  ${activeLi(
+                                    2
+                                )} && show`}
+                                id="messaging-options"
+                                role="tabpanel"
+                            >
+                                <div className="row justify-content-center">
+                                    <div className="col-lg-10">
+                                        <div className="tab-img text-center">
+                                            <img
+                                                src="img/process-tab-2.jpg"
+                                                alt="Image"
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div
-                            className={`tab-pane fade  ${activeLi(3)} && show`}
-                            id="chatbot-options"
-                            role="tabpanel"
-                        >
-                            <div className="row justify-content-center">
-                                <div className="col-lg-10">
-                                    <div className="tab-img text-center">
-                                        <img
-                                            src="img/process-tab-2.jpg"
-                                            alt="Image"
-                                        />
+                        </Fade>
+                        <Fade big>
+                            <div
+                                className={`tab-pane fade  ${activeLi(
+                                    3
+                                )} && show`}
+                                id="chatbot-options"
+                                role="tabpanel"
+                            >
+                                <div className="row justify-content-center">
+                                    <div className="col-lg-10">
+                                        <div className="tab-img text-center">
+                                            <img
+                                                src="img/process-tab-2.jpg"
+                                                alt="Image"
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </Fade>
                     </div>
                 </div>
             </div>

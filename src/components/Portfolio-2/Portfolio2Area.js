@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React, { useState } from "react";
+import Fade from "react-reveal/Fade";
 import { PortfolioData } from "../Isotope/PortfolioData";
 
 const Portfolio2Area = () => {
@@ -77,44 +78,47 @@ const Portfolio2Area = () => {
                         } = element;
 
                         return (
-                            <div className={classGrid && classGrid} key={id}>
-                                <div className="portfolio-box-three mt-30">
-                                    <div
-                                        className="thumb"
-                                        style={{
-                                            backgroundImage: `url(${
-                                                image && image
-                                            })`,
-                                        }}
-                                    />
-                                    <div className="content">
-                                        <div className="tags">
-                                            <Link href="">
-                                                <a
-                                                    onClick={(e) => {
-                                                        e.preventDefault();
-                                                    }}
-                                                >
-                                                    {subTitle1 && subTitle1},
-                                                </a>
-                                            </Link>
-                                            <Link href="">
-                                                <a
-                                                    onClick={(e) => {
-                                                        e.preventDefault();
-                                                    }}
-                                                >
-                                                    {subTitle2 && subTitle2}
-                                                </a>
-                                            </Link>
+                            <div className={`${classGrid}`} key={id}>
+                                <Fade big>
+                                    <div className="portfolio-box-three mt-30">
+                                        <div
+                                            className="thumb"
+                                            style={{
+                                                backgroundImage: `url(${
+                                                    image && image
+                                                })`,
+                                            }}
+                                        />
+                                        <div className="content">
+                                            <div className="tags">
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
+                                                        {subTitle1 && subTitle1}
+                                                        ,
+                                                    </a>
+                                                </Link>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
+                                                        {subTitle2 && subTitle2}
+                                                    </a>
+                                                </Link>
+                                            </div>
+                                            <h4 className="title">
+                                                <Link href="/portfolio-details">
+                                                    <a>{title && title}</a>
+                                                </Link>
+                                            </h4>
                                         </div>
-                                        <h4 className="title">
-                                            <Link href="/portfolio-details">
-                                                <a>{title && title}</a>
-                                            </Link>
-                                        </h4>
                                     </div>
-                                </div>
+                                </Fade>
                             </div>
                         );
                     })}

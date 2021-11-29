@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import Slider from "react-slick";
+import Fade from "react-reveal/Fade";
 
 const ShopDetailsShopArea = () => {
     const settings = {
@@ -372,344 +373,383 @@ const ShopDetailsShopArea = () => {
                                 </li>
                             </ul>
                             <div className="tab-content" id="productTabContent">
-                                <div
-                                    className={`tab-pane fade ${activeLi(
-                                        1
-                                    )} && show`}
-                                    id="descriptions"
-                                    role="tabpanel"
-                                >
-                                    <p className="mb-30">
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna
-                                        aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris
-                                        nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit
-                                        in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint
-                                        occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim
-                                        id est laborum. Sed ut perspiciatis unde
-                                        omnis iste natus error sit voluptatem
-                                        accusantium doloremque laudantium, totam
-                                        rem aperiam, eaque ipsa quae ab illo
-                                        inventore veritatis et quasi architecto
-                                        beatae vitae dicta sunt explicabo. Nemo
-                                        enim ipsam voluptatem quia voluptas sit
-                                        aspernatur aut odit aut fugit, sed quia
-                                        consequuntur magni dolores eos qui
-                                        ratione voluptatem sequi nesciunt. Neque
-                                        porro quisquam est, qui dolorem ipsum
-                                        quia dolor sit amet, consectetur,
-                                        adipisci velit, sed quia non numquam
-                                        eius modi tempora incidunt ut labore et
-                                        dolore magnam aliquam quaerat
-                                        voluptatem.Lorem ipsum dolor sit amet,
-                                        consectetur adipisicing elit, sed do
-                                        eiusmod tempor incididunt ut labore et
-                                        dolore magna aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation
-                                        ullamco laboris nisi ut aliquip ex ea
-                                        commodo consequat. Duis aute irure dolor
-                                        in reprehenderit in voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur.
-                                        Excepteur sint occaecat cupidatat non
-                                        proident, sunt in culpa qui officia
-                                        deserunt mollit anim id est laborum. Sed
-                                        ut perspiciatis unde omnis iste natus
-                                        error sit voluptatem accusantium
-                                        doloremque laudantium, totam rem
-                                        aperiam, eaque ipsa quae ab illo
-                                        inventore veritatis et quasi architecto
-                                        beatae vitae dicta sunt explicabo. Nemo
-                                        enim ipsam voluptatem quia voluptas sit
-                                        aspernatur aut odit aut fugit, sed quia
-                                        consequuntur magni dolores eos qui
-                                        ratione voluptatem sequi nesciunt. Neque
-                                        porro quisquam est, qui dolorem ipsum
-                                        quia dolor sit amet, consectetur,
-                                        adipisci velit, sed quia non numquam
-                                        eius modi tempora incidunt.
-                                    </p>
-                                    <p className="mb-30">
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna
-                                        aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris
-                                        nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit
-                                        in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint
-                                        occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim
-                                        id est laborum. Sed ut perspiciatis unde
-                                        omnis iste natus error sit voluptatem
-                                        accusantium doloremque laudantium, totam
-                                        rem aperiam, eaque ipsa quae ab illo
-                                        inventore veritatis et quasi architecto
-                                        beatae vitae dicta sunt explicabo. Nemo
-                                        enim ipsam voluptatem quia voluptas sit
-                                        aspernatur aut odit aut fugit, sed quia
-                                        consequuntur magni dolores eos qui
-                                        ratione voluptatem sequi nesciunt. Neque
-                                        porro quisquam est, qui dolorem ipsum
-                                        quia dolor sit amet, consectetur,
-                                        adipisci velit, sed quia non numquam
-                                        eius modi tempora incidunt ut labore et
-                                        dolore magnam aliquam quaerat
-                                        voluptatem.Lorem ipsum dolor sit amet,
-                                        consectetur adipisicing elit, sed do
-                                        eiusmod tempor incididunt ut labore et
-                                        dolore magna aliqua.
-                                    </p>
-                                    <p>
-                                        Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut
-                                        aliquip ex ea commodo consequat. Duis
-                                        aute irure dolor in reprehenderit in
-                                        voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint
-                                        occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim
-                                        id est laborum. Sed ut perspiciatis unde
-                                        omnis iste natus error sit voluptatem
-                                        accusantium doloremque laudantium, totam
-                                        rem aperiam, eaque ipsa quae ab illo
-                                        inventore veritatis et quasi architecto
-                                        beatae vitae dicta sunt explicabo. Nemo
-                                        enim ipsam voluptatem quia voluptas sit
-                                        aspernatur aut odit aut fugit, sed quia
-                                        consequuntur magni dolores eos qui
-                                        ratione voluptatem sequi nesciunt. Neque
-                                        porro quisquam est, qui dolorem ipsum
-                                        quia dolor sit amet, consectetur,
-                                        adipisci velit, sed quia non numquam
-                                        eius modi tempora incidunt.
-                                    </p>
-                                </div>
-                                <div
-                                    className={`tab-pane fade ${activeLi(
-                                        2
-                                    )} && show`}
-                                    id="additional-info"
-                                    role="tabpanel"
-                                >
-                                    <table className="additional-table">
-                                        <tbody>
-                                            <tr>
-                                                <th>Model</th>
-                                                <td>Microsoft Surface Pro 6</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Processor</th>
-                                                <td>
-                                                    Intel® Core™ 8th Gen
-                                                    i5-8250U or i7-8650U
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th>Memory</th>
-                                                <td>8GB or 16GB RAM </td>
-                                            </tr>
-                                            <tr>
-                                                <th>Storage</th>
-                                                <td>
-                                                    Solid-state drive (SSD)
-                                                    options: 128GB, 256GB,
-                                                    512GB, or 1TB
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th>Battery life</th>
-                                                <td>
-                                                    Up to 13.5 hours of local
-                                                    video playback
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th>Graphics</th>
-                                                <td>
-                                                    Intel® UHD Graphics 620 (i5)
-                                                    <br /> Intel® UHD Graphics
-                                                    620 (i7)
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th>Warranty</th>
-                                                <td>
-                                                    1-year limited hardware
-                                                    warranty
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div
-                                    className={`tab-pane fade ${activeLi(
-                                        3
-                                    )} && show`}
-                                    id="reviews"
-                                    role="tabpanel"
-                                >
-                                    <div className="review-area">
-                                        <div className="row">
-                                            <div className="col-lg-6">
-                                                <ul className="review-lists">
-                                                    <li className="single-review">
-                                                        <div className="thumb">
-                                                            <img
-                                                                src="img/blog/comment-01.jpg"
-                                                                alt="image"
-                                                            />
-                                                        </div>
-                                                        <div className="review-desc">
-                                                            <h5 className="name">
-                                                                Rosalina Kelian
-                                                            </h5>
-                                                            <span className="date">
-                                                                19th May 2018
-                                                            </span>
-                                                            <p>
-                                                                Lorem ipsum
-                                                                dolor sit amet,
-                                                                consectetuer
-                                                                adipiscing elit.
-                                                                Aenean commodo
-                                                                ligula eget
-                                                                dolor. Aenean
-                                                                massa. cu sociis
-                                                                natoque
-                                                            </p>
-                                                            <ul className="rating">
-                                                                <li>
-                                                                    <i className="fas fa-star" />
-                                                                </li>
-                                                                <li>
-                                                                    <i className="fas fa-star" />
-                                                                </li>
-                                                                <li>
-                                                                    <i className="fas fa-star" />
-                                                                </li>
-                                                                <li>
-                                                                    <i className="fas fa-star-half-alt" />
-                                                                </li>
-                                                                <li>
-                                                                    <i className="far fa-star" />
-                                                                </li>
-                                                            </ul>
-                                                            <Link href="">
-                                                                <a
-                                                                    onClick={(
-                                                                        e
-                                                                    ) => {
-                                                                        e.preventDefault();
-                                                                    }}
-                                                                    className="reply-btn"
-                                                                >
-                                                                    Reply
-                                                                </a>
-                                                            </Link>
-                                                        </div>
-                                                    </li>
-                                                    <li className="single-review">
-                                                        <div className="thumb">
-                                                            <img
-                                                                src="img/blog/comment-02.jpg"
-                                                                alt="image"
-                                                            />
-                                                        </div>
-                                                        <div className="review-desc">
-                                                            <h5 className="name">
-                                                                Rosalina Kelian
-                                                            </h5>
-                                                            <span className="date">
-                                                                19th May 2018
-                                                            </span>
-                                                            <p>
-                                                                Lorem ipsum
-                                                                dolor sit amet,
-                                                                consectetuer
-                                                                adipiscing elit.
-                                                                Aenean commodo
-                                                                ligula eget
-                                                                dolor. Aenean
-                                                                massa. cu sociis
-                                                                natoque
-                                                            </p>
-                                                            <ul className="rating">
-                                                                <li>
-                                                                    <i className="fas fa-star" />
-                                                                </li>
-                                                                <li>
-                                                                    <i className="fas fa-star" />
-                                                                </li>
-                                                                <li>
-                                                                    <i className="fas fa-star" />
-                                                                </li>
-                                                                <li>
-                                                                    <i className="fas fa-star-half-alt" />
-                                                                </li>
-                                                                <li>
-                                                                    <i className="far fa-star" />
-                                                                </li>
-                                                            </ul>
-                                                            <Link href="">
-                                                                <a
-                                                                    onClick={(
-                                                                        e
-                                                                    ) => {
-                                                                        e.preventDefault();
-                                                                    }}
-                                                                    className="reply-btn"
-                                                                >
-                                                                    Reply
-                                                                </a>
-                                                            </Link>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="col-lg-6">
-                                                <div className="reviews-form mt-md-gap-40">
-                                                    <h5>Add Your Review</h5>
-                                                    <form action="#">
-                                                        <div className="row">
-                                                            <div className="col-md-6">
-                                                                <input
-                                                                    type="text"
-                                                                    placeholder="Your Name"
+                                <Fade big>
+                                    <div
+                                        className={`tab-pane fade ${activeLi(
+                                            1
+                                        )} && show`}
+                                        id="descriptions"
+                                        role="tabpanel"
+                                    >
+                                        <p className="mb-30">
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit, sed do
+                                            eiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad
+                                            minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut
+                                            aliquip ex ea commodo consequat.
+                                            Duis aute irure dolor in
+                                            reprehenderit in voluptate velit
+                                            esse cillum dolore eu fugiat nulla
+                                            pariatur. Excepteur sint occaecat
+                                            cupidatat non proident, sunt in
+                                            culpa qui officia deserunt mollit
+                                            anim id est laborum. Sed ut
+                                            perspiciatis unde omnis iste natus
+                                            error sit voluptatem accusantium
+                                            doloremque laudantium, totam rem
+                                            aperiam, eaque ipsa quae ab illo
+                                            inventore veritatis et quasi
+                                            architecto beatae vitae dicta sunt
+                                            explicabo. Nemo enim ipsam
+                                            voluptatem quia voluptas sit
+                                            aspernatur aut odit aut fugit, sed
+                                            quia consequuntur magni dolores eos
+                                            qui ratione voluptatem sequi
+                                            nesciunt. Neque porro quisquam est,
+                                            qui dolorem ipsum quia dolor sit
+                                            amet, consectetur, adipisci velit,
+                                            sed quia non numquam eius modi
+                                            tempora incidunt ut labore et dolore
+                                            magnam aliquam quaerat
+                                            voluptatem.Lorem ipsum dolor sit
+                                            amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua. Ut
+                                            enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut
+                                            aliquip ex ea commodo consequat.
+                                            Duis aute irure dolor in
+                                            reprehenderit in voluptate velit
+                                            esse cillum dolore eu fugiat nulla
+                                            pariatur. Excepteur sint occaecat
+                                            cupidatat non proident, sunt in
+                                            culpa qui officia deserunt mollit
+                                            anim id est laborum. Sed ut
+                                            perspiciatis unde omnis iste natus
+                                            error sit voluptatem accusantium
+                                            doloremque laudantium, totam rem
+                                            aperiam, eaque ipsa quae ab illo
+                                            inventore veritatis et quasi
+                                            architecto beatae vitae dicta sunt
+                                            explicabo. Nemo enim ipsam
+                                            voluptatem quia voluptas sit
+                                            aspernatur aut odit aut fugit, sed
+                                            quia consequuntur magni dolores eos
+                                            qui ratione voluptatem sequi
+                                            nesciunt. Neque porro quisquam est,
+                                            qui dolorem ipsum quia dolor sit
+                                            amet, consectetur, adipisci velit,
+                                            sed quia non numquam eius modi
+                                            tempora incidunt.
+                                        </p>
+                                        <p className="mb-30">
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit, sed do
+                                            eiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua. Ut enim ad
+                                            minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut
+                                            aliquip ex ea commodo consequat.
+                                            Duis aute irure dolor in
+                                            reprehenderit in voluptate velit
+                                            esse cillum dolore eu fugiat nulla
+                                            pariatur. Excepteur sint occaecat
+                                            cupidatat non proident, sunt in
+                                            culpa qui officia deserunt mollit
+                                            anim id est laborum. Sed ut
+                                            perspiciatis unde omnis iste natus
+                                            error sit voluptatem accusantium
+                                            doloremque laudantium, totam rem
+                                            aperiam, eaque ipsa quae ab illo
+                                            inventore veritatis et quasi
+                                            architecto beatae vitae dicta sunt
+                                            explicabo. Nemo enim ipsam
+                                            voluptatem quia voluptas sit
+                                            aspernatur aut odit aut fugit, sed
+                                            quia consequuntur magni dolores eos
+                                            qui ratione voluptatem sequi
+                                            nesciunt. Neque porro quisquam est,
+                                            qui dolorem ipsum quia dolor sit
+                                            amet, consectetur, adipisci velit,
+                                            sed quia non numquam eius modi
+                                            tempora incidunt ut labore et dolore
+                                            magnam aliquam quaerat
+                                            voluptatem.Lorem ipsum dolor sit
+                                            amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut
+                                            labore et dolore magna aliqua.
+                                        </p>
+                                        <p>
+                                            Ut enim ad minim veniam, quis
+                                            nostrud exercitation ullamco laboris
+                                            nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in
+                                            reprehenderit in voluptate velit
+                                            esse cillum dolore eu fugiat nulla
+                                            pariatur. Excepteur sint occaecat
+                                            cupidatat non proident, sunt in
+                                            culpa qui officia deserunt mollit
+                                            anim id est laborum. Sed ut
+                                            perspiciatis unde omnis iste natus
+                                            error sit voluptatem accusantium
+                                            doloremque laudantium, totam rem
+                                            aperiam, eaque ipsa quae ab illo
+                                            inventore veritatis et quasi
+                                            architecto beatae vitae dicta sunt
+                                            explicabo. Nemo enim ipsam
+                                            voluptatem quia voluptas sit
+                                            aspernatur aut odit aut fugit, sed
+                                            quia consequuntur magni dolores eos
+                                            qui ratione voluptatem sequi
+                                            nesciunt. Neque porro quisquam est,
+                                            qui dolorem ipsum quia dolor sit
+                                            amet, consectetur, adipisci velit,
+                                            sed quia non numquam eius modi
+                                            tempora incidunt.
+                                        </p>
+                                    </div>
+                                </Fade>
+                                <Fade big>
+                                    <div
+                                        className={`tab-pane fade ${activeLi(
+                                            2
+                                        )} && show`}
+                                        id="additional-info"
+                                        role="tabpanel"
+                                    >
+                                        <table className="additional-table">
+                                            <tbody>
+                                                <tr>
+                                                    <th>Model</th>
+                                                    <td>
+                                                        Microsoft Surface Pro 6
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Processor</th>
+                                                    <td>
+                                                        Intel® Core™ 8th Gen
+                                                        i5-8250U or i7-8650U
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Memory</th>
+                                                    <td>8GB or 16GB RAM </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Storage</th>
+                                                    <td>
+                                                        Solid-state drive (SSD)
+                                                        options: 128GB, 256GB,
+                                                        512GB, or 1TB
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Battery life</th>
+                                                    <td>
+                                                        Up to 13.5 hours of
+                                                        local video playback
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Graphics</th>
+                                                    <td>
+                                                        Intel® UHD Graphics 620
+                                                        (i5)
+                                                        <br /> Intel® UHD
+                                                        Graphics 620 (i7)
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Warranty</th>
+                                                    <td>
+                                                        1-year limited hardware
+                                                        warranty
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </Fade>
+                                <Fade big>
+                                    <div
+                                        className={`tab-pane fade ${activeLi(
+                                            3
+                                        )} && show`}
+                                        id="reviews"
+                                        role="tabpanel"
+                                    >
+                                        <div className="review-area">
+                                            <div className="row">
+                                                <div className="col-lg-6">
+                                                    <ul className="review-lists">
+                                                        <li className="single-review">
+                                                            <div className="thumb">
+                                                                <img
+                                                                    src="img/blog/comment-01.jpg"
+                                                                    alt="image"
                                                                 />
                                                             </div>
-                                                            <div className="col-md-6">
-                                                                <input
-                                                                    type="email"
-                                                                    placeholder="Your Email"
+                                                            <div className="review-desc">
+                                                                <h5 className="name">
+                                                                    Rosalina
+                                                                    Kelian
+                                                                </h5>
+                                                                <span className="date">
+                                                                    19th May
+                                                                    2018
+                                                                </span>
+                                                                <p>
+                                                                    Lorem ipsum
+                                                                    dolor sit
+                                                                    amet,
+                                                                    consectetuer
+                                                                    adipiscing
+                                                                    elit. Aenean
+                                                                    commodo
+                                                                    ligula eget
+                                                                    dolor.
+                                                                    Aenean
+                                                                    massa. cu
+                                                                    sociis
+                                                                    natoque
+                                                                </p>
+                                                                <ul className="rating">
+                                                                    <li>
+                                                                        <i className="fas fa-star" />
+                                                                    </li>
+                                                                    <li>
+                                                                        <i className="fas fa-star" />
+                                                                    </li>
+                                                                    <li>
+                                                                        <i className="fas fa-star" />
+                                                                    </li>
+                                                                    <li>
+                                                                        <i className="fas fa-star-half-alt" />
+                                                                    </li>
+                                                                    <li>
+                                                                        <i className="far fa-star" />
+                                                                    </li>
+                                                                </ul>
+                                                                <Link href="">
+                                                                    <a
+                                                                        onClick={(
+                                                                            e
+                                                                        ) => {
+                                                                            e.preventDefault();
+                                                                        }}
+                                                                        className="reply-btn"
+                                                                    >
+                                                                        Reply
+                                                                    </a>
+                                                                </Link>
+                                                            </div>
+                                                        </li>
+                                                        <li className="single-review">
+                                                            <div className="thumb">
+                                                                <img
+                                                                    src="img/blog/comment-02.jpg"
+                                                                    alt="image"
                                                                 />
                                                             </div>
-                                                            <div className="col-12">
-                                                                <textarea
-                                                                    placeholder="Your Review"
-                                                                    defaultValue={
-                                                                        ""
-                                                                    }
-                                                                />
+                                                            <div className="review-desc">
+                                                                <h5 className="name">
+                                                                    Rosalina
+                                                                    Kelian
+                                                                </h5>
+                                                                <span className="date">
+                                                                    19th May
+                                                                    2018
+                                                                </span>
+                                                                <p>
+                                                                    Lorem ipsum
+                                                                    dolor sit
+                                                                    amet,
+                                                                    consectetuer
+                                                                    adipiscing
+                                                                    elit. Aenean
+                                                                    commodo
+                                                                    ligula eget
+                                                                    dolor.
+                                                                    Aenean
+                                                                    massa. cu
+                                                                    sociis
+                                                                    natoque
+                                                                </p>
+                                                                <ul className="rating">
+                                                                    <li>
+                                                                        <i className="fas fa-star" />
+                                                                    </li>
+                                                                    <li>
+                                                                        <i className="fas fa-star" />
+                                                                    </li>
+                                                                    <li>
+                                                                        <i className="fas fa-star" />
+                                                                    </li>
+                                                                    <li>
+                                                                        <i className="fas fa-star-half-alt" />
+                                                                    </li>
+                                                                    <li>
+                                                                        <i className="far fa-star" />
+                                                                    </li>
+                                                                </ul>
+                                                                <Link href="">
+                                                                    <a
+                                                                        onClick={(
+                                                                            e
+                                                                        ) => {
+                                                                            e.preventDefault();
+                                                                        }}
+                                                                        className="reply-btn"
+                                                                    >
+                                                                        Reply
+                                                                    </a>
+                                                                </Link>
                                                             </div>
-                                                            <div className="col-12">
-                                                                <button type="submit">
-                                                                    Submit
-                                                                    Review
-                                                                </button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div className="col-lg-6">
+                                                    <div className="reviews-form mt-md-gap-40">
+                                                        <h5>Add Your Review</h5>
+                                                        <form action="#">
+                                                            <div className="row">
+                                                                <div className="col-md-6">
+                                                                    <input
+                                                                        type="text"
+                                                                        placeholder="Your Name"
+                                                                    />
+                                                                </div>
+                                                                <div className="col-md-6">
+                                                                    <input
+                                                                        type="email"
+                                                                        placeholder="Your Email"
+                                                                    />
+                                                                </div>
+                                                                <div className="col-12">
+                                                                    <textarea
+                                                                        placeholder="Your Review"
+                                                                        defaultValue={
+                                                                            ""
+                                                                        }
+                                                                    />
+                                                                </div>
+                                                                <div className="col-12">
+                                                                    <button type="submit">
+                                                                        Submit
+                                                                        Review
+                                                                    </button>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                    </form>
+                                                        </form>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </Fade>
                             </div>
                         </div>
                     </div>

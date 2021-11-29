@@ -4,6 +4,7 @@ export const PortfolioData = [
         image: "img/portfolio/16.jpg",
         subTitle1: "App",
         subTitle2: "Design",
+        classGrid: "col-xl-3 col-md-6",
 
         title: "Spay Mobile Banking App",
         category: "graphics",
@@ -13,7 +14,7 @@ export const PortfolioData = [
         image: "img/portfolio/16.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -22,7 +23,7 @@ export const PortfolioData = [
         image: "img/portfolio/16.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "ui-ux",
     },
@@ -31,7 +32,7 @@ export const PortfolioData = [
         image: "img/portfolio/16.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "consultancy",
     },
@@ -40,7 +41,7 @@ export const PortfolioData = [
         image: "img/portfolio/17.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "website",
     },
@@ -49,7 +50,7 @@ export const PortfolioData = [
         image: "img/portfolio/17.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -58,7 +59,7 @@ export const PortfolioData = [
         image: "img/portfolio/17.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "ui-ux",
     },
@@ -67,7 +68,7 @@ export const PortfolioData = [
         image: "img/portfolio/18.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-6 col-lg-12",
         title: "Spay Mobile Banking App",
         category: "consultancy",
     },
@@ -76,7 +77,7 @@ export const PortfolioData = [
         image: "img/portfolio/18.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-6 col-lg-12",
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -85,7 +86,7 @@ export const PortfolioData = [
         image: "img/portfolio/18.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-6 col-lg-12",
         title: "Spay Mobile Banking App",
         category: "ui-ux",
     },
@@ -94,7 +95,7 @@ export const PortfolioData = [
         image: "img/portfolio/19.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-6 col-lg-12",
         title: "Spay Mobile Banking App",
         category: "consultancy",
     },
@@ -103,7 +104,7 @@ export const PortfolioData = [
         image: "img/portfolio/19.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-6 col-lg-12",
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -112,7 +113,7 @@ export const PortfolioData = [
         image: "img/portfolio/19.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-6 col-lg-12",
         title: "Spay Mobile Banking App",
         category: "website",
     },
@@ -121,7 +122,7 @@ export const PortfolioData = [
         image: "img/portfolio/20.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "graphics",
     },
@@ -130,7 +131,7 @@ export const PortfolioData = [
         image: "img/portfolio/20.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -139,7 +140,7 @@ export const PortfolioData = [
         image: "img/portfolio/20.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "ui-ux",
     },
@@ -149,7 +150,7 @@ export const PortfolioData = [
         image: "img/portfolio/21.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "website",
     },
@@ -158,7 +159,7 @@ export const PortfolioData = [
         image: "img/portfolio/21.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -167,7 +168,7 @@ export const PortfolioData = [
         image: "img/portfolio/21.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "consultancy",
     },
@@ -177,7 +178,7 @@ export const PortfolioData = [
         image: "img/portfolio/22.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "website",
     },
@@ -186,7 +187,7 @@ export const PortfolioData = [
         image: "img/portfolio/22.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -195,7 +196,7 @@ export const PortfolioData = [
         image: "img/portfolio/22.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "ui-ux",
     },
@@ -205,7 +206,7 @@ export const PortfolioData = [
         image: "img/portfolio/23.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "graphics",
     },
@@ -214,7 +215,7 @@ export const PortfolioData = [
         image: "img/portfolio/23.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -223,7 +224,7 @@ export const PortfolioData = [
         image: "img/portfolio/23.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "website",
     },
@@ -233,7 +234,8 @@ export const PortfolioData = [
         image: "img/portfolio/24.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-        title: "Spay Mobile Banking App",
+        classGrid: "col-xl-6 col-lg-12",
+        title: "Spay Mobile Banking Ap",
 
         category: "consultancy",
     },
@@ -242,7 +244,7 @@ export const PortfolioData = [
         image: "img/portfolio/24.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-6 col-lg-12",
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -251,7 +253,7 @@ export const PortfolioData = [
         image: "img/portfolio/24.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-6 col-lg-12",
         title: "Spay Mobile Banking App",
         category: "ui-ux",
     },
@@ -261,7 +263,7 @@ export const PortfolioData = [
         image: "img/portfolio/25.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-6 col-lg-12",
         title: "Spay Mobile Banking App",
         category: "graphics",
     },
@@ -270,7 +272,7 @@ export const PortfolioData = [
         image: "img/portfolio/25.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-6 col-lg-12",
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -279,7 +281,7 @@ export const PortfolioData = [
         image: "img/portfolio/25.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-6 col-lg-12",
         title: "Spay Mobile Banking App",
         category: "ui-ux",
     },
@@ -289,7 +291,7 @@ export const PortfolioData = [
         image: "img/portfolio/26.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "graphics",
     },
@@ -298,7 +300,7 @@ export const PortfolioData = [
         image: "img/portfolio/26.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -307,7 +309,7 @@ export const PortfolioData = [
         image: "img/portfolio/26.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "consultancy",
     },
@@ -317,7 +319,7 @@ export const PortfolioData = [
         image: "img/portfolio/27.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "graphics",
     },
@@ -326,7 +328,7 @@ export const PortfolioData = [
         image: "img/portfolio/27.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "all",
     },
@@ -335,7 +337,7 @@ export const PortfolioData = [
         image: "img/portfolio/27.jpg",
         subTitle1: "App",
         subTitle2: "Design",
-
+        classGrid: "col-xl-3 col-md-6",
         title: "Spay Mobile Banking App",
         category: "ui-ux",
     },

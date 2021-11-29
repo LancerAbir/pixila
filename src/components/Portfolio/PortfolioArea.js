@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React, { useState } from "react";
+import Fade from "react-reveal/Fade";
 import { PortfolioOneData } from "../Isotope/PortfolioData";
 
 const PortfolioArea = () => {
@@ -80,49 +81,51 @@ const PortfolioArea = () => {
                                 className="col-lg-4 col-md-6 graphics consultancy"
                                 key={id}
                             >
-                                <div className="portfolio-box-two mt-30">
-                                    <div
-                                        className="thumb"
-                                        style={{
-                                            backgroundImage: `url(${
-                                                image && image
-                                            })`,
-                                        }}
-                                    >
-                                        <Link href="/portfolio-details">
-                                            <a className="link">
-                                                <i className="fal fa-long-arrow-right" />
-                                            </a>
-                                        </Link>
-                                    </div>
-                                    <div className="content">
-                                        <div className="tags">
-                                            <Link href="">
-                                                <a
-                                                    onClick={(e) => {
-                                                        e.preventDefault();
-                                                    }}
-                                                >
-                                                    {subTitle1},
-                                                </a>
-                                            </Link>
-                                            <Link href="">
-                                                <a
-                                                    onClick={(e) => {
-                                                        e.preventDefault();
-                                                    }}
-                                                >
-                                                    {subTitle2}
+                                <Fade big>
+                                    <div className="portfolio-box-two mt-30">
+                                        <div
+                                            className="thumb"
+                                            style={{
+                                                backgroundImage: `url(${
+                                                    image && image
+                                                })`,
+                                            }}
+                                        >
+                                            <Link href="/portfolio-details">
+                                                <a className="link">
+                                                    <i className="fal fa-long-arrow-right" />
                                                 </a>
                                             </Link>
                                         </div>
-                                        <h4 className="title">
-                                            <Link href="/portfolio-details">
-                                                <a>{title}</a>
-                                            </Link>
-                                        </h4>
+                                        <div className="content">
+                                            <div className="tags">
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
+                                                        {subTitle1},
+                                                    </a>
+                                                </Link>
+                                                <Link href="">
+                                                    <a
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                        }}
+                                                    >
+                                                        {subTitle2}
+                                                    </a>
+                                                </Link>
+                                            </div>
+                                            <h4 className="title">
+                                                <Link href="/portfolio-details">
+                                                    <a>{title}</a>
+                                                </Link>
+                                            </h4>
+                                        </div>
                                     </div>
-                                </div>
+                                </Fade>
                             </div>
                         );
                     })}
