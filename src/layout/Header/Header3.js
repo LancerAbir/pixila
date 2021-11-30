@@ -82,7 +82,12 @@ const Header3 = () => {
                                     </a>
                                 </Link>
                                 <div className="search-form">
-                                    <form action="#">
+                                    <form
+                                        action="#"
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
                                         <input
                                             type="search"
                                             placeholder="Search here...."

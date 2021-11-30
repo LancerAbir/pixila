@@ -645,7 +645,12 @@ const BlogSingleBlogArea = () => {
                                 <div className="divider" />
                                 <h3 className="template-title">Post Comment</h3>
                                 <div className="comment-form">
-                                    <form action="#">
+                                    <form
+                                        action="#"
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
                                         <div className="input-field icon-right textarea-field mb-20">
                                             <textarea
                                                 placeholder="Type your comments...."
@@ -771,7 +776,11 @@ const BlogSingleBlogArea = () => {
                             </div>
                             <div className="widget search-widget">
                                 <h5 className="widget-title">Search Here</h5>
-                                <form action="#">
+                                <form
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                >
                                     <input
                                         type="search"
                                         placeholder="Search your keyword..."

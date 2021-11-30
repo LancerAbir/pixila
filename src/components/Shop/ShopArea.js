@@ -727,7 +727,12 @@ const ShopArea = () => {
                         <div className="primary-sidebar shop-sidebar">
                             <div className="widget search-widget">
                                 <h5 className="widget-title">Search Here</h5>
-                                <form action="#">
+                                <form
+                                    action="#"
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                >
                                     <input
                                         type="search"
                                         placeholder="Search product name"

@@ -70,7 +70,12 @@ const FaqArea = () => {
                         <div className="primary-sidebar faq-sidebar">
                             <div className="widget contact-widget">
                                 <h5 className="widget-title">Ask Here</h5>
-                                <form action="#">
+                                <form
+                                    action="#"
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                >
                                     <input
                                         type="text"
                                         placeholder="Enter full name"

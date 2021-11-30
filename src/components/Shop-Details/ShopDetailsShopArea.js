@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
-import Slider from "react-slick";
 import Fade from "react-reveal/Fade";
+import Slider from "react-slick";
 
 const ShopDetailsShopArea = () => {
     const settings = {
@@ -152,7 +152,12 @@ const ShopDetailsShopArea = () => {
                                 </ul>
                                 <div className="summary-divider" />
                                 <div className="product-cart-from">
-                                    <form action="#">
+                                    <form
+                                        action="#"
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
                                         <div className="input-fields">
                                             <div className="input-field">
                                                 <label htmlFor="color">
@@ -714,7 +719,12 @@ const ShopDetailsShopArea = () => {
                                                 <div className="col-lg-6">
                                                     <div className="reviews-form mt-md-gap-40">
                                                         <h5>Add Your Review</h5>
-                                                        <form action="#">
+                                                        <form
+                                                            action="#"
+                                                            onClick={(e) => {
+                                                                e.preventDefault();
+                                                            }}
+                                                        >
                                                             <div className="row">
                                                                 <div className="col-md-6">
                                                                     <input

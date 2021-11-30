@@ -18,7 +18,12 @@ const HomeCTASection = () => {
                         </div>
                         <div className="col-xl-7">
                             <div className="cta-form">
-                                <form action="#">
+                                <form
+                                    action="#"
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                    }}
+                                >
                                     <div className="field-groups">
                                         <div className="input-field">
                                             <input

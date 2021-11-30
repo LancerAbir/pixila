@@ -23,7 +23,12 @@ const TeamNewsletter = () => {
                     </div>
                     <div className="col-xl-7">
                         <div className="newsletter-form-wrap">
-                            <form action="#">
+                            <form
+                                action="#"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                }}
+                            >
                                 <div className="input-fields">
                                     <div className="input-field">
                                         <input

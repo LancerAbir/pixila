@@ -30,7 +30,12 @@ const Index3HeroArea = () => {
                                     className="subscription-form wow fadeInUp"
                                     data-wow-delay="0.7s"
                                 >
-                                    <form action="#">
+                                    <form
+                                        action="#"
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                        }}
+                                    >
                                         <input
                                             type="text"
                                             placeholder="Enter email address"
