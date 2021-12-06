@@ -38,7 +38,7 @@ const Index3OnePageProcessTabSection = () => {
                                 role="tab"
                             >
                                 <i className="fal fa-link" /> Link Building
-                                &amp; Edit DD
+                                &amp; Edit
                             </button>
                         </li>
                         <li
